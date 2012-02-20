@@ -19,8 +19,8 @@ describe "Static pages" do
     describe "About page" do
       subject{page}
       before {visit about_path}
-        it {should have_selector 'h1', :text => 'About Us'}
-        it {should have_selector 'title', :text => full_title('About Us')}
+        it {should have_selector 'h1', :text => 'About me'}
+        it {should have_selector 'title', :text => full_title('About me')}
     end
   
     describe "Contact page" do
