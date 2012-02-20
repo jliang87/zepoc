@@ -67,4 +67,5 @@ SampleApp::Application.configure do
   
   # Precompile Blueprint CSS
   config.assets.precompile += [ "blueprint/*.css" ]
+  
 end
