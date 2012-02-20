@@ -43,7 +43,7 @@ describe User do
       end
     end
     
-    describe "when email format is valid" do
+    describe "when email format is fuckvalid" do
       invalid_addresses = %w[users@foo.com user_at_foo.org xample.user@foo.]
       invalid_addresses.each do |invalid_address|
         before{@user.email=invalid_address}
