@@ -66,6 +66,6 @@ SampleApp::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
   
   # Precompile Blueprint CSS
-  config.assets.precompile += [ "blueprint/*.css" ]
+  config.assets.precompile += %w(blueprint/*.css)
   
 end
