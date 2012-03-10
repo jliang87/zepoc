@@ -1,7 +1,7 @@
 module ApplicationHelper
   
   def full_title(page_title)
-    base_title = "Ruby on Rails Tutorial Sample App"
+    base_title = "Zepoc"
     if page_title.empty?
       base_title
     else
@@ -10,7 +10,7 @@ module ApplicationHelper
   end
   
   def logo
-    logo = image_tag("logo.png", alt: "Sample App", class: "round")
+    logo = image_tag("logo2.png", alt: "Sample App", class: "round")
   end
   
 end
