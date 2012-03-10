@@ -1,0 +1,145 @@
+/* line 6, ../../app/assets/stylesheets/layout.css.scss */
+.container {
+  width: 620px;
+}
+
+/* line 8, ../../app/assets/stylesheets/layout.css.scss */
+body {
+  background: white;
+}
+
+/* line 10, ../../app/assets/stylesheets/layout.css.scss */
+header {
+  padding-top: 20px;
+}
+/* line 12, ../../app/assets/stylesheets/layout.css.scss */
+header img {
+  padding: .43em;
+  background: white;
+}
+
+/* line 18, ../../app/assets/stylesheets/layout.css.scss */
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: white;
+}
+
+/* line 25, ../../app/assets/stylesheets/layout.css.scss */
+section h1 {
+  font-size: 200%;
+}
+
+/* line 27, ../../app/assets/stylesheets/layout.css.scss */
+a {
+  color: #588c5f;
+  text-decoration: none;
+}
+/* line 31, ../../app/assets/stylesheets/layout.css.scss */
+a:hover {
+  color: #588c5f;
+  text-decoration: underline;
+}
+/* line 33, ../../app/assets/stylesheets/layout.css.scss */
+a:visited {
+  color: #588c5f;
+}
+
+/* line 37, ../../app/assets/stylesheets/layout.css.scss */
+nav {
+  float: right;
+  background: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+/* line 44, ../../app/assets/stylesheets/layout.css.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 48, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+/* line 53, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+/* line 57, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a:visited {
+  color: #588c5f;
+}
+/* line 59, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 64, ../../app/assets/stylesheets/layout.css.scss */
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: white;
+  background: #588c5f;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* line 77, ../../app/assets/stylesheets/layout.css.scss */
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 25px;
+}
+
+/* line 83, ../../app/assets/stylesheets/layout.css.scss */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 91, ../../app/assets/stylesheets/layout.css.scss */
+footer nav {
+  float: none;
+}
+
+/* line 95, ../../app/assets/stylesheets/layout.css.scss */
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+/* line 99, ../../app/assets/stylesheets/layout.css.scss */
+table.profile img.gravatar {
+  border: 1px solid#999;
+  margin-bottom: -15px;
+}
+
+/* line 104, ../../app/assets/stylesheets/layout.css.scss */
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+/* line 109, ../../app/assets/stylesheets/layout.css.scss */
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}
+
+/* line 121, ../../app/assets/stylesheets/layout.css.scss */
+.submit:hover {
+  text-decoration: underline;
+}

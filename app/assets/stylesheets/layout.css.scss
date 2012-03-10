@@ -1,5 +1,5 @@
 $full-width: 620px;
-$visited-link-color: #063;
+$visited-link-color: #588c5f;
 $link-color: #588c5f;
 $background-color: #FFF;
 
@@ -116,5 +116,8 @@ td.sidebar{
 //div.field, div.actions{
 //	margin-bottom: 5px;
 //}
+
+.submit{ 
+		&:hover {text-decoration: underline;} }
 
 
