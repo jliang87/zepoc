@@ -4,24 +4,24 @@
 <%= form_for @user, html: {multipart: true} do |f| %>
 	<%= render 'shared/error_messages'%>
 	<div class="field">
-		<%= f.label :name %><br />
-		<%= f.text_field :name %>
+		<%= f.label :name, style:"font-weight:bold" %>
+		<%= f.text_field :name %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :email %><br />
-		<%= f.text_field :email %>
+		<%= f.label :email, style:"font-weight:bold" %>
+		<%= f.text_field :email %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :password %><br />
-		<%= f.password_field :password %>
+		<%= f.label :password, style:"font-weight:bold" %>
+		<%= f.password_field :password %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :password_confirmation, "Confirmation" %><br />
-		<%= f.password_field :password_confirmation %>
+		<%= f.label :password_confirmation, "Confirmation", style:"font-weight:bold" %>
+		<%= f.password_field :password_confirmation %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label "Choose a photo:" %><br />
-		<%= f.file_field :avatar %><br /> <br />
+		<%= f.label "Choose a photo:", style:"font-weight:bold" %>
+		<%= f.file_field :avatar %><br /><br />
 	</div>
 	<div class="action">
 		<%= f.submit "Sign up", class: "btn btn-large btn-primary" %>
