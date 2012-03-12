@@ -1,0 +1,94 @@
+/*
+Syntax error: File to import not found or unreadable: bootstrap.
+              Load paths:
+                Compass::SpriteImporter
+                /Users/jackliang/rails_projects/sample_app/public/stylesheets/sass
+                /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets
+                /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/blueprint/stylesheets
+                /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets
+        on line 1 of /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss
+
+1: @import "bootstrap";
+2: 
+3: /* universal */
+4: 
+5: html {
+6:   overflow-y: scroll;
+
+Backtrace:
+/Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss:1
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/import_node.rb:42:in `import'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/engine.rb:300:in `_render'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/engine.rb:248:in `block in render'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/util.rb:297:in `silence_sass_warnings'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/engine.rb:248:in `render'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.12/lib/sass/plugin/rack.rb:51:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/barista-1.2.1/lib/barista/server.rb:33:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/barista-1.2.1/lib/barista/filter.rb:16:in `_call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/barista-1.2.1/lib/barista/filter.rb:9:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__2901712584937351347__call__3436639460671147094__callbacks'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/jackliang/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/jackliang/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/jackliang/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap.\A               Load paths:\A                 Compass::SpriteImporter\A                 /Users/jackliang/rails_projects/sample_app/public/stylesheets/sass\A                 /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 1 of /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap\";\A 2: \A 3: /* universal */\A 4: \A 5: html {\A 6:   overflow-y: scroll;"; }
