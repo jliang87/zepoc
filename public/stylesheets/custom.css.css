@@ -62,7 +62,7 @@ Backtrace:
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
-/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__2901712584937351347__call__3436639460671147094__callbacks'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__1594414507365189594__call__1043197252316034980__callbacks'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
