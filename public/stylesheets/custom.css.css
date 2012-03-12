@@ -10,10 +10,10 @@ Syntax error: File to import not found or unreadable: bootstrap.
 
 1: @import "bootstrap";
 2: 
-3: /* universal */
+3: /* mixins, variables, etc. */
 4: 
-5: html {
-6:   overflow-y: scroll;
+5: $grayMediumLight: #eaeaea;
+6: 
 
 Backtrace:
 /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss:1
@@ -91,4 +91,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: bootstrap.\A               Load paths:\A                 Compass::SpriteImporter\A                 /Users/jackliang/rails_projects/sample_app/public/stylesheets/sass\A                 /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 1 of /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap\";\A 2: \A 3: /* universal */\A 4: \A 5: html {\A 6:   overflow-y: scroll;"; }
+  content: "Syntax error: File to import not found or unreadable: bootstrap.\A               Load paths:\A                 Compass::SpriteImporter\A                 /Users/jackliang/rails_projects/sample_app/public/stylesheets/sass\A                 /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 1 of /Users/jackliang/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap\";\A 2: \A 3: /* mixins, variables, etc. */\A 4: \A 5: $grayMediumLight: #eaeaea;\A 6: "; }
