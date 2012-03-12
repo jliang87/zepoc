@@ -4,24 +4,24 @@
 <%= form_for @user, html: {multipart: true} do |f| %>
 	<%= render 'shared/error_messages'%>
 	<div class="field">
-		<%= f.label :name, style:"font-weight:bold" %>
+		<%= f.label :name, style:"font-weight:bold", class: "engravedtext" %>
 		<%= f.text_field :name %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :email, style:"font-weight:bold" %>
+		<%= f.label :email, style:"font-weight:bold", class: "engravedtext" %>
 		<%= f.text_field :email %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :password, style:"font-weight:bold" %>
+		<%= f.label :password, style:"font-weight:bold", class: "engravedtext" %>
 		<%= f.password_field :password %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label :password_confirmation, "Confirmation", style:"font-weight:bold" %>
+		<%= f.label :password_confirmation, "Confirmation", style:"font-weight:bold", class: "engravedtext" %>
 		<%= f.password_field :password_confirmation %><br /><br />
 	</div>
 	<div class="field">
-		<%= f.label "Choose a photo:", style:"font-weight:bold" %>
-		<%= f.file_field :avatar %><br /><br />
+		<%= f.label "Choose a photo:", style:"font-weight:bold" , class: "engravedtext"%>
+		<%= f.file_field :avatar, class: "btn-large"%><br /><br />
 	</div>
 	<div class="action">
 		<%= f.submit "Sign up", class: "btn btn-large btn-primary" %>

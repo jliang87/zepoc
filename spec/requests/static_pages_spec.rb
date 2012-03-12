@@ -6,7 +6,7 @@ describe "Static pages" do
       subject{page}
       before {visit root_path}
         it {should have_selector 'h1', :text => 'Welcome!' }
-        it {should have_selector 'title', :text => full_title('Home') }
+        it {should have_selector 'title', :text => 'zepoc' }
     end
   
     describe "Help page" do
@@ -39,7 +39,7 @@ describe "Static pages" do
       click_link "Contact"
       page.should have_selector 'title', text: full_title('Contact')
       click_link "Home"
-      page.should have_selector 'title', text: full_title('Home')
+      page.should have_selector 'title', text: "zepoc"
       click_link "Sign up now!"
       page.should have_selector 'title', text: full_title('Sign up')
     end 
