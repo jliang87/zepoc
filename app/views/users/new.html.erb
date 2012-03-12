@@ -21,11 +21,10 @@
 	</div>
 	<div class="field">
 		<%= f.label "Choose a photo:" %><br />
-		<%= f.file_field :avatar, class: "round" %><br /> <br />
+		<%= f.file_field :avatar %><br /> <br />
 	</div>
 	<div class="action">
-		<%= f.submit "Sign up", class: "btn btn-large btn-primary", style:"width:50px; background:green; height:50px; font-align:center; font-family:verdana; color:white; font-size:10px; border-style:none;" %>
+		<%= f.submit "Sign up", class: "btn btn-large btn-primary" %>
 	</div>
-
 <% end %>
 	
