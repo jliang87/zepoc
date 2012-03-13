@@ -1,30 +1,36 @@
 <% provide(:title, 'Sign up')%>
 <h1>Sign up</h1>
 
-<%= form_for @user, html: {multipart: true} do |f| %>
+<div class="row">
+	<div class="span6 offset3">
+	<%= form_for @user, html: {multipart: true} do |f| %>
 	<%= render 'shared/error_messages'%>
-	<div class="field">
-		<%= f.label :name, style:"font-weight:bold", class: "engravedtext" %>
-		<%= f.text_field :name %><br /><br />
-	</div>
-	<div class="field">
-		<%= f.label :email, style:"font-weight:bold", class: "engravedtext" %>
-		<%= f.text_field :email %><br /><br />
-	</div>
-	<div class="field">
-		<%= f.label :password, style:"font-weight:bold", class: "engravedtext" %>
-		<%= f.password_field :password %><br /><br />
-	</div>
-	<div class="field">
-		<%= f.label :password_confirmation, "Confirmation", style:"font-weight:bold", class: "engravedtext" %>
-		<%= f.password_field :password_confirmation %><br /><br />
-	</div>
-	<div class="field">
-		<%= f.label "Choose a photo:", style:"font-weight:bold" , class: "engravedtext"%>
-		<%= f.file_field :avatar, class: "btn-large"%><br /><br /><br />
-	</div>
-	<div class="action">
-		<%= f.submit "Sign up", class: "btn btn-large btn-primary" %>
-	</div>
+		
+		<h6>
+		<%= f.label :name, class: "engravedtext" %>
+		<%= f.text_field :name %>
+		</h6>
+
+		<h6>
+		<%= f.label :email, class: "engravedtext" %>
+		<%= f.text_field :email %>
+		</h6>
+		
+		<h6>
+		<%= f.label :password, class: "engravedtext" %>
+		<%= f.password_field :password %>
+		</h6>
+		
+		<h6>
+		<%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
+		<%= f.password_field :password_confirmation %>
+		</h6>
+
+		<%= f.label "Choose a photo:", class: "engravedtext", style: "font-weight: bold; font-size:17px"%>
+		<%= f.file_field :avatar %>
+
+		<%= f.submit "Create my account", class: "btn btn-large btn-primary " %>
+
 <% end %>
-	
+</div>
+</div>

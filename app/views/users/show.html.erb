@@ -1,18 +1,12 @@
-<%= @user.name %> , <%= @user.email %>
-
 <% provide :title, @user.name %>
-<table class="profile">
-	<tr>
-		<td>
+<div class="row">
+	<aside class="span4">
+		<section>
 			<h1>
-			<%= image_tag @user.avatar.url(:thumb)%>
-			<%= gravatar_for @user %>
 			<%= @user.name %>
+		    <%= image_tag @user.avatar.url(:thumb), style: "float:left"%> 			
+		    <%= gravatar_for @user %>
 			</h1>
-		</td>
-		<td>
-			<strong>Name</strong> <%= @user.name%><br />
-			<strong>URL</strong> <%= link_to user_path(@user), @user%>
-		</td>
-	</tr>		
-</table>
+		</section>
+	</aside>	
+</div>
