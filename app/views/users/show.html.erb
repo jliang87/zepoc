@@ -3,8 +3,12 @@
 	<aside class="span4">
 		<section>
 			<h1>
-		    <%= image_tag @user.avatar.url(:thumb), style: "float:left"%> 			
-		    <%= gravatar_for @user %>
+			<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
+		    <%= image_tag @user.avatar.url(:thumb), style: "float:left; margin-right: 10px"%> 	
+			<% end %>
+			<% if @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>	
+		    <%= gravatar_for "jackliang1987@hotmail.com" %>
+			<% end %>		
 			<%= @user.name %>
 			</h1>
 		</section>
