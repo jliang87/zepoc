@@ -6,7 +6,6 @@ gem 'paperclip', '~> 2.7'
 gem 'barista'
 gem 'compass'
 gem 'bootstrap-sass', '2.0.0'
-gem 'aws-s3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -32,4 +31,5 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'aws-sdk', '~>1.3.4'
 end
