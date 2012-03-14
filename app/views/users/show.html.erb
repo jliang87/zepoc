@@ -3,9 +3,9 @@
 	<aside class="span4">
 		<section>
 			<h1>
-			<%= @user.name %>
 		    <%= image_tag @user.avatar.url(:thumb), style: "float:left"%> 			
 		    <%= gravatar_for @user %>
+			<%= @user.name %>
 			</h1>
 		</section>
 	</aside>	
