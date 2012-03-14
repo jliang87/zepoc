@@ -52,7 +52,7 @@ Backtrace:
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/barista-1.2.1/lib/barista/filter.rb:9:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
-/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
 /Users/jackliang/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'

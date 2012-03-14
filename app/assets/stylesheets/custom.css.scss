@@ -156,3 +156,19 @@ input, textarea, select, .uneditable-input {
 	font-size: 16px;
 	@include box_sizing;
 }
+
+#error_explanation {
+  ul {
+    margin: 0 0 18px 0;
+  }
+}
+
+.field_with_errors {
+	@extend .control-group;
+	@extend .error;}
+	
+.flash
+{
+	font-size: 20px;
+	height:auto;
+}

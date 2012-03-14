@@ -20,7 +20,7 @@ describe "User pages" do
     before { visit signup_path }
     describe 'with invalid info' do
       it 'should not create a user' do
-        expect {click_button 'Sign up'}.not_to change(User, :count)
+        expect {click_button 'Create my account'}.not_to change(User, :count)
       end
     end
     
@@ -33,7 +33,7 @@ describe "User pages" do
       end
       
       it "should create a user" do
-        expect {click_button 'Sign up'}.to change(User, :count).by(1)
+        expect {click_button 'Create my account'}.to change(User, :count).by(1)
       end
     end
   end
