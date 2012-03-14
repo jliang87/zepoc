@@ -18,5 +18,12 @@ class User < ActiveRecord::Base
   validates :email, presence: true, format: {with: valid_email_regex}, uniqueness: {case_sensitive: false}
   validates :password, length: {minimum: 6}
   
-  has_attached_file :avatar, style: {medium: "300x300>", thumb: "100x100>"}
+  if Rails.env.development? || Rails.env.test?
+    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "100x100>"}
+  end
+  
+  if Rails.env.production?
+    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "100x100>"}, storage: :s3, bucket: 'first', s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']}
+  end
+  
 end
