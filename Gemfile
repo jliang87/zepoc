@@ -6,6 +6,7 @@ gem 'paperclip', '~> 2.7'
 gem 'barista'
 gem 'compass'
 gem 'bootstrap-sass', '2.0.0'
+gem 'sprockets'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
