@@ -4,11 +4,16 @@
 <div class='row'>
 	<div class='span6 offset3'>
 		<%= form_for(:session, url: sessions_path) do |f| %>
+		
+		    <h6>
 			<%= f.label :email %>
 			<%= f.text_field :email %>
-			
+		    </h6>	
+		
+		    <h6>
 			<%= f.label :password %>
 			<%= f.password_field :password %>
+			</h6>
 			
 			<%= f.submit 'Sign in', class: 'btn btn-large btn-primary '%>
 		<% end %>

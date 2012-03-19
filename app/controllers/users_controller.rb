@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find(params[:email])
+    @user = User.find(params[:id])
   end 
   
   def new
@@ -10,7 +10,8 @@ class UsersController < ApplicationController
   def create
      @user = User.new(params[:user])
      if @user.save
-       flash[:success] = "Welcome to zepoc!"
+       sign_in @user
+       flash[:success] = "Welcome to zepoc! Have a good one :)"
        redirect_to @user
      else
        render 'new'
