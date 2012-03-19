@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find(params[:id])
+    email = User.param_to_email params[:id]
+    @user = User.find_by_email email
   end 
   
   def new
