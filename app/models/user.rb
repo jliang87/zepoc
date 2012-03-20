@@ -14,7 +14,7 @@ class User < ActiveRecord::Base
   has_secure_password
   before_save :create_remember_token
 
-  validates :name, presence: true, length: {maximum: 50}
+  validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
   valid_email_regex=/\A[\w\-.+]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, format: {with: valid_email_regex}, uniqueness: {case_sensitive: false}
   validates :password, length: {minimum: 6}
@@ -28,13 +28,7 @@ class User < ActiveRecord::Base
   end
   
   def to_param
-    email.sub ".", "@"
-  end
-
-  def self.param_to_email(param) 
-    segments = param.split '@'
-    host = segments[1..-1].join('.')
-    segments[0] + '@' + host
+    name
   end
   
   private 

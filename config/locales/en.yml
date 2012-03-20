@@ -9,3 +9,11 @@ en:
         attributes:
             user:
                 password_digest: "Password"
+                
+en:
+    activerecord:
+        attributes:
+            user:
+                name: "Username"
+                
+
