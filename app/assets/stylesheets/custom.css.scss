@@ -1,3 +1,4 @@
+$linkColor: #0055FF;
 @import "bootstrap";
 
 /* mixins, variables, etc. */
@@ -77,12 +78,12 @@ p {
 }
 
 /* footer */
-
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: $grayLight; 
+
   a {
     color: $gray;
     &:hover { 
