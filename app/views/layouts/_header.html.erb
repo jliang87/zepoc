@@ -10,7 +10,7 @@
 					<li><%= link_to "#" do %><i class="icon-asterisk icon-white"></i> Users<% end %></li>
 					<li id="fat-menu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user icon-white"></i> Account<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><%= link_to current_user do %><i class="icon-bookmark icon-black"></i> Profile<% end %></li>
+							<li><%= link_to current_user.name do %><i class="icon-bookmark icon-black"></i> Profile<% end %></li>
 							<li><%= link_to '#' do %><i class="icon-cog icon-black"></i> Settings<% end %></li>
 							<li class="divider"></li>
 							<li> <%= link_to signout_path, method: "delete" do %><i class="icon-arrow-right icon-black"></i> Sign out<% end %></li>
