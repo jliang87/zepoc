@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
 
   valid_name_regex=/\A[\w]+\z/i
   validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
-  validates_format_of :name, with: valid_name_regex, message: "can only be alphanumerical with underscores and no spaces in between." 
+  validates_format_of :name, with: valid_name_regex, message: "can only be alphanumerical with underscores and no spaces in between" 
   valid_email_regex=/\A[\w\-.+]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, format: {with: valid_email_regex}, uniqueness: {case_sensitive: false}
   validates :password, length: {minimum: 6}
