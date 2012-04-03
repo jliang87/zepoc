@@ -176,6 +176,21 @@ input, textarea, select, .uneditable-input {
 
 .spacing
 {
-	padding-bottom:6px;
+	padding-bottom:12px;
 	text-transform: none;
+}
+
+.left
+{
+  float: left
+}
+
+.right
+{
+  float: right
+}
+
+.buttonspacingmargin
+{
+  margin-top: 12px
 }

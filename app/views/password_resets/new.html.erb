@@ -1,0 +1,24 @@
+<% provide :title, "Password Reset" %>
+<h1>Reset Password</h1>
+
+<div class='row'>
+	<div class='span6 offset3'>
+
+		<%= javascript_tag do %>
+			window.test = "<%= j resetpassword_path %>";
+		<% end %>
+
+		<%= form_tag password_resets_path, method: :post do %>
+
+			<h6>
+			<%= label_tag :email %>
+			<%= text_field_tag :email %>
+			</h6>
+
+			<%= submit_tag "Reset my password", class: 'btn btn-large btn-primary buttonspacingmargin' %>
+
+		<% end %>
+	</div>
+</div>
+
+
