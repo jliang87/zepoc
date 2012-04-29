@@ -1,6 +1,6 @@
 SampleApp::Application.routes.draw do
   
-  resources :users
+  resources :i, controller: "users", as: "users"
   resources :sessions, only: [:new, :create, :destroy]
   resources :password_resets
   

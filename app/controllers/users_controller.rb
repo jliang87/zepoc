@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find_by_name params[:name]
+    @user = User.find_by_name params[:id]
   end 
   
   def new
@@ -13,7 +13,7 @@ class UsersController < ApplicationController
        sign_in @user
        name = @user.name
        flash[:success] = "Welcome to zepoc! Have a good one :)"
-       redirect_to "/#{name}"
+       redirect_to @user
      else
        render 'new'
      end
