@@ -4,32 +4,34 @@
 <div class="row">
 	<div class="span6 offset3">
 	<%= form_for @user, html: {multipart: true} do |f| %>
-	<%= render 'shared/error_messages'%>
+<!-- 		<%= render 'shared/error_messages'%> -->
 		
 		<h6>
-		<%= f.label :name, "Username", class: "engravedtext" %>
-		<%= f.text_field :name %>
+		<%= f.label :name, "Username" ,class: "engravedtext" %>
+		<%= f.text_field :name, value: "Letters/Numbers/Underscores", id: "user_username_textfield", style: "color: #DDDDDD" %>
 		</h6>
 
 		<h6>
 		<%= f.label :email, "Valid Email", class: "engravedtext" %>
-		<%= f.text_field :email %>
+		<%= f.text_field :email, id: "user_email_textfield", value: "A verification email will be sent to this inbox", style: "color: #DDDDDD" %>
 		</h6>
 		
 		<h6>
 		<%= f.label :password, class: "engravedtext" %>
-		<%= f.password_field :password %>
+		<%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield", style: "color: #DDDDDD" %>
+
+		<%= f.password_field :password, id: "user_password_textfield" %>
 		</h6>
 		
 		<h6>
 		<%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
-		<%= f.password_field :password_confirmation %>
+		<%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
 		</h6>
 
 		<%= f.label "Choose a photo:", class: "engravedtext", style: "font-weight: bold; font-size: 17px"%>
-		<%= f.file_field :avatar %>
+		<%= f.file_field :avatar%>
 
-		<%= f.submit "Create my account", class: "btn btn-large btn-primary " %>
+		<%= f.submit "Create my account", class: "btn btn-large btn-primary buttonspacingmargin"%>
 
 <% end %>
 </div>
