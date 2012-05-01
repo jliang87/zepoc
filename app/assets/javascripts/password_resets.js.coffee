@@ -2,12 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
-$(document).delegate "#textfield", "blur", ->
-  $(this).val "Correct format please" if $(this).val() is ""
+$(document).delegate "#passwordresettextfield", "blur", ->
+  $(this).css "color", "#DDDDDD"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#textfield", "keydown", ->
-  $(this).val "" if $(this).val() is "Correct format please"
-
-$(document).delegate "#textfield", "mousedown", ->
+$(document).delegate "#passwordresettextfield", "mousedown", ->
   $(this).addClass "textfieldtextcolorclick"
+  $(this).css "color", "#222222" 

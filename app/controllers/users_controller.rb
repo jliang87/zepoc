@@ -11,10 +11,19 @@ class UsersController < ApplicationController
      @user = User.new(params[:user])
      if @user.save
        sign_in @user
-       name = @user.name
-       flash[:success] = "Welcome to zepoc! Have a good one :)"
        redirect_to @user
+       flash[:success] = "Welcome to zepoc! Have a good one :)"
      else
+      @user.errors.full_messages.each do |msg| 
+        if msg.include? "Password doesn't match confirmation"
+          flash.now[:error] = msg 
+        end
+        if flash.empty? && msg.include?("has already been taken")
+          flash.now[:error] = msg 
+        elsif !flash.empty? && msg.include?("has already been taken")
+          flash.now[:error] << " and " + msg.downcase!
+        end
+      end
        render 'new'
      end
   end

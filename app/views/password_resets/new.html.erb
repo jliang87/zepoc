@@ -10,7 +10,7 @@
 
 			<h6>
 			<%= label_tag :email %>
-			<%= text_field_tag :email, "Correct format please", id: "textfield", style: "color: #DDDDDD"%>
+			<%= text_field_tag :email, "", id: "passwordresettextfield" %>
 			</h6>
 
 			<%= submit_tag "Reset my password", class: 'btn btn-large btn-primary buttonspacingmargin' %>
@@ -18,9 +18,9 @@
 		<% end %>
 
 
-			<%= javascript_tag do%>
+<!-- 			<%= javascript_tag do%>
   				window.productsURL = "<%=j password_resets_path%>";
-			<% end %>
+			<% end %> -->
 	</div>
 </div>
 

@@ -18,7 +18,7 @@ SampleApp::Application.routes.draw do
 
   match '/resetpassword', to: 'password_resets#new'
   
-  match '/:name', to:'users#show'
+  # match '/:name', to:'users#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
