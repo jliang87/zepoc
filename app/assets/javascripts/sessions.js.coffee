@@ -4,7 +4,7 @@
 
 #sessiontextfield
 $(document).delegate "#sessiontextfield", "blur", ->
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#sessiontextfield", "mousedown", ->
@@ -15,7 +15,7 @@ $(document).delegate "#sessiontextfield", "mousedown", ->
 
 #sessionpasswordfield
 $(document).delegate "#sessionpasswordfield", "blur", ->
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#sessionpasswordfield", "mousedown", ->

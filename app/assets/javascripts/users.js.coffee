@@ -8,7 +8,7 @@ $ ->
 #user_username_textfield
 $(document).delegate "#user_username_textfield", "blur", ->
   $(this).val "Letters/Numbers/Underscores" if $(this).val() is ""
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#user_username_textfield", "keydown", ->
@@ -24,7 +24,7 @@ $(document).delegate "#user_username_textfield", "mousedown", ->
 #user_email_textfield
 $(document).delegate "#user_email_textfield", "blur", ->
   $(this).val "A verification email will be sent to this inbox" if $(this).val() is ""
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#user_email_textfield", "keydown", ->
@@ -51,7 +51,7 @@ $(document).delegate "#user_passwordclear_textfield", "mousedown", ->
   $(this).addClass "textfieldtextcolorclick"
 
 $(document).delegate "#user_password_textfield", "blur", ->
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
   $(this).hide() if $(this).val() is ""
   $("#user_passwordclear_textfield").show() if $(this).val() is ""
@@ -67,7 +67,7 @@ $(document).delegate "#user_password_textfield", "mousedown", ->
 
 #user_passwordconfirm_textfield
 $(document).delegate "#user_passwordconfirm_textfield", "blur", ->
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#user_passwordconfirm_textfield", "mousedown", ->

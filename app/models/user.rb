@@ -12,7 +12,7 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :avatar
   has_secure_password
-  before_save :create_remember_token
+  before_save { create_remember_token(:remember_token) }
 
   valid_name_regex=/\A[\w]+\z/i
   validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
@@ -32,12 +32,19 @@ class User < ActiveRecord::Base
   def to_param
     name
   end
-  
+
+  def send_password_reset
+      create_remember_token(:password_reset_token)
+      self.password_sent_at = Time.zone.now
+      save!(validate: false)
+      UserMailer.password_reset(self).deliver
+  end
+
   private 
-    def create_remember_token
+    def create_remember_token(column)
       begin 
-        self.remember_token = SecureRandom.urlsafe_base64
-      end while User.exists?(remember_token: self.remember_token)
+        self[column] = SecureRandom.urlsafe_base64
+      end while User.exists?(column => self[column])
     end
 end
 

@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).delegate "#passwordresettextfield", "blur", ->
-  $(this).css "color", "#DDDDDD"
+  $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
 $(document).delegate "#passwordresettextfield", "mousedown", ->
