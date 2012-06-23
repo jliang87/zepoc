@@ -1,0 +1,27 @@
+<% provide :title, "Password Reset" %>
+<h1>Reset Password</h1>
+
+<%= render 'shared/error_messages'%> 
+
+<div class='row' id="target",>
+	<div class='span6 offset3'>
+		<%= form_for @user, url: password_reset_path(params[:id]) do |f| %>
+
+		<h6>
+		<%= f.label :password, class: "engravedtext" %>
+		<%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield", style: "color: #B2B2B2" %>
+
+		<%= f.password_field :password, id: "user_password_textfield" %>
+		</h6>
+		
+		<h6>
+		<%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
+		<%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
+		</h6>
+
+		<%= f.submit "Change my password", class: "btn btn-large btn-primary buttonspacingmargin"%>
+		<% end %>
+	</div>
+</div>
+
+

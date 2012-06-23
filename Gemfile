@@ -1,14 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+gem 'pg', "~> 0.13.2"
 gem 'bcrypt-ruby', '3.0.1'
 gem 'paperclip', '~> 2.7'
 gem 'barista'
 gem 'bootstrap-sass', '~> 2.0.1'
 gem 'sprockets'
+gem 'queue_classic', '2.0.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
   gem 'annotate', '~> 2.4.1.beta'
 end
@@ -30,6 +31,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg', "~> 0.13.2"
   gem 'aws-sdk', '~>1.3.4'
 end

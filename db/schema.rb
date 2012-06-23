@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120505165207) do
+ActiveRecord::Schema.define(:version => 20120604005723) do
+
+  create_table "queue_classic_jobs", :force => true do |t|
+    t.string   "q_name"
+    t.string   "method"
+    t.text     "args"
+    t.datetime "locked_at"
+  end
+
+  add_index "queue_classic_jobs", ["id"], :name => "index_queue_classic_jobs_on_id"
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -26,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20120505165207) do
     t.string   "remember_token"
     t.string   "password_reset_token"
     t.datetime "password_sent_at"
+    t.boolean  "need_password_reset"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

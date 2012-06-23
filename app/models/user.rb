@@ -12,6 +12,7 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :avatar
   has_secure_password
+  before_save { |user| user.email = email.downcase }
   before_save { create_remember_token(:remember_token) }
 
   valid_name_regex=/\A[\w]+\z/i
@@ -19,7 +20,8 @@ class User < ActiveRecord::Base
   validates_format_of :name, with: valid_name_regex, message: "can only be alphanumerical with underscores and no spaces in between" 
   valid_email_regex=/\A[\w\-.+]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, format: {with: valid_email_regex}, uniqueness: {case_sensitive: false}
-  validates :password, length: {minimum: 6}
+  validates :password, presence: true, length: {minimum: 6}
+  validates :password_confirmation, presence: true
   
   if Rails.env.development? || Rails.env.test?
     has_attached_file :avatar, styles: {medium: "300x300>", thumb: "100x100>"}
@@ -33,18 +35,32 @@ class User < ActiveRecord::Base
     name
   end
 
-  def send_password_reset
-      create_remember_token(:password_reset_token)
-      self.password_sent_at = Time.zone.now
-      save!(validate: false)
-      UserMailer.password_reset(self).deliver
+  def self.send_password_reset(email)
+      user = find_by_email(email)
+      create_password_reset_token(:password_reset_token, user)
+      user.password_sent_at = Time.zone.now
+      user.need_password_reset = true
+      user.save!(validate: false)
+      UserMailer.password_reset(user).deliver
   end
+
+
+#  def change_password_reset
+#      create_password_reset_token(:password_reset_token)
+#      save!(validate: false)
+#  end
 
   private 
     def create_remember_token(column)
       begin 
         self[column] = SecureRandom.urlsafe_base64
       end while User.exists?(column => self[column])
+    end
+
+    def self.create_password_reset_token(column, user)
+      begin 
+        user[column] = SecureRandom.urlsafe_base64
+      end while User.exists?(column => user[column])
     end
 end
 

@@ -36,10 +36,10 @@ describe "User pages" do
     
     describe 'with valid info' do
       before do
-        fill_in "Username", with: "ExampleUser"
-        fill_in "Valid Email", with: "user@example.com"
-        fill_in "Password", with: "foobar"
-        fill_in "Confirmation", with: "foobar"
+        fill_in "user_username_textfield", with: "ExampleUser"
+        fill_in "user_email_textfield", with: "user@example.com"
+        fill_in "user_password_textfield", with: "foobar"
+        fill_in "user_passwordconfirm_textfield", with: "foobar"
       end
       
       it "should create a user" do
