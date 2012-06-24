@@ -45,7 +45,7 @@ SampleApp::Application.configure do
     port: 587,
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "jackliang1987@gmail.com",
-    password: "ml870813"
+    user_name: "zepoc.noreply@gmail.com",
+    password: "zepoc123"
   }
 end
