@@ -1,9 +1,9 @@
 class SetupQueueClassic < ActiveRecord::Migration
   def up
-  	QC::Setup.create
+  	QC::Setup.create_functions
   end
 
   def down
-  	QC::Setup.drop
+  	QC::Setup.drop_functions
   end
 end
