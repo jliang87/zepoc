@@ -61,7 +61,7 @@ SampleApp::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  ENV["DATABASE_URL"] = "postgres://postgres:ml870813@zepoc.herokuapp.com/zepoc"
+  ENV["QC_DATABASE_URL"] = "postgres://postgres:ml870813@zepoc.herokuapp.com/zepoc"
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
