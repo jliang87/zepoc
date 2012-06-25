@@ -161,7 +161,9 @@ CREATE TABLE users (
     remember_token character varying(255),
     password_reset_token character varying(255),
     password_sent_at timestamp without time zone,
-    need_password_reset boolean
+    need_password_reset boolean,
+    need_signup_confirmation boolean,
+    signup_confirmation_token character varying(255)
 );
 
 
@@ -263,3 +265,7 @@ INSERT INTO schema_migrations (version) VALUES ('20120520150939');
 INSERT INTO schema_migrations (version) VALUES ('20120604005723');
 
 INSERT INTO schema_migrations (version) VALUES ('20120622030131');
+
+INSERT INTO schema_migrations (version) VALUES ('20120624064922');
+
+INSERT INTO schema_migrations (version) VALUES ('20120624065727');

@@ -1,0 +1,9 @@
+Hi <%= @user.name %>,
+
+Welcome to Zepoc! 
+
+Below is the link for confirming signup:
+<%= edit_user_url(@user.signup_confirmation_token) %>
+
+Thanks,
+Zepoc

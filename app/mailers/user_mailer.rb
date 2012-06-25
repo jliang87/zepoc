@@ -10,4 +10,9 @@ class UserMailer < ActionMailer::Base
     @user = user
     mail to: user.email, subject: "Password Reset" 
   end
+
+  def signup_confirmation(user)
+    @user = user
+    mail to: user.email, subject: "Signup Confirmation" 
+  end
 end

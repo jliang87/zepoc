@@ -1,20 +1,4 @@
-<!-- <% if @user.errors.any? %>
-	<div id='error_explanation'>
-			<div class="alert alert-error"> 
-			Oops, this form contains <%= pluralize(@user.errors.count, 'error')%>.
-			</div>
-			
-		<ul>
-			<% @user.errors.full_messages.each do |msg| %>
-			  <li><%= msg %></li>
-			<% end %>
-		</ul>
-	</div>
-<% end %> -->
-<!--
-<% if $reload == true %>
-<%= javascript_tag do%>
-  window.location.reload();
+<% if signed_in? && flash.empty? && current_user.need_signup_confirmation == true %>
+	<% flash[:warning] = 'Oops, your email is not confirmed yet!' %>
 <% end %> 
-<% $reload = false %>
-<% end %> -->
+

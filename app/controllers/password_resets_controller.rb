@@ -4,10 +4,9 @@ class PasswordResetsController < ApplicationController
   end
 
   def create
-    require 'user'
     User.send_password_reset params[:email]
     redirect_to root_path
-  	flash[:success] = 'Sending email for password resetting!'
+  	flash[:success] = 'Email sent for password reset!'
   end
 
   def edit
@@ -26,11 +25,11 @@ class PasswordResetsController < ApplicationController
   	elsif @user.password_sent_at < 2.hours.ago
   		redirect_to new_password_reset_path
   		flash[:error] = "This password reset request has expired. Please try again."
-  	elsif @user.update_attributes(params[:user])
+  	elsif @user.update_attributes!(params[:user])
   		@user.need_password_reset = false
-  		@user.update_attributes(params[:need_password_reset])
-  	  	redirect_to root_path
-  	  	flash[:success] = "Password reset has been done!"
+  		@user.update_attributes!(params[:need_password_reset])
+  	  redirect_to root_path
+  	  flash[:success] = "Password reset has been done!"
   	else
   	  	@user.errors.full_messages.each do |msg| 
 	    	if msg.include? "Password doesn't match confirmation"

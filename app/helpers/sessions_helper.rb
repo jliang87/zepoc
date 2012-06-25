@@ -6,7 +6,7 @@ module SessionsHelper
     else
       session[:remember_token] = user.remember_token
     end
-    current_user = user
+    self.current_user = user
   end
   
   def signed_in?
@@ -14,7 +14,7 @@ module SessionsHelper
   end
   
   def sign_out
-    current_user = nil
+    self.current_user = nil
     unless cookies[:remember_token].nil?
       cookies.delete(:remember_token)
     else

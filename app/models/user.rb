@@ -37,11 +37,19 @@ class User < ActiveRecord::Base
 
   def self.send_password_reset(email)
       user = find_by_email(email)
-      create_password_reset_token(:password_reset_token, user)
+      create_QCneeded_token(:password_reset_token, user)
       user.password_sent_at = Time.zone.now
       user.need_password_reset = true
       user.save!(validate: false)
       UserMailer.password_reset(user).deliver
+  end
+
+  def self.send_signup_confirmation(email)
+      user = find_by_email(email)
+      create_QCneeded_token(:signup_confirmation_token, user)
+      user.need_signup_confirmation = true
+      user.save! validate: false
+      UserMailer.signup_confirmation(user).deliver
   end
 
 
@@ -52,12 +60,14 @@ class User < ActiveRecord::Base
 
   private 
     def create_remember_token(column)
-      begin 
-        self[column] = SecureRandom.urlsafe_base64
-      end while User.exists?(column => self[column])
+      if self[column].nil?
+        begin 
+          self[column] = SecureRandom.urlsafe_base64
+        end while User.exists?(column => self[column])
+      end
     end
 
-    def self.create_password_reset_token(column, user)
+    def self.create_QCneeded_token(column, user)
       begin 
         user[column] = SecureRandom.urlsafe_base64
       end while User.exists?(column => user[column])

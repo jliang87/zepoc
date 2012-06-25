@@ -8,24 +8,34 @@ class UsersController < ApplicationController
   end
    
   def create
-     @user = User.new(params[:user])
-     if @user.save
-       sign_in @user
-       redirect_to @user
-       flash[:success] = "Welcome to zepoc! Have a good one :)"
-     else
+    @user = User.new(params[:user])
+    if @user.save
+      User.send_signup_confirmation @user.email
+      sign_in @user
+      redirect_to @user
+      flash[:success] = "Welcome to zepoc! Have a good one :)"
+    else
       @user.errors.full_messages.each do |msg| 
-        if msg.include? "Password doesn't match confirmation"
-          flash.now[:error] = msg 
-        end
-        if flash.empty? && msg.include?("has already been taken")
-          flash.now[:error] = msg 
-        elsif !flash.empty? && msg.include?("has already been taken")
-          flash.now[:error] << " and " + msg.downcase!
-        end
+        flash.now[:error] = msg 
       end
-       render 'new'
+      render 'new'
      end
+  end
+
+  def edit
+    @user = User.find_by_signup_confirmation_token!(params[:id])
+    if @user.need_signup_confirmation == true
+      @user.need_signup_confirmation = false
+      @user.save! validate: false
+      unless signed_in?
+        sign_in @user
+      end
+      redirect_to @user
+      flash[:info] = 'Thanks for confirming your email!'
+    else
+      redirect_to root_path
+      flash[:error] = 'Oops, this request is no longer valid.'
+    end
   end
  
 end
