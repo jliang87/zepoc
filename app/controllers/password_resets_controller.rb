@@ -31,11 +31,9 @@ class PasswordResetsController < ApplicationController
   	  redirect_to root_path
   	  flash[:success] = "Password reset has been done!"
   	else
-  	  	@user.errors.full_messages.each do |msg| 
-	    	  if msg.include? "Password doesn't match confirmation"
-    			 flash.now[:error] = msg 
-    		  end
-    	  end
+  	  @user.errors.full_messages.each do |msg| 
+    	 	flash.now[:error] = msg 
+      end
     	render :edit
   	end
   end
