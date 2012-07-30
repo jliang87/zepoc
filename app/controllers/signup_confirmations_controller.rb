@@ -1,6 +1,6 @@
 class SignupConfirmationsController < ApplicationController
 
-  def new
+  def edit
     @user = User.find_by_signup_confirmation_token!(params[:id])
     if @user.need_signup_confirmation == true
       @user.need_signup_confirmation = false
