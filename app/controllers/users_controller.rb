@@ -23,18 +23,18 @@ class UsersController < ApplicationController
   end
 
   def edit
-    @user = User.find_by_signup_confirmation_token!(params[:id])
-    if @user.need_signup_confirmation == true
-      @user.need_signup_confirmation = false
-      @user.save! validate: false
-      unless signed_in?
-        sign_in @user
-      end
-      redirect_to @user
-      flash[:info] = 'Thanks for confirming your email!'
+    @user = User.find_by_name params[:id]
+  end
+
+  def update
+    @user = User.find_by_name params[:id]
+    if @user.update_attributes(params[:user])
+      #something
     else
-      redirect_to root_path
-      flash[:error] = 'Oops, this request is no longer valid.'
+      @user.errors.full_messages.each do |msg| 
+        flash.now[:error] = msg 
+      end
+      render 'edit'
     end
   end
  

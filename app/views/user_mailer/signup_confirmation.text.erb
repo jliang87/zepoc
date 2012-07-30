@@ -3,7 +3,7 @@ Hi <%= @user.name %>,
 Welcome to Zepoc! 
 
 Below is the link for confirming your email:
-<%= edit_user_url(@user.signup_confirmation_token) %>
+<%= new_signup_confirmation_url(@user.signup_confirmation_token) %>
 
 Thanks,
 Zepoc

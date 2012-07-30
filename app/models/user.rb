@@ -24,12 +24,16 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   
   if Rails.env.development? || Rails.env.test?
-    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "100x100>"}
+    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "150x150>"}
   end
   
   if Rails.env.production?
-    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "100x100>"}, storage: :s3, bucket: 'zepocfirst', s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']}
+    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "150x150>"}, 
+    storage: :s3, bucket: 'zepocfirst', s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']}
   end
+
+  validates_attachment_size :avatar, less_than: 5.megabytes
+  validates_attachment_content_type :avatar, content_type: ['image/jpeg', 'image/png']
   
   def to_param
     name
@@ -37,19 +41,23 @@ class User < ActiveRecord::Base
 
   def self.send_password_reset(email)
       user = find_by_email(email)
-      create_QCneeded_token(:password_reset_token, user)
-      user.password_sent_at = Time.zone.now
-      user.need_password_reset = true
-      user.save!(validate: false)
-      UserMailer.password_reset(user).deliver
+      if user
+        create_QCneeded_token(:password_reset_token, user)
+        user.password_sent_at = Time.zone.now
+        user.need_password_reset = true
+        user.save!(validate: false)
+        UserMailer.password_reset(user).deliver
+      end
   end
 
   def self.send_signup_confirmation(email)
       user = find_by_email(email)
-      create_QCneeded_token(:signup_confirmation_token, user)
-      user.need_signup_confirmation = true
-      user.save! validate: false
-      UserMailer.signup_confirmation(user).deliver
+      if user
+        create_QCneeded_token(:signup_confirmation_token, user)
+        user.need_signup_confirmation = true
+        user.save! validate: false
+        UserMailer.signup_confirmation(user).deliver
+      end
   end
 
 

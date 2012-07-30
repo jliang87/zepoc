@@ -4,10 +4,9 @@
 		<section>
 			<h1>
 			<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
-		    <%= image_tag @user.avatar.url(:thumb), style: "float:left; margin-right: 10px"%> 	
-			<% end %>
-			<% if @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>	
-		    <%= gravatar_for "jackliang1987@hotmail.com" %>
+		    	<%= image_tag @user.avatar.url(:thumb), style: "float:left; margin-right: 10px"%> 	
+			<% else %>	
+		    	<%= gravatar_for "jackliang1987@hotmail.com" %>
 			<% end %>		
 			<%= @user.name %>
 			</h1>
