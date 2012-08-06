@@ -188,7 +188,7 @@ DEPENDENCIES
   factory_girl_rails (= 1.4.0)
   jquery-rails (= 2.0.0)
   paperclip (~> 2.7)
-  pg (~> 0.13.2)
+  pg
   queue_classic (= 2.0.0)
   rails (= 3.2.1)
   rspec-rails (= 2.8.1)

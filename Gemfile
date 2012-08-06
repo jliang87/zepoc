@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'pg', "~> 0.13.2"
+gem 'pg' 
 gem 'bcrypt-ruby', '3.0.1'
 gem 'paperclip', '~> 2.7'
 gem 'barista'
@@ -31,6 +31,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', "~> 0.13.2"
+  gem 'pg'
   gem 'aws-sdk', '~>1.3.4'
 end
