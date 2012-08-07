@@ -4,7 +4,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def create
-    QC.enqueue "User.send_password_reset", params[:email]
+    User.send_password_reset params[:email]
     redirect_to root_path
   	flash[:success] = 'Email sent for password reset!'
   end
