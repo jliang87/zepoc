@@ -4,11 +4,25 @@
 		<section>
 			<h1>
 			<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
-		    	<%= image_tag @user.avatar.url(:medium), style: "float:left; margin-right: 10px"%> 	
+		    	<a data-toggle="modal" href="#myModal"><img style="float:left; margin-right: 10px" src=<%=@user.avatar.url(:medium)%>></a>
 			<% else %>	
-		    	<%= gravatar_for "jackliang1987@hotmail.com" %>
+		    	<a data-toggle="modal" href="#myModal"><%= gravatar_for "jackliang1987@hotmail.com" %></a>
 			<% end %>		
-			<%= @user.name %>
+			<%= @user.name %> 
+
+			<div class="modal hide" id="myModal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">Yay!</button>
+    <h3><%= @user.name %></h3>
+  </div>
+  <div class="modal-body">
+    <img src=<%=@user.avatar.url(:medium)%>>
+  </div>
+  <div class="modal-footer">
+    <!-- <a href="#" class="btn" data-dismiss="modal">Close</a> -->
+    <!-- <a href="#" class="btn btn-primary">Save changes</a> -->
+  </div>
+</div>
 			</h1>
 		</section>
 	</aside>	
