@@ -3,11 +3,16 @@
 	<aside class="span4">
 		<section>
 			<h1>
+
 			<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
 		    	<a data-toggle="modal" href="#myModal"><img style="float:left; margin-right: 10px" src=<%=@user.avatar.url(:medium)%>></a>
 			<% else %>	
-		    	<a data-toggle="modal" href="#myModal"><%= gravatar_for "jackliang1987@hotmail.com" %></a>
-			<% end %>		
+				    <% gravatar_id = Digest::MD5::hexdigest("jackliang1987@hotmail.com") %>
+    				<% size = "90" %>
+    				<% gravatar_url= "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}" %>
+		    	<a data-toggle="modal" href="#myModal"><%= image_tag(gravatar_url, class:"gravatar")%></a>
+			<% end %>	
+
 			<%= @user.name %> 
 
 			<div class="modal hide" id="myModal">
@@ -16,7 +21,13 @@
     <h3><%= @user.name %></h3>
   </div>
   <div class="modal-body">
-    <img src=<%=@user.avatar.url(:medium)%>>
+
+  	<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
+    	<img src=<%=@user.avatar.url(:medium)%>>
+    <% else %>	
+    	<%= image_tag(gravatar_url, class:"gravatar")%>
+    <% end %>
+
   </div>
   <div class="modal-footer">
     <!-- <a href="#" class="btn" data-dismiss="modal">Close</a> -->
