@@ -24,11 +24,11 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   
   if Rails.env.development? || Rails.env.test?
-    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "150x150>"}
+    has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150>"}
   end
   
   if Rails.env.production?
-    has_attached_file :avatar, styles: {medium: "300x300>", thumb: "150x150>"}, 
+    has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150>"}, 
     storage: :s3, bucket: 'zepocfirst', s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']}
   end
 
