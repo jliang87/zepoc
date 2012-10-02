@@ -1,15 +1,13 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: zepoc
+  database: jackliang
+  host: localhost
   pool: 5
-  username: postgres
-  password: ml870813
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: zepoc
+  database: jackliang
+  host: localhost
   pool: 5
-  username: postgres
-  password: ml870813

@@ -2,8 +2,8 @@ class SignupConfirmationsController < ApplicationController
 
   def edit
     @user = User.find_by_signup_confirmation_token!(params[:id])
-    if @user.need_signup_confirmation == true
-      unless signed_in? && current_user.name != @user.name
+    if @user.need_signup_confirmation?
+      if !signed_in? || (signed_in? && current_user.name == @user.name)
         @user.need_signup_confirmation = false
         @user.save! validate: false
         unless signed_in? 

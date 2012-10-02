@@ -15,7 +15,7 @@ module SessionsHelper
   
   def sign_out
     self.current_user = nil
-    unless cookies[:remember_token].nil?
+    if !cookies[:remember_token].nil?
       cookies.delete(:remember_token)
     else
       session[:remember_token] = nil
@@ -32,7 +32,7 @@ module SessionsHelper
   
   private
     def user_from_remember_token
-      unless cookies[:remember_token].nil?
+      if !cookies[:remember_token].nil?
         remember_token = cookies[:remember_token]
       else
         remember_token = session[:remember_token]

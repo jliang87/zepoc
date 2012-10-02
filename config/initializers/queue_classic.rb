@@ -1,1 +1,1 @@
-ENV["QC_DATABASE_URL"] = "postgres://localhost/zepoc" if Rails.env.development?
+ENV["QC_DATABASE_URL"] = "postgres://localhost/jackliang" if Rails.env.development?

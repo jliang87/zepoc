@@ -11,15 +11,15 @@ class PasswordResetsController < ApplicationController
 
   def edit
    	@user = User.find_by_password_reset_token!(params[:id])
-   	if @user.need_password_reset == false 
-   		redirect_to root_path
+   	if !@user.need_password_reset?
+       redirect_to root_path
   		flash[:error] = 'Oops, this request is no longer valid.'
   	end
   end
 
   def update
   	@user = User.find_by_password_reset_token!(params[:id])
-  	if @user.need_password_reset == false
+  	if !@user.need_password_reset?
   		redirect_to root_path
   	  	flash[:error] = "This password reset request was completed!"
   	elsif @user.password_sent_at < 2.hours.ago

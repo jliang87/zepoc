@@ -37,7 +37,7 @@ CREATE TABLE queue_classic_jobs (
     q_name character varying(255),
     method character varying(255),
     args text,
-    locked_at timestamp with time zone
+    locked_at timestamp without time zone
 );
 
 
@@ -217,10 +217,10 @@ ALTER TABLE ONLY users
 
 
 --
--- Name: idx_qc_on_name_only_unlocked; Type: INDEX; Schema: public; Owner: -; Tablespace: 
+-- Name: index_queue_classic_jobs_on_id; Type: INDEX; Schema: public; Owner: -; Tablespace: 
 --
 
-CREATE INDEX idx_qc_on_name_only_unlocked ON queue_classic_jobs USING btree (q_name, id) WHERE (locked_at IS NULL);
+CREATE INDEX index_queue_classic_jobs_on_id ON queue_classic_jobs USING btree (id);
 
 
 --
