@@ -4,26 +4,25 @@
 		<section>
 			<h1>
 
-			<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
+            <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
 		    	<a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb), style: "float:left; margin-right: 10px" %></a>
 			<% else %>	
 				    <% gravatar_id = Digest::MD5::hexdigest("jackliang1987@hotmail.com") %>
     				<% size = "90" %>
     				<% gravatar_url= "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}" %>
 		    	<a data-toggle="modal" href="#myModal"><%= image_tag(gravatar_url, class:"gravatar")%></a>
-			<% end %>	
+			<% end %>
 
-			<%= @user.name %> 
+			<%= @user.name %>
 
-			<div class="modal hide" id="myModal">
+              <div class="modal hide" id="myModal">
 			  <div class="modal-header">
 			    <button type="button" class="close" data-dismiss="modal">X</button>
 			    <h3><%= @user.name %></h3>
 			  </div>
 			  <div class="modal-body">
-
-			  	<% unless @user.avatar_file_name.blank? || @user.avatar_file_size == 0 %>
-			    	<%= image_tag @user.avatar.url(:medium) %> 
+			  	<% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
+			    	<%= image_tag @user.avatar.url(:medium), id: "target" %>
 			    <% else %>	
 			    	<%= image_tag gravatar_url, class:"gravatar" %>
 			    <% end %>

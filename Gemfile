@@ -13,6 +13,7 @@ gem 'heroku'
 group :development, :test do
   gem 'rspec-rails', '2.8.1'
   gem 'annotate', '~> 2.4.1.beta'
+  gem "debugger-linecache", "~> 1.1.2"
 end
 
 # Gems used only for assets and not required

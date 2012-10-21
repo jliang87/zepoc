@@ -1,6 +1,6 @@
 SampleApp::Application.routes.draw do
   
-  resources :iam, controller: "users", as: "users"
+  resources :im, controller: "users", as: "users"
   resources :sessions, only: [:new, :create, :destroy]
   resources :password_resets
   resources :signup_confirmations, only: [:edit]
