@@ -2793,6 +2793,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/sqlite3-1.3.5.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/therubyracer-0.10.0beta1.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/tzinfo-0.3.31.gemspec" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2847,10 +2848,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-modal.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap-modal.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="72" selection-start="1059" selection-end="1059" vertical-scroll-proportion="-3.848">
+            <state line="199" column="59" selection-start="5719" selection-end="5719" vertical-scroll-proportion="-18.461538">
               <folding />
             </state>
           </provider>
@@ -2859,7 +2860,16 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="72" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-6.0">
+            <state line="42" column="118" selection-start="1953" selection-end="1953" vertical-scroll-proportion="-8.666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8556701">
               <folding />
             </state>
           </provider>
@@ -3853,13 +3863,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="5" selection-start="2510" selection-end="2510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="68" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
@@ -3953,16 +3956,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="72" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-6.0">
+        <state line="199" column="59" selection-start="5719" selection-end="5719" vertical-scroll-proportion="-18.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js">
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="72" selection-start="1059" selection-end="1059" vertical-scroll-proportion="-3.848">
+        <state line="42" column="118" selection-start="1953" selection-end="1953" vertical-scroll-proportion="-8.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8556701">
           <folding />
         </state>
       </provider>
