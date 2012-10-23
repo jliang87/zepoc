@@ -146,6 +146,7 @@ GEM
       json (~> 1.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    rmagick (2.13.1)
     rspec (2.8.0)
       rspec-core (~> 2.8.0)
       rspec-expectations (~> 2.8.0)
@@ -210,6 +211,7 @@ DEPENDENCIES
   pg
   queue_classic (= 2.0.0)
   rails (= 3.2.1)
+  rmagick
   rspec-rails (= 2.8.1)
   sass-rails (= 3.2.3)
   sprockets

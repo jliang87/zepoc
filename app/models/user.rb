@@ -60,6 +60,21 @@ class User < ActiveRecord::Base
       end
   end
 
+  def cropping?
+    !crop_x.blank? && !crop_y.blank? && !crop_w.blank? && !crop_h.blank?
+  end
+
+  def avatar_geometry(style = :original)
+    @geometry ||= {}
+    @geometry[style] ||= Paperclip::Geometry.from_file(avatar.path(style))
+  end
+
+  private
+
+  def reprocess_avatar
+    avatar.reprocess!
+  end
+
 
 #  def change_password_reset
 #      create_password_reset_token(:password_reset_token)

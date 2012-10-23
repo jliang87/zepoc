@@ -21,11 +21,56 @@
 			    <h3><%= @user.name %></h3>
 			  </div>
 			  <div class="modal-body">
+                <div id="outer">
+                  <div class="jcExample">
+                    <div class="article">
 			  	<% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
-			    	<%= image_tag @user.avatar.url(:medium), id: "target" %>
-			    <% else %>	
+                          <%= stylesheet_link_tag "jquery.Jcrop" %>
+                          <%= javascript_include_tag "jquery.Jcrop.min" %>
+                          <script type="text/javascript" charset="utf-8">
+                              $(function() {
+                                  $('#cropbox').Jcrop({
+                                      onChange: update_crop,
+                                      onSelect: update_crop,
+                                      setSelect: [0, 0, 500, 500],
+                                      aspectRatio: 1
+                                  });
+                              });
+
+                              function update_crop(coords) {
+                                  var rx = 100/coords.w;
+                                  var ry = 100/coords.h;
+                                  $('#preview').css({
+                                      width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
+                                      height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
+                                      marginLeft: '-' + Math.round(rx * coords.x) + 'px',
+                                      marginTop: '-' + Math.round(ry * coords.y) + 'px'
+                                  });
+                                  var ratio = <%= @user.avatar_geometry(:original).width %> / <%= @user.avatar_geometry(:medium).width %>;
+                                  $("#crop_x").val(Math.round(coords.x * ratio));
+                                  $("#crop_y").val(Math.round(coords.y * ratio));
+                                  $("#crop_w").val(Math.round(coords.w * ratio));
+                                  $("#crop_h").val(Math.round(coords.h * ratio));
+                              }
+                          </script>
+                    <table>
+                      <tr>
+                        <td>
+                          <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
+                        </td>
+                        <td>
+                          <div style="width:100px;height:100px;overflow:hidden;">
+                            <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none" %>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+			    <% else %>
 			    	<%= image_tag gravatar_url, class:"gravatar" %>
 			    <% end %>
+                    </div>
+                  </div>
+                </div>
 
 			  </div>
 			  <div class="modal-footer">

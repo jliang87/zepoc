@@ -2808,335 +2808,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/sqlite3-1.3.5.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/therubyracer-0.10.0beta1.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/tzinfo-0.3.31.gemspec" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/avatars/3/medium/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="$PROJECT_DIR$/public/system/avatars/3/medium/Photo_on_2012-09-28_at_10.08_PM.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/avatars/3/original/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="$PROJECT_DIR$/public/system/avatars/3/original/Photo_on_2012-09-28_at_10.08_PM.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/avatars/3/thumb/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="$PROJECT_DIR$/public/system/avatars/3/thumb/Photo_on_2012-09-28_at_10.08_PM.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/excon-0.16.4.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/excon-0.16.4.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/heroku-2.32.6.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/heroku-2.32.6.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/heroku-api-0.3.5.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/heroku-api-0.3.5.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/launchy-2.1.0.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/launchy-2.1.0.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/libv8-3.3.10.4-x86_64-darwin-12.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/libv8-3.3.10.4-x86_64-darwin-12.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/netrc-0.7.7.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/netrc-0.7.7.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/rest-client-1.6.7.gem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/cache/rest-client-1.6.7.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/README.md" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/data/cacert.pem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/data/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/data/xs" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/data/xs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/README.md" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/data/cacert.pem" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/data/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/README.md" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/data/site.crt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/data/site.crt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/data/site.key" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/data/site.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/LICENSE" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/NOTES" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/NOTES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/build/v8/libv8.a" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/build/v8/libv8.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/build/v8/libv8preparser.a" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/build/v8/libv8preparser.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/LICENSE" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/Readme.md" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/login.netrc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/login.netrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/newlineless.netrc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/newlineless.netrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/password.netrc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/password.netrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/permissive.netrc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/permissive.netrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/sample.netrc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/data/sample.netrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/VERSION" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/history.md" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/history.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/certs/equifax.crt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/certs/equifax.crt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/certs/verisign.crt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/certs/verisign.crt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/master_shake.jpg" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/master_shake.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/Gemfile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/Rakefile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/class_vs_lambda.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/class_vs_lambda.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/concat_vs_insert.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/concat_vs_insert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/concat_vs_interpolate.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/concat_vs_interpolate.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/cr_lf.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/cr_lf.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/downcase-eq-eq_vs_casecmp.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/downcase-eq-eq_vs_casecmp.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/excon.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/excon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/excon_vs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/excon_vs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/for_vs_array_each.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/for_vs_array_each.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/for_vs_hash_each.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/for_vs_hash_each.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/headers_case_sensitivity.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/headers_case_sensitivity.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/headers_split_vs_match.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/headers_split_vs_match.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/implicit_block-vs-explicit_block.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/implicit_block-vs-explicit_block.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/merging.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/merging.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/single_vs_double_quotes.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/single_vs_double_quotes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/string_ranged_index.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/string_ranged_index.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/strip_newline.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/strip_newline.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/vs_stdlib.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/benchmarks/vs_stdlib.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/changelog.txt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/excon.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/excon.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/connection.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/connection.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/constants.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/constants.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/errors.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/errors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/response.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/response.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/socket.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/socket.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/ssl_socket.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/ssl_socket.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/standard_instrumentor.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/lib/excon/standard_instrumentor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/authorization_header_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/authorization_header_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/bad_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/bad_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/basic_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/basic_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/header_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/header_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/idempotent_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/idempotent_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/instrumentation_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/instrumentation_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/proxy_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/proxy_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/query_string_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/query_string_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic_auth.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/basic_auth.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/proxy.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/proxy.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/query_string.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/query_string.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/request_methods.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/request_methods.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/response_header.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/response_header.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/ssl.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/ssl.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/thread_safety.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/thread_safety.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/timeout.ru" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/rackups/timeout.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/request_method_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/request_method_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/stub_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/stub_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/test_helper.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/test_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/thread_safety_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/thread_safety_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/timeout_tests.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/excon-0.16.4/tests/timeout_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/auth.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/auth.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/cli.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/cli.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/heroku_postgresql.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/heroku_postgresql.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/pgbackups.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/pgbackups.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/rendezvous.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/rendezvous.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/ssl_endpoint.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/client/ssl_endpoint.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/account.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/accounts.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/accounts.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/addons.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/addons.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/apps.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/apps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/auth.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/auth.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/base.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/base.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/certs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/certs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/config.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/db.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/db.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/domains.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/domains.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/drains.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/drains.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/git.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/git.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/help.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/help.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/keys.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/keys.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/labs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/labs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/logs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/logs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/maintenance.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/maintenance.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/pg.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/pg.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/pgbackups.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/pgbackups.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/plugins.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/plugins.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/ps.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/ps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/releases.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/releases.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/run.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/run.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/sharing.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/sharing.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/ssl.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/ssl.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/stack.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/stack.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/status.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/status.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/update.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/update.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/version.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/command/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/deprecated.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/deprecated.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/deprecated/help.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/deprecated/help.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/distribution.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/distribution.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/excon.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/excon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/helpers.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/helpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/helpers/heroku_postgresql.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/helpers/heroku_postgresql.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/plugin.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/plugin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/updater.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/updater.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/version.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/heroku/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/vendor/heroku/okjson.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/lib/vendor/heroku/okjson.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/helper/legacy_help.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/helper/legacy_help.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/auth_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/auth_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/heroku_postgresql_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/heroku_postgresql_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/pgbackups_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/pgbackups_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/rendezvous_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/rendezvous_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/ssl_endpoint_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client/ssl_endpoint_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/client_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/addons_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/addons_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/apps_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/apps_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/auth_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/auth_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/base_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/base_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/certs_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/certs_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/config_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/config_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/db_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/db_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/domains_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/domains_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/drains_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/drains_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/git_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/git_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/help_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/help_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/keys_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/keys_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/labs_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/labs_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/logs_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/logs_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/maintenance_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/maintenance_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/pg_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/pg_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/pgbackups_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/pgbackups_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/plugins_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/plugins_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/ps_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/ps_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/releases_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/releases_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/run_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/run_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/sharing_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/sharing_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/ssl_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/ssl_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/stack_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/stack_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/status_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/status_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/version_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command/version_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/command_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/helpers/heroku_postgresql_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/helpers/heroku_postgresql_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/helpers_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/helpers_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/plugin_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/plugin_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/updater_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/heroku/updater_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/spec.opts" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/spec.opts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/support/display_message_matcher.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/support/display_message_matcher.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/support/openssl_mock_helper.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-2.32.6/spec/support/openssl_mock_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/.gitignore" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/.travis.yml" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/Gemfile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/Rakefile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/changelog.txt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/heroku-api.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/heroku-api.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku-api.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku-api.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/addons.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/addons.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/apps.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/apps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/attachments.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/attachments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/collaborators.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/collaborators.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/config_vars.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/config_vars.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/domains.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/domains.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/errors.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/errors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/features.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/features.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/keys.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/keys.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/login.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/login.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/logs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/logs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/addons.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/addons.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/apps.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/apps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/attachments.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/attachments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_addons.json" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_addons.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_features.json" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_features.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_user.json" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/cache/get_user.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/collaborators.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/collaborators.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/config_vars.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/config_vars.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/domains.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/domains.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/features.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/features.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/keys.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/keys.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/login.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/login.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/logs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/logs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/processes.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/processes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/releases.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/releases.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/stacks.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/stacks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/user.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/mock/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/processes.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/processes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/releases.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/releases.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/ssl_endpoints.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/ssl_endpoints.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/stacks.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/stacks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/user.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/vendor/okjson.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/vendor/okjson.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/version.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/lib/heroku/api/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_addons.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_addons.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_apps.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_apps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_attachments.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_attachments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_collaborators.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_collaborators.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_config_vars.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_config_vars.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_domains.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_domains.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_features.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_features.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_helper.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_keys.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_keys.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_login.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_login.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_logs.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_logs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_processes.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_processes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_releases.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_releases.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_ssl_endpoints.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_ssl_endpoints.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_stacks.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_stacks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_user.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/heroku-api-0.3.5/test/test_user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/HISTORY.rdoc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/HISTORY.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/Manifest.txt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/Manifest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/README.rdoc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/Rakefile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/application.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/applications/browser.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/applications/browser.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/cli.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/cli.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/deprecated.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/deprecated.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/descendant_tracker.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/descendant_tracker.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/host_os.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/host_os.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/host_os_family.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/host_os_family.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/nix_desktop_environment.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/nix_desktop_environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/ruby_engine.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/ruby_engine.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/runner.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/detect/runner.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/error.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/error.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/os_family.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/os_family.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/version.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/lib/launchy/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/application_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/application_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/applications/browser_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/applications/browser_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/cli_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/cli_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/host_os_family_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/host_os_family_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/host_os_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/host_os_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/nix_desktop_environment_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/nix_desktop_environment_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/ruby_engine_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/ruby_engine_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/runner_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/detect/runner_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/launchy_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/launchy_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/mock_application.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/mock_application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/tattle-host-os.yaml" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/tattle-host-os.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/version_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/launchy-2.1.0/spec/version_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-preparser.h" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-preparser.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-profiler.h" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-profiler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-testing.h" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8-testing.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8.h" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8stdint.h" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/v8/include/v8stdint.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/version.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/libv8-3.3.10.4-x86_64-darwin-12/lib/libv8/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/changelog.txt" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/lib/netrc.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/lib/netrc.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_lex.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_lex.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_netrc.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_netrc.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_parse.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/netrc-0.7.7/test/test_parse.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/README.rdoc" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/Rakefile" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/rest-client.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/rest-client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/rest_client.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/rest_client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/abstract_response.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/abstract_response.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/exceptions.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/exceptions.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/net_http_ext.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/net_http_ext.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/payload.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/payload.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/raw_response.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/raw_response.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/request.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/request.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/resource.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/resource.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/response.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/lib/restclient/response.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/abstract_response_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/abstract_response_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/base.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/base.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/exceptions_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/exceptions_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/request_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration/request_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/integration_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/payload_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/payload_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/raw_response_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/raw_response_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/request2_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/request2_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/request_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/request_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/resource_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/resource_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/response_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/response_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/restclient_spec.rb" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/rest-client-1.6.7/spec/restclient_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/excon-0.16.4.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/excon-0.16.4.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/heroku-2.32.6.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/heroku-2.32.6.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/heroku-api-0.3.5.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/heroku-api-0.3.5.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/launchy-2.1.0.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/launchy-2.1.0.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/libv8-3.3.10.4-x86_64-darwin-12.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/libv8-3.3.10.4-x86_64-darwin-12.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/netrc-0.7.7.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/netrc-0.7.7.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/rest-client-1.6.7.gemspec" afterPath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/rest-client-1.6.7.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3158,34 +2836,70 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="47" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
+            <state line="75" column="5" selection-start="2510" selection-end="2510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_confirmations_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/signup_confirmations_controller.rb">
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="32" column="68" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-modal.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="6" selection-start="1221" selection-end="1221" vertical-scroll-proportion="-16.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-5.3333335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-modal.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="76" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.023809524">
+            <state line="29" column="72" selection-start="1059" selection-end="1059" vertical-scroll-proportion="45.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="88" selection-start="741" selection-end="741" vertical-scroll-proportion="-11.52">
+            <state line="50" column="90" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.7092391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attachment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/paperclip-2.7.0/lib/paperclip/attachment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="0" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -3209,8 +2923,15 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/try.js" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
       </list>
     </option>
   </component>
@@ -3415,6 +3136,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="password_resets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3430,6 +3195,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3448,6 +3217,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mailers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3541,7 +3328,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -3809,10 +3596,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364419" sideWeight="0.60121214" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364419" sideWeight="0.65090907" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3490909" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3820,7 +3608,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -3880,26 +3667,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.77319586">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -3908,84 +3676,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="47" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/railties-3.2.1/lib/rails/commands/server.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2473" selection-end="2473" vertical-scroll-proportion="0.33242506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/treetop-1.4.10/lib/treetop/ruby_extensions/string.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="0.33242506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/aws-sdk-1.3.9/lib/aws/ec2/route_table/route.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2919254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="56" selection-end="56" vertical-scroll-proportion="0.049689442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="296" selection-end="296" vertical-scroll-proportion="0.26804122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="96" selection-start="283" selection-end="283" vertical-scroll-proportion="0.24060151">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.Jcrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="52" selection-start="5229" selection-end="5229" vertical-scroll-proportion="2.847118">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="51" selection-start="67" selection-end="67" vertical-scroll-proportion="0.021052632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="88" selection-start="741" selection-end="741" vertical-scroll-proportion="-11.52">
+        <state line="75" column="5" selection-start="2510" selection-end="2510" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="76" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.023809524">
+        <state line="29" column="72" selection-start="1059" selection-end="1059" vertical-scroll-proportion="45.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="68" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/try.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="2" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/signup_confirmations_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/signup_confirmations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="381" selection-end="381" vertical-scroll-proportion="0.20876288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="232" selection-end="287" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="1221" selection-end="1221" vertical-scroll-proportion="-16.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="101" selection-end="101" vertical-scroll-proportion="0.10714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-5.3333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/paperclip-2.7.0/lib/paperclip/attachment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="0" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="90" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.7092391">
           <folding />
         </state>
       </provider>

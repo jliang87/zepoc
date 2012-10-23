@@ -9,6 +9,7 @@ gem 'bootstrap-sass', '~> 2.0.1'
 gem 'sprockets'
 gem 'queue_classic', '2.0.0'
 gem 'heroku'
+gem 'rmagick'
 
 group :development, :test do
   gem 'rspec-rails', '2.8.1'
