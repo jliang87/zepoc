@@ -27,7 +27,7 @@
 /* This style is used for invisible click targets */
 .jcrop-tracker
 {
-  height: 100%; 
+  height: 100%;
   width: 100%;
   -webkit-tap-highlight-color: transparent; /* "turn off" link highlight */
   -webkit-touch-callout: none;              /* disable callout, image save panel */

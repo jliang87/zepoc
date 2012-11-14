@@ -82,16 +82,16 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight; 
+  color: $grayLight;
 
   a {
     color: $gray;
-    &:hover { 
+    &:hover {
       color: $grayDarker;
     }
-  }  
-  small { 
-    float: left; 
+  }
+  small {
+    float: left;
   }
   ul {
     float: right;
@@ -130,7 +130,7 @@ aside{
 		border-top: 1px solid $grayLighter;
 		&:first-child {
 		border: 0;
-		padding-top:0;	
+		padding-top:0;
 		}
 		span {
 			display: block;
@@ -149,13 +149,13 @@ aside{
 .gravatar { float: left; margin-right: 10px;}
 
 input, textarea, select, .uneditable-input {
-	border: 1px solid #bbb;
+	//border: 1px solid #bbb;
 	width: 100%;
 	padding: 10px;
 	height:auto;
 	margin-bottom: 15px;
 	font-size: 16px;
-	@include box_sizing;
+	//@include box_sizing;
 }
 
 #error_explanation {
@@ -167,7 +167,7 @@ input, textarea, select, .uneditable-input {
 .field_with_errors {
 	@extend .control-group;
 	@extend .error;}
-	
+
 .flash
 {
 	font-size: 20px;
