@@ -32,9 +32,12 @@ textarea {
 
 /* typography */
 
+@mixin engravedtext
+{text-shadow:  0px 1px 0px #f8f8f8;}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
-  text-shadow: 0px 2px 0px #FFF;
+  @include engravedtext;
 }
 
 h1 {
@@ -75,7 +78,7 @@ p {
     color: #000000;
     text-decoration: none;
   }
-  text-shadow: 0px 2px 0px #FCFCFC;
+  @include engravedtext;
 }
 
 /* footer */
@@ -107,10 +110,8 @@ footer {
 .pagebackgroundcolor
 {background-color:$grayMediumLight;}
 
-.engravedtext
-{text-shadow: 0px 2px 0px #FCFCFC;}
-
-@mixin box_sizing{
+@mixin box_sizing
+{
 	-moz-box-sizing:border-box;
 	-webkite-box-sizing:border-box;
 	box-sizing: border-box;
@@ -175,12 +176,6 @@ input, textarea, select, .uneditable-input {
 	height:auto;
 }
 
-.spacing
-{
-	padding-bottom:12px;
-	text-transform: none;
-}
-
 .left
 {
   float: left;
@@ -191,12 +186,7 @@ input, textarea, select, .uneditable-input {
   float: right;
 }
 
-.buttonspacingmargin
-{
-  margin-top: 12px;
-}
-
 .textfieldtextcolorclick
 {
-  color: #7bcdc5;
+  background-color: #ffe6ad !important;
 }

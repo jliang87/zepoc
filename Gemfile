@@ -10,7 +10,7 @@ gem 'sprockets'
 gem 'queue_classic', '2.0.0'
 gem 'heroku'
 gem 'rmagick'
-gem 'jquery-rails', '2.1.2'
+gem 'jquery-rails', '~>2.1.3'
 
 group :development, :test do
   gem 'rspec-rails', '2.8.1'

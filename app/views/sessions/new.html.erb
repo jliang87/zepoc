@@ -15,15 +15,15 @@
 			<%= password_field_tag :password, "", id: "sessionpasswordfield" %>
 			</h6>
 			
-			<h6 class="spacing">
+			<h6>
 			<%= check_box_tag :remember_me, 1, params[:remember_me] %>		
-			<%= label_tag :remember_me, "Don't forget about me", style: "vertical-align: -3px; 	display: inline-block;"%>
+			<%= label_tag :remember_me, "Don't forget about me", style: "vertical-align: -4px; 	display: inline-block;"%>
 			</h6>
 			
 			<%= submit_tag 'Sign in', class: 'btn btn-large btn-primary '%>
 		<% end %>
 
-		<br></br>
+        <br></br>
 		
 		<span class="left">
 			New user? <%= link_to 'Sign up now!', signup_path %>
