@@ -10,6 +10,7 @@ gem 'sprockets'
 gem 'queue_classic', '2.0.0'
 gem 'heroku'
 gem 'rmagick'
+gem 'jquery-rails', '2.1.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.8.1'
@@ -25,7 +26,6 @@ group :assets do
   gem 'compass-rails'
 end
 
-gem 'jquery-rails'
 gem 'therubyracer', '~> 0.10.0beta1'
 
 group :test do

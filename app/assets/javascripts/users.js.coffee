@@ -16,8 +16,8 @@ $(document).delegate "#user_username_textfield", "keydown", ->
   $(this).val "" if $(this).val() is "Letters/Numbers/Underscores"
 
 $(document).delegate "#user_username_textfield", "mousedown", ->
-  $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" unless $(this).val() is "Letters/Numbers/Underscores"
+  $(this).addCl "textfieldtextcolorclick"
+ # $(this).css "background-color", "#2fdafd" unless $(this).val() is "Letters/Numbers/Underscores"
 
 
 
@@ -72,4 +72,4 @@ $(document).delegate "#user_passwordconfirm_textfield", "blur", ->
 
 $(document).delegate "#user_passwordconfirm_textfield", "mousedown", ->
   $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" 
+  $(this).css "color", "#222222"

@@ -65,16 +65,17 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 2em;
-  color: white;
+  color: #83b8ee;
   letter-spacing: -.5px;
   padding-top: 3px;
   font-weight: bold;
   line-height: 1;
   text-transform: lowercase;
   &:hover {
-    color: #0055FF;
+    color: #000000;
     text-decoration: none;
   }
+  text-shadow: 0px 2px 0px #FCFCFC;
 }
 
 /* footer */
@@ -182,20 +183,20 @@ input, textarea, select, .uneditable-input {
 
 .left
 {
-  float: left
+  float: left;
 }
 
 .right
 {
-  float: right
+  float: right;
 }
 
 .buttonspacingmargin
 {
-  margin-top: 12px
+  margin-top: 12px;
 }
 
 .textfieldtextcolorclick
 {
-  background-color: #EFF4FF
+  color: #7bcdc5;
 }
