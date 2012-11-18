@@ -2887,8 +2887,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/sqlite3-1.3.5.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/therubyracer-0.10.0beta1.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/specifications/tzinfo-0.3.31.gemspec" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="sample_app.iws" />
@@ -2971,10 +2969,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="2" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-21.153847">
+            <state line="30" column="38" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.208">
               <folding />
             </state>
           </provider>
@@ -2991,10 +2989,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="845" selection-end="850" vertical-scroll-proportion="0.3084239">
+            <state line="7" column="86" selection-start="261" selection-end="261" vertical-scroll-proportion="0.25925925">
               <folding />
             </state>
           </provider>
@@ -4011,7 +4009,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -4192,16 +4190,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="2" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-21.153847">
+        <state line="7" column="86" selection-start="261" selection-end="261" vertical-scroll-proportion="0.25925925">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="845" selection-end="850" vertical-scroll-proportion="0.3084239">
+        <state line="30" column="38" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.208">
           <folding />
         </state>
       </provider>
