@@ -65,8 +65,14 @@ class User < ActiveRecord::Base
   end
 
   def avatar_geometry(style = :original)
-    @geometry ||= {}
-    @geometry[style] ||= Paperclip::Geometry.from_file(avatar.path(style))
+    if Rails.env.development? || Rails.env.test?
+      @geometry ||= {}
+      @geometry[style] ||= Paperclip::Geometry.from_file(avatar.path(style))
+
+    elsif Rails.env.production?
+      @geometry ||= {}
+      @geometry[style] ||= Paperclip::Geometry.from_file(avatar.to_file(style))
+    end
   end
 
   private
@@ -74,7 +80,6 @@ class User < ActiveRecord::Base
   def reprocess_avatar
     avatar.reprocess!
   end
-
 
 #  def change_password_reset
 #      create_password_reset_token(:password_reset_token)
