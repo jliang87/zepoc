@@ -117,13 +117,28 @@ footer {
 	box-sizing: border-box;
 }
 
+.drop-shadow {
+  //position:relative;
+  float:left;
+  //width:40%;
+  padding:1em;
+  // margin:2em 20px 4em;
+  background:#fff;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-border-radius:0 0 120px 120px / 0 0 6px 6px;
+  border-radius:0 0 120px 120px / 0 0 6px 6px;
+  border:1px solid #efefef;
+}
+
 .debug_dump
 {
 	clear:both;
 	float:left;
 	width:100%;
 	margin-top:45px;
-	@include box_sizing;
+	//@include box_sizing;
 }
 
 aside{
@@ -190,3 +205,15 @@ input, textarea, select, .uneditable-input {
 {
   background-color: #ffe6ad !important;
 }
+
+.vertical_divider {
+  padding-left: 40px;
+  padding-right: 16px;
+  border-left:1px solid #eeeeee;
+  //border-right:1px solid #16222c;
+  //height:80px;
+  //position:absolute;
+  //right:249px;
+  //top:10px;
+}
+
