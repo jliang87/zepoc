@@ -68,14 +68,14 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 2em;
-  color: #83b8ee;
+  color: #000000;
   letter-spacing: -.5px;
   padding-top: 3px;
   font-weight: bold;
   line-height: 1;
   text-transform: lowercase;
   &:hover {
-    color: #000000;
+    color: #ffe6ad;
     text-decoration: none;
   }
   @include engravedtext;

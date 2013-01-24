@@ -10,7 +10,8 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation, :avatar
+  attr_accessible :name, :email, :password, :password_confirmation, :avatar,
+    :crop_x, :crop_y, :crop_w, :crop_h #attr_accessible is for mass assignment
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
   has_secure_password
   before_save { |user| user.email = email.downcase }

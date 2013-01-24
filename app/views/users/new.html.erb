@@ -7,18 +7,20 @@
 		
 		<h6>
 		<%= f.label :name, "Username" ,class: "engravedtext" %>
-		<%= f.text_field :name, value: "Letters/Numbers/Underscores", id: "user_username_textfield", style: "color: #B2B2B2" %>
+		<%= f.text_field :name, value: "Letters/Numbers/Underscores", id: "user_username_textfield",
+      style: "color: #B2B2B2" %>
 		</h6>
 
 		<h6>
 		<%= f.label :email, "Valid Email", class: "engravedtext" %>
-		<%= f.text_field :email, id: "user_email_textfield", value: "A verification email will be sent to this inbox", style: "color: #B2B2B2" %>
+		<%= f.text_field :email, id: "user_email_textfield", value: "A verification email will be sent to this inbox",
+      style: "color: #B2B2B2" %>
 		</h6>
 		
 		<h6>
 		<%= f.label :password, class: "engravedtext" %>
-		<%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield", style: "color: #B2B2B2" %>
-
+		<%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield",
+      style: "color: #B2B2B2" %>
 		<%= f.password_field :password, id: "user_password_textfield" %>
 		</h6>
 		

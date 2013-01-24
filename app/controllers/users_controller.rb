@@ -28,11 +28,16 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find_by_name params[:id]
-    if @user.update_attributes(params[:user])
+    #if @user.save! validate: false  ***cant use for attr_accessor's for they aren't in db***
+    if @user.update_attribute(:crop_x, params[:user][:crop_x]) &&
+       @user.update_attribute(:crop_y,  params[:user][:crop_y]) &&
+       @user.update_attribute(:crop_w,  params[:user][:crop_w]) &&
+       @user.update_attribute(:crop_h,  params[:user][:crop_h])
+      render 'show'
       #something
     else
-      @user.errors.full_messages.each do |msg| 
-        flash.now[:error] = msg 
+      @user.errors.full_messages.each do |msg|
+        flash.now[:error] = msg
       end
       render 'edit'
     end
