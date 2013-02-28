@@ -28,13 +28,17 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   
   if Rails.env.development? || Rails.env.test?
-    has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper]
+    has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper],
+                      :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+                      :url => "/system/:attachment/:id/:style/:filename"
   end
   
   if Rails.env.production?
     has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150#"},
     storage: :s3, bucket: 'zepocfirst', processors: [:cropper],
-    s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']}
+    s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']},
+    :url  => "/assets/pictures/:id/:style/:basename.:extension",
+    :path => ":rails_root/public/assets/pictures/:id/:style/:basename.:extension"
   end
 
   validates_attachment_size :avatar, less_than: 5.megabytes

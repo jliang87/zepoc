@@ -22,8 +22,10 @@
           </div>
           <div class="modal-body">
             <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
-               <%= stylesheet_link_tag "jquery.Jcrop" %>
-               <%= javascript_include_tag "jquery.Jcrop.min" %>
+
+              <%= javascript_include_tag "jquery.min" %>
+              <%= javascript_include_tag "jquery.Jcrop.min" %>
+              <%= stylesheet_link_tag "jquery.Jcrop" %>
                <script type="text/javascript" charset="utf-8">
                   $(function() {
                     $('#cropbox').Jcrop({
@@ -74,7 +76,7 @@
               <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
                 <%= f.hidden_field attribute, id: attribute %>
               <% end %>
-              <%= f.submit "Save", class: "btn btn-primary", style: "margin-bottom: -15px"%>
+              <%= f.submit "Crop", class: "btn btn-primary", style: "margin-bottom: -15px"%>
             <% end %>
           </div>
         </div>

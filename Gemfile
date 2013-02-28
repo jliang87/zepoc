@@ -2,38 +2,39 @@ source 'https://rubygems.org'
 
 gem 'rails'
 gem 'pg' 
-gem 'bcrypt-ruby', '3.0.1'
-gem 'paperclip', '~> 2.7'
+gem 'bcrypt-ruby'
+gem 'paperclip'
 gem 'barista'
-gem 'bootstrap-sass', '~> 2.1.1.0'
+gem 'bootstrap-sass'
 gem 'sprockets'
-gem 'queue_classic', '2.0.0'
+gem 'queue_classic'
 gem 'heroku'
 gem 'rmagick'
-gem 'jquery-rails', '~>2.1.3'
+gem 'jquery-rails', '2.1.4'
+gem 'jquery-fileupload-rails'
 
 group :development, :test do
-  gem 'rspec-rails', '2.8.1'
-  gem 'annotate', '~> 2.4.1.beta'
-  gem "debugger-linecache", "~> 1.1.2"
+  gem 'rspec-rails'
+  gem 'annotate'
+  gem "debugger-linecache"
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '~> 3.1'
+  gem 'sass-rails'
   gem 'uglifier'
   gem 'compass-rails'
 end
 
-gem 'therubyracer', '~> 0.10.0beta1'
+gem 'therubyracer'
 
 group :test do
-  gem 'capybara', '1.1.2'
-  gem 'factory_girl_rails', '1.4.0'
+  gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :production do
   gem 'pg'
-  gem 'aws-sdk', '~>1.3.4'
+  gem 'aws-sdk'
 end
