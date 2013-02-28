@@ -74,7 +74,7 @@
             <!--<a href="#" class="btn btn-primary">Save changes</a>-->
             <%= form_for @user do |f| %>
               <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
-                <%= f.hidden_field attribute, id: attribute %>
+                <%= f.text_field attribute, id: attribute %>
               <% end %>
               <%= f.submit "Crop", class: "btn btn-primary", style: "margin-bottom: -15px"%>
             <% end %>
