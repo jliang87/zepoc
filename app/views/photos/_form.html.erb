@@ -1,4 +1,4 @@
-<div id="edit_picture_form" style="display: none">
+<div id="edit_picture_form-<%= @photo.id %>" style="display: none">
   <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |builder| %>
     <%= builder.label :name %><br />
     <%= builder.text_field :name %>

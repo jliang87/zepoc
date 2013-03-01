@@ -1,2 +1,2 @@
-$('#edit_picture_form').after($('#picture_edit').show()).
-    slideUp(function () {$('#picture_refreshable').replaceWith('<%= j render 'users/show_photos' %>'); });
+$('#edit_picture_form-<%= @photo.id %>').after($('#picture_edit-<%= @photo.id %>').show()).
+    slideUp(function () {$('#picture_refreshable-<%= @photo.id %>').replaceWith('<%= j render @photo %>'); });

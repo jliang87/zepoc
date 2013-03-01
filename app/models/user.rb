@@ -14,7 +14,7 @@ class User < ActiveRecord::Base
     :crop_x, :crop_y, :crop_w, :crop_h #attr_accessible is for mass assignment
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
 
-  has_many :photos, dependent: :destroy
+  has_many :photos, dependent: :destroy, :order => :id
   accepts_nested_attributes_for :photos, allow_destroy: true
 
   has_secure_password
