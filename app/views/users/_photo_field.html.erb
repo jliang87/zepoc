@@ -1,0 +1,15 @@
+<div>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description, :rows => 10 %>
+  </p>
+  <p>
+    <%= f.file_field :photo %>
+    <%= f.hidden_field :_destroy %>
+    <%= link_to "Remove", "#", class: "remove_fields" %>
+  </p>
+</div>

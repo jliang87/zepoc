@@ -1,0 +1,12 @@
+<% @user.photos.each do |p| %>
+  <div id="picture_refreshable">
+    <p><%= p.name %></p>
+    <p><%= simple_format p.description %></p>
+    <p><%= image_tag p.photo.url :thumb %></p>
+    <p>
+      <%= link_to "Edit", edit_user_photo_path(@user, p), id: "picture_edit", remote: true %> |
+      <%= link_to "Destroy", user_photo_path(@user, p) , :confirm => 'Are you sure?', :method => :delete %> |
+      <%= link_to "View", user_photo_path(@user, p) %>
+    </p>
+  </div>
+<% end %>

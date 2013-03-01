@@ -10,10 +10,15 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation, :avatar,
+  attr_accessible :name, :email, :password, :password_confirmation, :avatar, :photos_attributes,
     :crop_x, :crop_y, :crop_w, :crop_h #attr_accessible is for mass assignment
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
+
+  has_many :photos, dependent: :destroy
+  accepts_nested_attributes_for :photos, allow_destroy: true
+
   has_secure_password
+
   before_save { |user| user.email = email.downcase }
   before_save { create_remember_token(:remember_token) }
   after_update :reprocess_avatar, if: :cropping?
@@ -27,6 +32,7 @@ class User < ActiveRecord::Base
   validates :password, presence: true, length: {minimum: 6}
   validates :password_confirmation, presence: true
   
+
   if Rails.env.development? || Rails.env.test?
     has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
                       :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
@@ -44,6 +50,7 @@ class User < ActiveRecord::Base
   validates_attachment_size :avatar, less_than: 5.megabytes
   validates_attachment_content_type :avatar, content_type: ['image/jpeg', 'image/png']
   
+
   def to_param
     name
   end

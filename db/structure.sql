@@ -116,6 +116,43 @@ $_$;
 
 
 --
+-- Name: photos; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE TABLE photos (
+    id integer NOT NULL,
+    user_id integer,
+    name character varying(255),
+    description text,
+    created_at timestamp without time zone NOT NULL,
+    updated_at timestamp without time zone NOT NULL,
+    photo_file_name character varying(255),
+    photo_content_type character varying(255),
+    photo_file_size integer,
+    photo_updated_at timestamp without time zone
+);
+
+
+--
+-- Name: photos_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE photos_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: photos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE photos_id_seq OWNED BY photos.id;
+
+
+--
 -- Name: queue_classic_jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: -
 --
 
@@ -190,6 +227,13 @@ ALTER SEQUENCE users_id_seq OWNED BY users.id;
 -- Name: id; Type: DEFAULT; Schema: public; Owner: -
 --
 
+ALTER TABLE ONLY photos ALTER COLUMN id SET DEFAULT nextval('photos_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: -
+--
+
 ALTER TABLE ONLY queue_classic_jobs ALTER COLUMN id SET DEFAULT nextval('queue_classic_jobs_id_seq'::regclass);
 
 
@@ -198,6 +242,14 @@ ALTER TABLE ONLY queue_classic_jobs ALTER COLUMN id SET DEFAULT nextval('queue_c
 --
 
 ALTER TABLE ONLY users ALTER COLUMN id SET DEFAULT nextval('users_id_seq'::regclass);
+
+
+--
+-- Name: photos_pkey; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+--
+
+ALTER TABLE ONLY photos
+    ADD CONSTRAINT photos_pkey PRIMARY KEY (id);
 
 
 --
@@ -269,3 +321,7 @@ INSERT INTO schema_migrations (version) VALUES ('20120622030131');
 INSERT INTO schema_migrations (version) VALUES ('20120624064922');
 
 INSERT INTO schema_migrations (version) VALUES ('20120624065727');
+
+INSERT INTO schema_migrations (version) VALUES ('20130301054009');
+
+INSERT INTO schema_migrations (version) VALUES ('20130301092113');

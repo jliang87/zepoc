@@ -12,7 +12,7 @@
           <a data-toggle="modal" href="#myModal"><%= image_tag gravatar_url, class: "gravatar" %></a>
         <% end %>
 
-        <h1><%= @user.name %></h1>
+        <h1><% @user.name %></h1>
 
         <div class="modal hide" id="myModal">
           <div class="modal-header">
@@ -80,6 +80,11 @@
             <% end %>
           </div>
         </div>
+
+      <%= render 'show_photos' %>
+
+      <%= link_to "Edit Me", edit_user_path(@user) %>
+
 		</section>
 	</aside>	
 </div>
