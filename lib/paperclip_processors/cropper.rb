@@ -9,7 +9,8 @@ module Paperclip
     def transformation_command
       if crop_command && !(super.include? "\"450x450>\"")
         Rails.logger.debug crop_command + super.join(' ').sub(/ -crop \S+/, '').split(' ')
-        crop_command + super.join(' ').sub(/ -crop \S+/, '').split(' ') # super returns an array like this: ["-resize", "100x", "-crop", "100x100+0+0", "+repage"]
+        crop_command + super.join(' ').sub(/ -crop \S+/, '').split(' ')
+        # super returns an array like this: ["-resize", "100x", "-crop", "100x100+0+0", "+repage"]
       end
     end
 
