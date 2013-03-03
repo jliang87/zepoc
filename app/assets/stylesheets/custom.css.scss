@@ -1,5 +1,16 @@
-$linkColor: #0055FF;
+$linkColor: #707070;
+$linkColorHover: #708090;
 @import "bootstrap";
+
+@font-face {
+  font-family: champagne;
+  src: url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype');
+}
+
+@font-face {
+  font-family: impregnable;
+  src: url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype');
+}
 
 /* mixins, variables, etc. */
 
@@ -38,18 +49,20 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   @include engravedtext;
+  font-family: champagne;
 }
 
 h1 {
   font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  //letter-spacing: -2px;
+  //margin-bottom: -1px;
   text-align: center;
+  color: #708090;
 }
 
 h2 {
   font-size: 1.7em;
-  letter-spacing: -1px;
+  //letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
@@ -67,15 +80,18 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 2em;
+  font-size: 2.3em;
   color: #000000;
-  //letter-spacing: -.5px;
-  padding-top: 3px;
+  //letter-spacing: -1px;
+  padding-top: 4px;
+  //padding-bottom: 10px;
   font-weight: bold;
   line-height: 1;
   text-transform: lowercase;
+  font-family: impregnable;
   &:hover {
-    color: #ff6100;
+    //color: #ff6100;
+    color: #708090;
     text-decoration: none;
   }
   @include engravedtext;
@@ -119,7 +135,7 @@ footer {
 
 .drop-shadow {
   //position:relative;
-  float:left;
+  //float:left;
   //width:40%;
   padding:1em;
   // margin:2em 20px 4em;
@@ -216,4 +232,5 @@ input, textarea, select, .uneditable-input {
   //right:249px;
   //top:10px;
 }
+
 

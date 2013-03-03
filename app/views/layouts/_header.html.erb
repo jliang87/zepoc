@@ -1,23 +1,30 @@
 <header class="navbar navbar-fixed-top">
 <div class="navbar-inner">
 	<div class="container">
-		<%= link_to "Zepoc", root_path, id: "logo"%>
+    <% if signed_in? %>
+		  <%= link_to "Zepoc", current_user, id: "logo"%>
+    <% else %>
+      <%= link_to "Zepoc", root_path, id: "logo"%>
+    <% end %>
 		<nav>
 			<ul class="nav pull-right">
-				<li><%= link_to root_path do %><i class="icon-home icon-black"></i> Home<% end %></li>
-				<li><%= link_to help_path do %><i class="icon-question-sign icon-black"></i> Help<% end %></li>
+				<!--<li><%= link_to root_path do %><i class="icon-home icon-black"></i><% end %></li>-->
+				<li><%= link_to help_path do %><i class="icon-question-sign icon-black" style="margin-right: -3px;">
+				  </i><% end %></li>
 				<% if signed_in? %>
-					<li><%= link_to "#" do %><i class="icon-asterisk icon-black"></i> Users<% end %></li>
-					<li id="fat-menu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user icon-black"></i> Account<b class="caret"></b></a>
+					<!--<li><%= link_to "#" do %><i class="icon-asterisk icon-black"></i> Users<% end %></li>-->
+					<li id="fat-menu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-user icon-black"></i><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><%= link_to current_user do %><i class="icon-bookmark icon-black"></i> Profile<% end %></li>
+							<!--<li><%= link_to current_user do %><i class="icon-bookmark icon-black"></i> Profile<% end %></li>-->
 							<li><%= link_to '#' do %><i class="icon-cog icon-black"></i> Settings<% end %></li>
 							<li class="divider"></li>
-							<li> <%= link_to signout_path, method: "delete" do %><i class="icon-arrow-right icon-black"></i> Sign out<% end %></li>
+							<li> <%= link_to signout_path, method: "delete" do %><i class="icon-arrow-right icon-black">
+							  </i> Sign out<% end %></li>
 						</ul>
 					</li>
 				<% else %>
-					<li><%= link_to signin_path do %><i class="icon-ok icon-black"></i> Sign in<% end %></li>
+					<li><%= link_to signin_path do %><i class="icon-user icon-black"></i><% end %></li>
 				<% end %>
 			</ul>
 		</nav>

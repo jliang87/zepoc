@@ -17,7 +17,7 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]
     if @photo.update_attributes(params[:photo])
-      flash[:notice] = "Successfully updated."
+      flash.now[:notice] = "Successfully updated."
       respond_to do |format|
         format.html { redirect_to @user }
         format.js

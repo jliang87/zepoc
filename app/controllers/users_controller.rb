@@ -29,21 +29,21 @@ class UsersController < ApplicationController
   def update
     @user = User.find_by_name params[:id]
 
-    if  params[:user][:crop_x].blank? &&
-        params[:user][:crop_y].blank? &&
-        params[:user][:crop_w].blank? &&
-        params[:user][:crop_h].blank? &&
-        @user.update_attributes(params[:user]) #***cant use save for attr_accessor's for they aren't in db***
-    #if @user.update_attribute(:crop_x, params[:user][:crop_x]) &&
-    #   @user.update_attribute(:crop_y,  params[:user][:crop_y]) &&
-    #   @user.update_attribute(:crop_w,  params[:user][:crop_w]) &&
-    #   @user.update_attribute(:crop_h,  params[:user][:crop_h])
-      render 'show'
-    elsif @user.update_attribute(:crop_x, params[:user][:crop_x]) &&
-         @user.update_attribute(:crop_y,  params[:user][:crop_y]) &&
-         @user.update_attribute(:crop_w,  params[:user][:crop_w]) &&
-         @user.update_attribute(:crop_h,  params[:user][:crop_h])
-      render 'show'
+    #if  params[:user][:crop_x].blank? &&
+    #    params[:user][:crop_y].blank? &&
+    #    params[:user][:crop_w].blank? &&
+    #    params[:user][:crop_h].blank? &&
+    #    @user.update_attributes(params[:user]) #***cant use save for attr_accessor's for they aren't in db***
+    if @user.update_attribute(:crop_x, params[:user][:crop_x]) &&
+       @user.update_attribute(:crop_y,  params[:user][:crop_y]) &&
+       @user.update_attribute(:crop_w,  params[:user][:crop_w]) &&
+       @user.update_attribute(:crop_h,  params[:user][:crop_h])
+      #render 'show'
+    #elsif @user.update_attribute(:crop_x, params[:user][:crop_x]) &&
+    #     @user.update_attribute(:crop_y,  params[:user][:crop_y]) &&
+    #     @user.update_attribute(:crop_w,  params[:user][:crop_w]) &&
+    #     @user.update_attribute(:crop_h,  params[:user][:crop_h])
+      redirect_to @user
     else
       @user.errors.full_messages.each do |msg|
         flash.now[:error] = msg

@@ -1,90 +1,88 @@
 <% provide :title, @user.name %>
 <div class="row">
-	<aside class="span4">
-		<section>
-        <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
-          <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
-            style: "float:left; margin-right: 10px", class: "drop-shadow" %></a>
-        <% else %>
-          <% gravatar_id = Digest::MD5::hexdigest("jackliang1987@hotmail.com") %>
-          <% size = "90" %>
-          <% gravatar_url= "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}" %>
-          <a data-toggle="modal" href="#myModal"><%= image_tag gravatar_url, class: "gravatar" %></a>
-        <% end %>
+	<section class="span4">
+    <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
+      <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
+        style: "float:left; margin-right: 10px", class: "drop-shadow" %></a>
+    <% else %>
+      <% gravatar_id = Digest::MD5::hexdigest("jackliang1987@hotmail.com") %>
+      <% size = "90" %>
+      <% gravatar_url= "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}" %>
+      <a data-toggle="modal" href="#myModal"><%= image_tag gravatar_url, class: "gravatar drop-shadow" %></a>
+    <% end %>
 
-        <h1><% @user.name %></h1>
+    <h1><% @user.name %></h1>
+    <%= link_to "Edit Me", edit_user_path(@user) %>
 
-        <div class="modal hide" id="myModal">
-          <div class="modal-header">
-            <!--<a class="close" data-dismiss="modal">x</a>-->
-            <button type="button" class="close" data-dismiss="modal">x</button>
-            <h3><%= @user.name %></h3>
-          </div>
-          <div class="modal-body">
-            <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
+    <div class="modal hide" id="myModal">
+      <div class="modal-header">
+        <!--<a class="close" data-dismiss="modal">x</a>-->
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3><%= @user.name %></h3>
+      </div>
+      <div class="modal-body">
+        <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
 
-              <%= javascript_include_tag "jquery.min" %>
-              <%= javascript_include_tag "jquery.Jcrop.min" %>
-              <%= stylesheet_link_tag "jquery.Jcrop" %>
-               <script type="text/javascript" charset="utf-8">
-                  $(function() {
-                    $('#cropbox').Jcrop({
-                      onChange: update_crop,
-                      onSelect: update_crop,
-                      setSelect: [0, 0, 500, 500],
-                      aspectRatio: 1
-                      });
+          <%= javascript_include_tag "jquery.min" %>
+          <%= javascript_include_tag "jquery.Jcrop.min" %>
+          <%= stylesheet_link_tag "jquery.Jcrop" %>
+           <script type="text/javascript" charset="utf-8">
+              $(function() {
+                $('#cropbox').Jcrop({
+                  onChange: update_crop,
+                  onSelect: update_crop,
+                  setSelect: [0, 0, 500, 500],
+                  aspectRatio: 1
                   });
+              });
 
-                  function update_crop(coords) {
-                    var rx = 150/coords.w;
-                    var ry = 150/coords.h;
-                    $('#preview').css({
-                      width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
-                      height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
-                      marginLeft: '-' + Math.round(rx * coords.x) + 'px',
-                      marginTop: '-' + Math.round(ry * coords.y) + 'px'
-                    });
-                      var ratio = <%= @user.avatar_geometry(:original).width %>
-                                  / <%= @user.avatar_geometry(:medium).width %>;
-                      $("#crop_x").val(Math.round(coords.x * ratio));
-                      $("#crop_y").val(Math.round(coords.y * ratio));
-                      $("#crop_w").val(Math.round(coords.w * ratio));
-                      $("#crop_h").val(Math.round(coords.h * ratio));
-                      }
-               </script>
-               <table>
-                 <tr>
-                   <td style="padding-right: 40px">
-                     <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
-                   </td>
-                   <td class="vertical_divider">
-                     <div style="width:150px; height:150px; overflow:hidden;">
-                     <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none" %>
-                     </div>
-                   </td>
-                 </tr>
-               </table>
-            <% else %>
-              <%= image_tag gravatar_url, class:"gravatar" %>
-            <% end %>
-          </div>
-          <div class="modal-footer">
-            <!--<a href="#" class="btn" data-dismiss="modal">Close</a>-->
-            <!--<a href="#" class="btn btn-primary">Save changes</a>-->
-            <%= form_for @user do |f| %>
-              <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
-                <%= f.hidden_field attribute, id: attribute %>
-              <% end %>
-              <%= f.submit "Save", class: "btn btn-primary", style: "margin-bottom: -15px"%>
-            <% end %>
-          </div>
-        </div>
+              function update_crop(coords) {
+                var rx = 150/coords.w;
+                var ry = 150/coords.h;
+                $('#preview').css({
+                  width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
+                  height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
+                  marginLeft: '-' + Math.round(rx * coords.x) + 'px',
+                  marginTop: '-' + Math.round(ry * coords.y) + 'px'
+                });
+                  var ratio = <%= @user.avatar_geometry(:original).width %>
+                              / <%= @user.avatar_geometry(:medium).width %>;
+                  $("#crop_x").val(Math.round(coords.x * ratio));
+                  $("#crop_y").val(Math.round(coords.y * ratio));
+                  $("#crop_w").val(Math.round(coords.w * ratio));
+                  $("#crop_h").val(Math.round(coords.h * ratio));
+                  }
+           </script>
+           <table>
+             <tr>
+               <td style="padding-right: 40px">
+                 <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
+               </td>
+               <td class="vertical_divider">
+                 <div style="width:150px; height:150px; overflow:hidden;">
+                 <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none" %>
+                 </div>
+               </td>
+             </tr>
+           </table>
+        <% else %>
+          <%= image_tag gravatar_url, class:"gravatar img-rounded" %>
+        <% end %>
+      </div>
+      <div class="modal-footer">
+        <!--<a href="#" class="btn" data-dismiss="modal">Close</a>-->
+        <!--<a href="#" class="btn btn-primary">Save changes</a>-->
+        <%= form_for @user do |f| %>
+          <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
+            <%= f.hidden_field attribute, id: attribute %>
+          <% end %>
+          <%= f.submit "Save", class: "btn btn-primary", style: "margin-bottom: -15px"%>
+        <% end %>
+      </div>
+    </div>
+	</section>
+  <section>
+    <%= render 'show_photos' %>
+  </section>
 
-      <%= render 'show_photos' %>
-
-      <%= link_to "Edit Me", edit_user_path(@user) %>
-
-		</section>
-	</aside>	
 </div>

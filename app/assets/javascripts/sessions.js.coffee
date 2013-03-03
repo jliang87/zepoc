@@ -20,4 +20,4 @@ $(document).delegate "#sessionpasswordfield", "blur", ->
 
 $(document).delegate "#sessionpasswordfield", "mousedown", ->
   $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" 
+  $(this).css "color", "#222222"

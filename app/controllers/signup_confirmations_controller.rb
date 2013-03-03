@@ -13,7 +13,7 @@ class SignupConfirmationsController < ApplicationController
         flash[:info] = 'Thanks for confirming your email!'
       else
         redirect_to root_path
-        flash[:error] = "Oops, the current account doesn't match the originator of this request."
+        flash[:error] = "Oops, another account is already signed in. Please log off and retry."
       end
     else
       redirect_to root_path

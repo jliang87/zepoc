@@ -1,7 +1,7 @@
 <div id="picture_refreshable-<%= @photo.id %>">
   <p><%= @photo.name %></p>
   <p><%= simple_format @photo.description %></p>
-  <p><%= image_tag @photo.photo.url :thumb %></p>
+  <p><%= image_tag @photo.photo.url(:thumb), class: "drop-shadow" %></p>
   <p>
     <%= link_to "Edit", edit_user_photo_path(@user, @photo), id: "picture_edit-"+@photo.id.to_s, remote: true %> |
     <%= link_to "Destroy", user_photo_path(@user, @photo) , :confirm => 'Are you sure?', :method => :delete %> |

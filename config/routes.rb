@@ -16,10 +16,11 @@ SampleApp::Application.routes.draw do
   match '/about', to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
 
+  match '/resetpassword', to: 'password_resets#new'
+
   root to: 'static_pages#home'
 
 
-  match '/resetpassword', to: 'password_resets#new'
   
   # match '/:name', to:'users#show'
   # The priority is based upon order of creation:
