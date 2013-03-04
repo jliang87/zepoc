@@ -6,6 +6,7 @@ SampleApp::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :password_resets
   resources :signup_confirmations, only: [:edit]
+  resources :passthroughs, only: [:index]
   
   match '/signup', to: 'users#new'
 
@@ -18,7 +19,9 @@ SampleApp::Application.routes.draw do
 
   match '/resetpassword', to: 'password_resets#new'
 
-  root to: 'static_pages#home'
+  match '', to: 'passthroughs#index'
+
+  root to: 'passthroughs#index'
 
 
   

@@ -5,6 +5,16 @@
 $ ->
   $("#user_password_textfield").hide()
 
+
+$(document).on 'show', '#myModal', (event)->
+  $(this).css 'width', 'auto'
+#  $(this).show()
+#  h = $('.modal-body').outerHeight()
+#  $(this).hide()
+  $('.modal-body').css 'max-height', 'none'
+  $(this).css 'margin-top', -20
+
+
 #user_username_textfield
 $(document).delegate "#user_username_textfield", "blur", ->
   $(this).val "Letters/Numbers/Underscores" if $(this).val() is ""
