@@ -2,17 +2,60 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
+$.fn.selectRange = (start, end) ->
+  @each ->
+    if @setSelectionRange
+      @focus()
+      @setSelectionRange start, end
+    else if @createTextRange
+      range = @createTextRange()
+      range.collapse true
+      range.moveEnd "character", end
+      range.moveStart "character", start
+      range.select()
+
 $ ->
   $("#user_password_textfield").hide()
 
+#change modal size
+#$(document).on 'show', '#myModal', (event)->
+#  $(this).css 'width', 'auto'
+##  $(this).show()
+##  h = $('.modal-body').outerHeight()
+##  $(this).hide()
+#  $('.modal-body').css 'max-height', 'none'
+#  $(this).css 'margin-top', -20
 
-$(document).on 'show', '#myModal', (event)->
-  $(this).css 'width', 'auto'
-#  $(this).show()
-#  h = $('.modal-body').outerHeight()
-#  $(this).hide()
-  $('.modal-body').css 'max-height', 'none'
-  $(this).css 'margin-top', -20
+$(document).on 'click', '.remove_avatar', (event) ->
+  $(this).prev('input[type=hidden]').val('1')
+
+
+
+$(document).on "click", 'input[type=text]', (event)->
+  $(this).addClass "textfieldtextcolorclick"
+  $(this).css "color", "#222222"
+
+$(document).on "blur", 'input[type=text]', (event)->
+  $(this).removeClass "textfieldtextcolorclick"
+  $(this).css "color", "#B2B2B2"
+
+$(document).on "click", 'input[type=password]', (event)->
+  $(this).addClass "textfieldtextcolorclick"
+  $(this).css "color", "#222222"
+
+$(document).on "blur", 'input[type=password]', (event)->
+  $(this).removeClass "textfieldtextcolorclick"
+  $(this).css "color", "#B2B2B2"
+
+$(document).on "click", 'textarea', (event)->
+  $(this).addClass "textfieldtextcolorclick"
+  $(this).css "color", "#222222"
+
+$(document).on "blur", 'textarea', (event)->
+  $(this).removeClass "textfieldtextcolorclick"
+  $(this).css "color", "#B2B2B2"
+
+
 
 
 #user_username_textfield
@@ -25,9 +68,10 @@ $(document).delegate "#user_username_textfield", "keydown", ->
   $(this).css "color", "#222222"
   $(this).val "" if $(this).val() is "Letters/Numbers/Underscores"
 
-$(document).delegate "#user_username_textfield", "mousedown", ->
+$(document).delegate "#user_username_textfield", "click", ->
   $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" unless $(this).val() is "Letters/Numbers/Underscores"
+  $(this).css "color", "#B2B2B2" if $(this).val() is "Letters/Numbers/Underscores"
+  $(this).selectRange 0, 0 if $(this).val() is "Letters/Numbers/Underscores"
 
 
 
@@ -41,9 +85,10 @@ $(document).delegate "#user_email_textfield", "keydown", ->
   $(this).css "color", "#222222"
   $(this).val "" if $(this).val() is "A verification email will be sent to this inbox"
 
-$(document).delegate "#user_email_textfield", "mousedown", ->
+$(document).delegate "#user_email_textfield", "click", ->
   $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" unless $(this).val() is "A verification email will be sent to this inbox"
+  $(this).css "color", "#B2B2B2" if $(this).val() is "A verification email will be sent to this inbox"
+  $(this).selectRange 0, 0 if $(this).val() is "A verification email will be sent to this inbox"
 
 
 
@@ -57,8 +102,10 @@ $(document).delegate "#user_passwordclear_textfield", "keydown", ->
   $("#user_password_textfield").focus()
   $("#user_password_textfield").addClass "textfieldtextcolorclick"
 
-$(document).delegate "#user_passwordclear_textfield", "mousedown", ->
+$(document).delegate "#user_passwordclear_textfield", "click", ->
   $(this).addClass "textfieldtextcolorclick"
+  $(this).css "color", "#B2B2B2" if $(this).val() is "Minimum 6 characters"
+  $(this).selectRange 0, 0
 
 $(document).delegate "#user_password_textfield", "blur", ->
   $(this).css "color", "#B2B2B2"
@@ -69,7 +116,7 @@ $(document).delegate "#user_password_textfield", "blur", ->
 $(document).delegate "#user_password_textfield", "keydown", ->
   $(this).css "color", "#222222"
 
-$(document).delegate "#user_password_textfield", "mousedown", ->
+$(document).delegate "#user_password_textfield", "click", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
@@ -80,6 +127,6 @@ $(document).delegate "#user_passwordconfirm_textfield", "blur", ->
   $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#user_passwordconfirm_textfield", "mousedown", ->
+$(document).delegate "#user_passwordconfirm_textfield", "click", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"

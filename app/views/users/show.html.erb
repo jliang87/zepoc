@@ -15,13 +15,13 @@
     <h1><% @user.name %></h1>
     <%= link_to "Edit Me", edit_user_path(@user) %>
 
-    <div class="modal hide" id="myModal">
+    <div class="modal hide" id="myModal" style="width: auto">
       <div class="modal-header pagebackgroundcolor">
         <!--<a class="close" data-dismiss="modal">x</a>-->
         <button type="button" class="close" data-dismiss="modal">x</button>
         <h3><%= @user.name %></h3>
       </div>
-      <div class="modal-body pagebackgroundcolor" style="padding-left: 28px;">
+      <div class="modal-body pagebackgroundcolor" style="padding-left: 28px; max-height: none;">
         <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
           <%= javascript_include_tag "jquery.min" %>
           <%= javascript_include_tag "jquery.Jcrop.min" %>

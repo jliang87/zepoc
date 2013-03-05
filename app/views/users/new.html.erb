@@ -5,34 +5,24 @@
 	<div class="span6 offset3">
     <%= form_for @user, html: {multipart: true} do |f| %>
 
-      <h6>
-      <%= f.label :name, "Username" ,class: "engravedtext", style: "font-size: 1.3em" %>
+      <%= f.label :name, "Username" ,class: "engravedtext" %>
       <%= f.text_field :name, value: "Letters/Numbers/Underscores", id: "user_username_textfield",
         style: "color: #B2B2B2" %>
-      </h6>
 
-      <h6>
-      <%= f.label :email, "Valid Email", class: "engravedtext", style: "font-size: 1.3em" %>
+      <%= f.label :email, "Valid Email", class: "engravedtext" %>
       <%= f.text_field :email, id: "user_email_textfield", value: "A verification email will be sent to this inbox",
         style: "color: #B2B2B2" %>
-      </h6>
 
-      <h6>
-      <%= f.label :password, class: "engravedtext", style: "font-size: 1.3em" %>
+      <%= f.label :password, class: "engravedtext" %>
       <%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield",
         style: "color: #B2B2B2" %>
       <%= f.password_field :password, id: "user_password_textfield" %>
-      </h6>
 
-      <h6>
-      <%= f.label :password_confirmation, "Confirmation", class: "engravedtext", style: "font-size: 1.3em" %>
+      <%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
       <%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
-      </h6>
 
-      <h6>
-      <%= f.label "Choose a photo:", class: "engravedtext", style: "font-size: 1.5em" %>
+      <%= f.label "Choose a photo:", class: "engravedtext" %>
       <%= f.file_field :avatar%>
-      </h6>
 
       <%= f.submit "Create my account", class: "btn btn-large btn-inverse", style: "margin-top: -1px"%>
 

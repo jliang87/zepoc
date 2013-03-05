@@ -11,17 +11,17 @@
 
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :avatar, :photos_attributes,
-    :crop_x, :crop_y, :crop_w, :crop_h #attr_accessible is for mass assignment
-  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
+    :crop_x, :crop_y, :crop_w, :crop_h  #attr_accessible is for mass assignment
+  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h, :updatePassword
 
-  has_many :photos, dependent: :destroy, :order => :id
+  has_many :photos, dependent: :destroy, :order => :id       #order is very important!
   accepts_nested_attributes_for :photos, allow_destroy: true
 
   has_secure_password
 
   before_save { |user| user.email = email.downcase }
   before_save { create_remember_token(:remember_token) }
-  after_update :reprocess_avatar, if: :cropping?
+  #after_update :reprocess_avatar, if: :cropping?      prevent loop
 
   valid_name_regex=/\A[\w]+\z/i
   validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
@@ -29,9 +29,9 @@ class User < ActiveRecord::Base
   spaces in between"
   valid_email_regex=/\A[\w\-.+]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, format: {with: valid_email_regex}, uniqueness: {case_sensitive: false}
-  validates :password, presence: true, length: {minimum: 6}
-  validates :password_confirmation, presence: true
-  
+  validates :password, presence: true, length: {minimum: 6}, if: :should_validate_password?
+  validates :password_confirmation, presence: true, if: :should_validate_password?  #only set in password_reset
+
 
   if Rails.env.development? || Rails.env.test?
     has_attached_file :avatar, styles: {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
@@ -91,11 +91,15 @@ class User < ActiveRecord::Base
     end
   end
 
-  private
-    def reprocess_avatar
-      avatar.reprocess!
-    end
+  def should_validate_password?
+    new_record? || updatePassword
+  end
 
+  def reprocess_avatar
+    avatar.reprocess!
+  end
+
+  private
     def create_remember_token(column)
       if self[column].nil?
         begin 

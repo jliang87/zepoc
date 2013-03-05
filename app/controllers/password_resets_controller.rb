@@ -18,6 +18,8 @@ class PasswordResetsController < ApplicationController
   end
 
   def update
+    @user.updatePassword = true
+
   	@user = User.find_by_password_reset_token!(params[:id])
   	if !@user.need_password_reset?
   		redirect_to root_path

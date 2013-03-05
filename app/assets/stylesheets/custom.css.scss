@@ -46,6 +46,15 @@ textarea {
 @mixin engravedtext
 {text-shadow:  0px 1px 0px #f8f8f8;}
 
+label
+{
+  font-size: 1.1em;
+  line-height: 1;
+  font-family: "champagne";
+  @include engravedtext;
+  margin-top: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   @include engravedtext;
@@ -189,7 +198,7 @@ aside{
 
 .gravatar { float: left; margin-right: 10px;}
 
-input, textarea, select, .uneditable-input {
+input, select, .uneditable-input {
 	//border: 1px solid #bbb;
 	width: 100%;
 	padding: 10px;
@@ -197,6 +206,15 @@ input, textarea, select, .uneditable-input {
 	margin-bottom: 15px;
 	font-size: 16px;
 	//@include box_sizing;
+}
+textarea {
+  //border: 1px solid #bbb;
+  width: 100%;
+  padding: 10px;
+  height:auto;
+  margin-bottom: 15px;
+  font-size: 14px;
+  //@include box_sizing;
 }
 
 #error_explanation {
@@ -227,7 +245,7 @@ input, textarea, select, .uneditable-input {
 
 .textfieldtextcolorclick
 {
-  background-color: #ffe6ad !important;
+  background-color: #fffbe6 !important;
 }
 
 .vertical_divider {
