@@ -1,14 +1,8 @@
 <% provide :title, @user.name %>
 <div class="row">
-
   <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
     <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
-                                                         style: "float:left; margin-right: 10px", class: "drop-shadow" %></a>
-  <% else %>
-    <% gravatar_id = Digest::MD5::hexdigest("jackliang1987@hotmail.com") %>
-    <% size = "90" %>
-    <% gravatar_url= "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}" %>
-    <a data-toggle="modal" href="#myModal"><%= image_tag gravatar_url, class: "gravatar drop-shadow" %></a>
+      style: "float:left; margin-right: 10px", class: "drop-shadow" %></a>
   <% end %>
 
   <section class="span4">
@@ -66,8 +60,6 @@
                </td>
              </tr>
            </table>
-        <% else %>
-          <%= image_tag gravatar_url, class:"gravatar shadow" %>
         <% end %>
       </div>
       <div class="modal-footer pagebackgroundcolor">

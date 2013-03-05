@@ -17,6 +17,12 @@ $.fn.selectRange = (start, end) ->
 $ ->
   $("#user_password_textfield").hide()
 
+  $('.remove_avatar').on 'click', (event) ->
+    $(this).prev('input[type=hidden]').val('1')
+    $('#avatar').hide()
+    $(this).hide()
+    event.preventDefault
+
 #change modal size
 #$(document).on 'show', '#myModal', (event)->
 #  $(this).css 'width', 'auto'
@@ -26,12 +32,9 @@ $ ->
 #  $('.modal-body').css 'max-height', 'none'
 #  $(this).css 'margin-top', -20
 
-$(document).on 'click', '.remove_avatar', (event) ->
-  $(this).prev('input[type=hidden]').val('1')
 
 
-
-$(document).on "click", 'input[type=text]', (event)->
+$(document).on "focus", 'input[type=text]', (event)->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
@@ -39,7 +42,7 @@ $(document).on "blur", 'input[type=text]', (event)->
   $(this).removeClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2"
 
-$(document).on "click", 'input[type=password]', (event)->
+$(document).on "focus", 'input[type=password]', (event)->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
@@ -47,7 +50,7 @@ $(document).on "blur", 'input[type=password]', (event)->
   $(this).removeClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2"
 
-$(document).on "click", 'textarea', (event)->
+$(document).on "focus", 'textarea', (event)->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
@@ -68,7 +71,7 @@ $(document).delegate "#user_username_textfield", "keydown", ->
   $(this).css "color", "#222222"
   $(this).val "" if $(this).val() is "Letters/Numbers/Underscores"
 
-$(document).delegate "#user_username_textfield", "click", ->
+$(document).delegate "#user_username_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "Letters/Numbers/Underscores"
   $(this).selectRange 0, 0 if $(this).val() is "Letters/Numbers/Underscores"
@@ -85,7 +88,7 @@ $(document).delegate "#user_email_textfield", "keydown", ->
   $(this).css "color", "#222222"
   $(this).val "" if $(this).val() is "A verification email will be sent to this inbox"
 
-$(document).delegate "#user_email_textfield", "click", ->
+$(document).delegate "#user_email_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "A verification email will be sent to this inbox"
   $(this).selectRange 0, 0 if $(this).val() is "A verification email will be sent to this inbox"
@@ -102,7 +105,7 @@ $(document).delegate "#user_passwordclear_textfield", "keydown", ->
   $("#user_password_textfield").focus()
   $("#user_password_textfield").addClass "textfieldtextcolorclick"
 
-$(document).delegate "#user_passwordclear_textfield", "click", ->
+$(document).delegate "#user_passwordclear_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "Minimum 6 characters"
   $(this).selectRange 0, 0
@@ -116,7 +119,7 @@ $(document).delegate "#user_password_textfield", "blur", ->
 $(document).delegate "#user_password_textfield", "keydown", ->
   $(this).css "color", "#222222"
 
-$(document).delegate "#user_password_textfield", "click", ->
+$(document).delegate "#user_password_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
@@ -127,6 +130,6 @@ $(document).delegate "#user_passwordconfirm_textfield", "blur", ->
   $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#user_passwordconfirm_textfield", "click", ->
+$(document).delegate "#user_passwordconfirm_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"

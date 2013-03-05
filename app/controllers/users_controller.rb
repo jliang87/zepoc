@@ -35,6 +35,9 @@ class UsersController < ApplicationController
         params[:user][:crop_h].blank? &&
         @user.authenticate(params[:user][:password]) &&
         @user.update_attributes(params[:user])  # or possibly cant use save in general
+          #if params[:user][:destroy_avatar]
+          #  @user.avatar.destroy
+          #end   # wont save avatar's attributes
           redirect_to @user
     #    @user.update_attributes(params[:user]) #***cant use save for attr_accessor's for they aren't in db***
     elsif !params[:user][:crop_x].blank? &&

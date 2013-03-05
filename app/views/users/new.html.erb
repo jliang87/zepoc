@@ -5,24 +5,24 @@
 	<div class="span6 offset3">
     <%= form_for @user, html: {multipart: true} do |f| %>
 
-      <%= f.label :name, "Username" ,class: "engravedtext" %>
+      <%= f.label :name, "Username" %>
       <%= f.text_field :name, value: "Letters/Numbers/Underscores", id: "user_username_textfield",
         style: "color: #B2B2B2" %>
 
-      <%= f.label :email, "Valid Email", class: "engravedtext" %>
+      <%= f.label :email, "Valid Email" %>
       <%= f.text_field :email, id: "user_email_textfield", value: "A verification email will be sent to this inbox",
         style: "color: #B2B2B2" %>
 
-      <%= f.label :password, class: "engravedtext" %>
+      <%= f.label :password %>
       <%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield",
         style: "color: #B2B2B2" %>
       <%= f.password_field :password, id: "user_password_textfield" %>
 
-      <%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
+      <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
 
-      <%= f.label "Choose a photo:", class: "engravedtext" %>
-      <%= f.file_field :avatar%>
+      <%= f.label "Choose a photo:" %>
+      <%= f.file_field :avatar, style: "margin-left: -10px;" %>
 
       <%= f.submit "Create my account", class: "btn btn-large btn-inverse", style: "margin-top: -1px"%>
 

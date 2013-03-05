@@ -7,7 +7,7 @@ $(document).delegate "#sessiontextfield", "blur", ->
   $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#sessiontextfield", "mousedown", ->
+$(document).delegate "#sessiontextfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222" unless $(this).val() is "Correct format please"
 
@@ -18,6 +18,6 @@ $(document).delegate "#sessionpasswordfield", "blur", ->
   $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#sessionpasswordfield", "mousedown", ->
+$(document).delegate "#sessionpasswordfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"

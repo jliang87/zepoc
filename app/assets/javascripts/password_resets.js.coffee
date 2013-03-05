@@ -6,6 +6,6 @@ $(document).delegate "#passwordresettextfield", "blur", ->
   $(this).css "color", "#B2B2B2"
   $(this).removeClass "textfieldtextcolorclick"
 
-$(document).delegate "#passwordresettextfield", "mousedown", ->
+$(document).delegate "#passwordresettextfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222" 

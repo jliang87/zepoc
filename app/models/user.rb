@@ -11,8 +11,8 @@
 
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :avatar, :photos_attributes,
-    :crop_x, :crop_y, :crop_w, :crop_h  #attr_accessible is for mass assignment
-  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h, :updatePassword
+    :crop_x, :crop_y, :crop_w, :crop_h, :destroy_avatar  #attr_accessible is for mass assignment
+  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h, :updatePassword, :destroy_avatar
 
   has_many :photos, dependent: :destroy, :order => :id       #order is very important!
   accepts_nested_attributes_for :photos, allow_destroy: true
@@ -21,7 +21,8 @@ class User < ActiveRecord::Base
 
   before_save { |user| user.email = email.downcase }
   before_save { create_remember_token(:remember_token) }
-  #after_update :reprocess_avatar, if: :cropping?      prevent loop
+  #after_update :reprocess_avatar, if: :cropping?     # prevent loop
+  before_save { self.avatar.clear if destroy_avatar == 1 }
 
   valid_name_regex=/\A[\w]+\z/i
   validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
