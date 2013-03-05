@@ -88,7 +88,7 @@ class User < ActiveRecord::Base
 
     elsif Rails.env.production?
       @geometry ||= {}
-      @geometry[style] ||= Paperclip::Geometry.from_file(avatar.to_file(style))
+      @geometry[style] ||= Paperclip::Geometry.from_file(avatar.url(style))
     end
   end
 
