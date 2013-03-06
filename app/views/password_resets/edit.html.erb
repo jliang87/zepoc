@@ -6,7 +6,7 @@
 		<%= form_for @user, url: password_reset_path(params[:id]) do |f| %>
 
 		<h6>
-		<%= f.label :password, class: "engravedtext" %>
+		<%= f.label :password %>
 		<%= f.text_field :password, value: "Minimum 6 characters", id: "user_passwordclear_textfield",
                      style: "color: #B2B2B2" %>
 
@@ -14,7 +14,7 @@
 		</h6>
 		
 		<h6>
-		<%= f.label :password_confirmation, "Confirmation", class: "engravedtext" %>
+		<%= f.label :password_confirmation, "Confirmation" %>
 		<%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
 		</h6>
 

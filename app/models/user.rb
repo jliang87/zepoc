@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
   before_save { |user| user.email = email.downcase }
   before_save { create_remember_token(:remember_token) }
   #after_update :reprocess_avatar, if: :cropping?     # prevent loop
-  before_save { self.avatar.clear if destroy_avatar == 1 }
+  before_save { self.avatar.clear if destroy_avatar.to_i == 1 }
 
   valid_name_regex=/\A[\w]+\z/i
   validates :name, presence: true, uniqueness: {case_sensitive: false}, length: {maximum: 50}
