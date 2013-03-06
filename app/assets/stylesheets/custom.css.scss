@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  overflow: auto;
+  overflow: visible;
 }
 
 textarea {
@@ -78,10 +78,15 @@ h2 {
   color: $grayLight;
 }
 
-p {
+h6 {
   font-size: 1.1em;
-  line-height: 1.7em;
+  font-weight: normal;
 }
+
+//p {
+//  font-size: 1.1em;
+//  line-height: 1.7em;
+//}
 
 
 /* header */
@@ -98,6 +103,11 @@ p {
   line-height: 1;
   text-transform: lowercase;
   font-family: impregnable;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
   &:hover {
     //color: #ff6100;
     color: #708090;
@@ -258,5 +268,26 @@ textarea {
   //right:249px;
   //top:10px;
 }
+
+.dent {
+  //line-height: 1;
+  //@include engravedtext;
+  //font-family: champagne;
+  //font-size: 1.1em;
+  //font-weight: normal;
+  background-color: #f4f4f4;
+  //padding-left: 60px;
+  //padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 30px;
+
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.25);
+  -moz-box-shadow:    inset 0 1px 1px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow:         inset 0 1px 1px rgba(0, 0, 0, .25), 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+
 
 

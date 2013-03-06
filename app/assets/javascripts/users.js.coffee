@@ -74,6 +74,8 @@ $(document).delegate "#user_username_textfield", "keydown", ->
 $(document).delegate "#user_username_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "Letters/Numbers/Underscores"
+
+$(document).delegate "#user_username_textfield", "click", ->
   $(this).selectRange 0, 0 if $(this).val() is "Letters/Numbers/Underscores"
 
 
@@ -91,6 +93,8 @@ $(document).delegate "#user_email_textfield", "keydown", ->
 $(document).delegate "#user_email_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "A verification email will be sent to this inbox"
+
+$(document).delegate "#user_email_textfield", "click", ->
   $(this).selectRange 0, 0 if $(this).val() is "A verification email will be sent to this inbox"
 
 
@@ -108,6 +112,9 @@ $(document).delegate "#user_passwordclear_textfield", "keydown", ->
 $(document).delegate "#user_passwordclear_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#B2B2B2" if $(this).val() is "Minimum 6 characters"
+  $(this).selectRange 0, 0
+
+$(document).delegate "#user_passwordclear_textfield", "click", ->
   $(this).selectRange 0, 0
 
 $(document).delegate "#user_password_textfield", "blur", ->

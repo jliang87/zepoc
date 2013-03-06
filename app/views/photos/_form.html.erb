@@ -1,17 +1,18 @@
 <div id="edit_picture_form-<%= @photo.id %>" style="display: none">
   <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |builder| %>
-    <%= builder.label :name %><br />
+    <%= builder.label :name %>
     <%= builder.text_field :name %>
-    <p>
-      <%= builder.label :description %><br />
-      <%= builder.text_area :description, :rows => 10 %>
-    </p>
-    <p>
-      <%= builder.file_field :photo %>
-    </p>
-    <p><%= builder.submit "Save", class: "btn btn-inverse"%></p>
+
+    <%= builder.label :description %>
+    <%= builder.text_area :description, :rows => 10 %>
+
+    <%= builder.file_field :photo %>
+
+    <%= builder.submit "Save", class: "btn btn-inverse"%>
   <% end %>
-</div>  <!-- to get rid of "display: none", use ".hide().slideDown()"-->
+</div>
+
+<!-- to get rid of "display: none", use ".hide().slideDown()"-->
 
 <!--<script type="text/javascript" charset="utf-8">-->
 <!--  $(function() {$('#edit_picture_form').slideDown();}); -->

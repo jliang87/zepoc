@@ -9,7 +9,7 @@ $(document).delegate "#sessiontextfield", "blur", ->
 
 $(document).delegate "#sessiontextfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222" unless $(this).val() is "Correct format please"
+  $(this).css "color", "#222222"
 
 
 
