@@ -1,2 +1,2 @@
 $('#edit_picture_form-<%= @photo.id %>').after($('#picture_edit-<%= @photo.id %>').show()).
-    slideUp(function () {$('#picture_refreshable-<%= @photo.id %>').replaceWith('<%= j render @photo %>'); });
+    fadeOut(function () {$('#picture_refreshable-<%= @photo.id %>').replaceWith('<%= j render @photo %>'); });

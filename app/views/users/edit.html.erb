@@ -17,7 +17,7 @@
         </div>
       <% end %>
 
-      <%= f.file_field :avatar, style: "margin-top: 9px; margin-left: -10px;" %>
+      <%= f.file_field :avatar, style: "margin-top: 9px;" %>
 
       <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
         <%= f.hidden_field :destroy_avatar %>

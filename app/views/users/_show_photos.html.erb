@@ -1,12 +1,12 @@
 <div>
   <% @user.photos.each do |p| %>
-    <div id="picture_refreshable-<%= p.id %>" class="span3 dent" style="margin-top: 30px;">
-      <h6><%= p.name %></h6>
-      <p><%= image_tag p.photo.url(:thumb), class: "img-polaroid" %></p>
+    <div id="picture_refreshable-<%= p.id %>" class="span5 dent" style="margin-top: 30px;">
+      <h2><%= p.name %></h2>
+      <p><%= image_tag p.photo.url(:medium), class: "img-polaroid" %></p>
       <h6><%= simple_format p.description %></h6>
-      <p>
+      <p style="margin-top: 30px;" class="center">
         <%= link_to "Edit", edit_user_photo_path(@user, p), id: "picture_edit-"+p.id.to_s, remote: true %> |
-        <%= link_to "Destroy", user_photo_path(@user, p) , :confirm => 'Are you sure?', :method => :delete %> |
+        <%= link_to "Delete", user_photo_path(@user, p) , :confirm => 'Are you sure?', :method => :delete %> |
         <%= link_to "View", user_photo_path(@user, p) %>
       </p>
     </div>

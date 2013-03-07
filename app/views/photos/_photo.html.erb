@@ -1,10 +1,10 @@
-<div id="picture_refreshable-<%= @photo.id %>" class="span3 dent" style="margin-top: 30px;">
-  <h6><%= @photo.name %></h6>
-  <p><%= image_tag @photo.photo.url(:thumb), class: "img-polaroid" %></p>
+<div id="picture_refreshable-<%= @photo.id %>" class="span5 dent" style="margin-top: 30px;">
+  <h2><%= @photo.name %></h2>
+  <p><%= image_tag @photo.photo.url(:medium), class: "img-polaroid" %></p>
   <h6><%= simple_format @photo.description %></h6>
-  <p>
+  <p style="margin-top: 30px;" class="center">
     <%= link_to "Edit", edit_user_photo_path(@user, @photo), id: "picture_edit-"+@photo.id.to_s, remote: true %> |
-    <%= link_to "Destroy", user_photo_path(@user, @photo) , :confirm => 'Are you sure?', :method => :delete %> |
+    <%= link_to "Delete", user_photo_path(@user, @photo) , :confirm => 'Are you sure?', :method => :delete %> |
     <%= link_to "View", user_photo_path(@user, @photo) %>
   </p>
 </div>

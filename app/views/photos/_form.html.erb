@@ -1,12 +1,12 @@
-<div id="edit_picture_form-<%= @photo.id %>" style="display: none">
+<div id="edit_picture_form-<%= @photo.id %>" style="display: none;">
   <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |builder| %>
-    <%= builder.label :name %>
+    <%= builder.label :name, "", style:"width: inherit" %>
     <%= builder.text_field :name %>
 
     <%= builder.label :description %>
     <%= builder.text_area :description, :rows => 10 %>
 
-    <%= builder.file_field :photo %>
+    <%= builder.file_field :photo %> <br />
 
     <%= builder.submit "Save", class: "btn btn-inverse"%>
   <% end %>

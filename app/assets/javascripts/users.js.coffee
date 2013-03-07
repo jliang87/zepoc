@@ -23,15 +23,13 @@ $ ->
     $(this).hide()
     event.preventDefault
 
-#change modal size
-#$(document).on 'show', '#myModal', (event)->
-#  $(this).css 'width', 'auto'
-##  $(this).show()
-##  h = $('.modal-body').outerHeight()
-##  $(this).hide()
-#  $('.modal-body').css 'max-height', 'none'
-#  $(this).css 'margin-top', -20
 
+##change modal size
+#$(document).on 'show', '#myModal', (event)->
+#  $(this).show()
+#  h = $('.modal-body').outerHeight() + $('.modal-header').outerHeight() + $('.modal-footer').outerHeight()
+#  $(this).hide()
+#  $(this).css "margin-top": -Math.round(h / 2)
 
 
 $(document).on "focus", 'input[type=text]', (event)->

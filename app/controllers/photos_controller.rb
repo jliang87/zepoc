@@ -34,7 +34,7 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]
     @photo.destroy
-    flash[:notice] = "Successfully destroyed."
+    flash[:notice] = "Successfully deleted."
     redirect_to @user
   end
 

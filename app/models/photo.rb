@@ -8,13 +8,13 @@ class Photo < ActiveRecord::Base
 
 
   if Rails.env.development? || Rails.env.test?
-    has_attached_file :photo, :styles => {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
+    has_attached_file :photo, :styles => {medium: "450x450#", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
                       :path => ":rails_root/public/system/:photo/:id/:style/:filename",
                       :url => "/system/:photo/:id/:style/:filename"
   end
 
   if Rails.env.production?
-    has_attached_file :photo, styles: {medium: "450x450>", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
+    has_attached_file :photo, styles: {medium: "450x450#", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
                       storage: :s3, bucket: 'zepocfirst',
                       s3_credentials: {access_key_id: ENV['S3_KEY'], secret_access_key: ENV['S3_SECRET']},
                       :path => ":rails_root/public/system/:photo/:id/:style/:filename",

@@ -13,7 +13,7 @@ class UsersController < ApplicationController
       #User.send_signup_confirmation @user.email
       sign_in @user
       redirect_to @user
-      flash[:success] = "Welcome to zepoc! Have a good one :)"
+      flash[:success] = "Welcome to zepoc!"
     else
       @user.errors.full_messages.each do |msg| 
         flash.now[:error] = msg 
