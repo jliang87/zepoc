@@ -15,8 +15,18 @@ $.fn.selectRange = (start, end) ->
       range.select()
 
 $.fn.doIcons = ->
-  $(this).click ->
-    alert "fuck"
+  $(this).hover (->
+    id = $(this).data('id')
+    profileuser = $(this).data('profileuser')
+    currentuser = $(this).data('currentuser')
+    unless $('#edit_picture_form-'+id).is(":visible")
+      $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+  ), ->
+    id = $(this).data('id')
+    unless $('#edit_picture_form-'+id).is(":visible")
+      $('#icons-'+id).fadeOut "fast", ->
+        $(this).show().css visibility: "hidden"
+  return this
 
 $ ->
   $("#user_password_textfield").hide()
