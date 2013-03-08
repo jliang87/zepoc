@@ -17,16 +17,16 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]
     if @photo.update_attributes(params[:photo])
-      flash.now[:notice] = "Successfully updated."
+      #flash.now[:notice] = "Successfully updated."
       respond_to do |format|
         format.html { redirect_to @user }
         format.js
       end
     else
       @photo.errors.full_messages.each do |msg|
-        flash.now[:notice] = msg
+        flash[:notice] = msg
       end
-      render 'edit'
+      redirect_to @user
     end
   end
 
@@ -34,7 +34,7 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]
     @photo.destroy
-    flash[:notice] = "Successfully deleted."
+    #flash[:notice] = "Successfully deleted."
     redirect_to @user
   end
 

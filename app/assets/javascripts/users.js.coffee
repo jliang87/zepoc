@@ -14,6 +14,10 @@ $.fn.selectRange = (start, end) ->
       range.moveStart "character", start
       range.select()
 
+$.fn.doIcons = ->
+  $(this).click ->
+    alert "fuck"
+
 $ ->
   $("#user_password_textfield").hide()
 
@@ -22,6 +26,18 @@ $ ->
     $('#avatar').hide()
     $(this).hide()
     event.preventDefault
+
+  $('.dent').hover (->
+    id = $(this).data('id')
+    profileuser = $(this).data('profileuser')
+    currentuser = $(this).data('currentuser')
+    unless $('#edit_picture_form-'+id).is(":visible")
+      $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+  ), ->
+    id = $(this).data('id')
+    unless $('#edit_picture_form-'+id).is(":visible")
+      $('#icons-'+id).fadeOut "fast", ->
+        $(this).show().css visibility: "hidden"
 
 
 ##change modal size

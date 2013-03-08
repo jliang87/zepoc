@@ -3,7 +3,7 @@
   <section class="span12">
     <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
       <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
-        style: "float:left; margin-right: 10px", class: "drop-shadow" %></a>
+        style: "float:left; margin-right: 10px; margin-bottom: 30px", class: "drop-shadow" %></a>
     <% end %>
 
     <div class="modal hide" id="myModal" style="width: auto">
