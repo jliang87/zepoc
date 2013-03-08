@@ -1,5 +1,5 @@
 <% provide(:title, 'Edit user') %>
-<h1>Update your profile</h1>
+<h1>Update Your Profile</h1>
 
 <div class="row">
 	<div class="span6 offset3">
@@ -17,11 +17,11 @@
         </div>
       <% end %>
 
-      <%= f.file_field :avatar, style: "margin-top: 9px;" %>
+      <%= f.file_field :avatar, style: "margin-top: 12px;" %>
 
       <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
         <%= f.hidden_field :destroy_avatar %>
-        <%= link_to "Remove Profile Picture", "#", style: "margin-right: -50px;", class: "remove_avatar" %>
+        <%= link_to "Remove Profile Picture", "#", class: "remove_avatar" %>
       <%end%>
 
 

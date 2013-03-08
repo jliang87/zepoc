@@ -105,15 +105,20 @@ h6 {
   line-height: 1;
   text-transform: lowercase;
   font-family: impregnable;
-  -webkit-transition: color 0.5s linear;
-  -moz-transition: color 0.5s linear;
-  -ms-transition: color 0.5s linear;
-  -o-transition: color 0.5s linear;
-  transition: color 0.5s linear;
+  -webkit-transition: color 0.18s linear;
+  -moz-transition: color 0.18s linear;
+  -ms-transition: color 0.18s linear;
+  -o-transition: color 0.18s linear;
+  transition: color 0.18s linear;
   &:hover {
     //color: #ff6100;
     color: #708090;
     text-decoration: none;
+    -webkit-transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+    transition: color 0.5s linear;
   }
   @include engravedtext;
 }
@@ -144,8 +149,9 @@ footer {
   }
 }
 
-.pagebackgroundcolor
-{background-color:$grayMediumLight;}
+.pagebackgroundcolor{
+  background-color:$grayMediumLight;
+}
 
 @mixin box_sizing
 {
@@ -301,8 +307,8 @@ textarea {
   padding-left: 22px;
   padding-right: 32px;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-  background-color: rgba(0, 0, 0, 0.1);
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  background-color: rgba(0, 0, 0, 0.05);
 
   -moz-border-radius: 6px;
   border-radius: 6px;
