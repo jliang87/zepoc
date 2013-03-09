@@ -14,20 +14,6 @@ $.fn.selectRange = (start, end) ->
       range.moveStart "character", start
       range.select()
 
-$.fn.doIcons = ->
-  $(this).hover (->
-    id = $(this).data('id')
-    profileuser = $(this).data('profileuser')
-    currentuser = $(this).data('currentuser')
-    unless $('#edit_picture_form-'+id).is(":visible")
-      $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
-  ), ->
-    id = $(this).data('id')
-    unless $('#edit_picture_form-'+id).is(":visible")
-      $('#icons-'+id).fadeOut "fast", ->
-        $(this).show().css visibility: "hidden"
-  return this
-
 $ ->
   $("#user_password_textfield").hide()
 
@@ -37,17 +23,20 @@ $ ->
     $(this).hide()
     event.preventDefault
 
-  $('.dent').hover (->
-    id = $(this).data('id')
-    profileuser = $(this).data('profileuser')
-    currentuser = $(this).data('currentuser')
-    unless $('#edit_picture_form-'+id).is(":visible")
-      $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
-  ), ->
-    id = $(this).data('id')
-    unless $('#edit_picture_form-'+id).is(":visible")
-      $('#icons-'+id).fadeOut "fast", ->
-        $(this).show().css visibility: "hidden"
+  $.fn.doIcons = ->
+    $(this).hover (->
+      id = $(this).data('id')
+      profileuser = $(this).data('profileuser')
+      currentuser = $(this).data('currentuser')
+      unless $('#edit_picture_form-'+id).is(":visible")
+        $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+    ), ->
+      id = $(this).data('id')
+      unless $('#edit_picture_form-'+id).is(":visible")
+        $('#icons-'+id).fadeOut "fast", ->
+          $(this).show().css visibility: "hidden"
+    return this
+
 
 
 ##change modal size
