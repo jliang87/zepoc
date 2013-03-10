@@ -11,7 +11,7 @@
           <i class="icon-edit icon-black"></i>
         <% end %>
       </div>
-      <p><%= image_tag p.photo.url(:medium), class: "img-polaroid" %></p>
+      <a href="<%= user_photo_path(@user, p) %>"><%= image_tag p.photo.url(:medium), class: "img-polaroid" %></a>
       <h6><%= simple_format p.description %></h6>
     </div>
   <% end %>

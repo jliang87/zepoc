@@ -37,7 +37,7 @@ class Photo < ActiveRecord::Base
 
     elsif Rails.env.production?
       @geometry ||= {}
-      @geometry[style] ||= Paperclip::Geometry.from_file(photo.to_file(style))
+      @geometry[style] ||= Paperclip::Geometry.from_file(photo.url(style))
     end
   end
 

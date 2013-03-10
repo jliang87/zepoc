@@ -9,7 +9,7 @@
       <i class="icon-edit icon-black"></i>
     <% end %>
   </div>
-  <p><%= image_tag @photo.photo.url(:medium), class: "img-polaroid" %></p>
+  <a href="<%= user_photo_path(@user, @photo) %>"><%= image_tag @photo.photo.url(:medium), class: "img-polaroid" %></a>
   <h6><%= simple_format @photo.description %></h6>
 </div>
 

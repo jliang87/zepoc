@@ -14,6 +14,7 @@ $.fn.selectRange = (start, end) ->
       range.moveStart "character", start
       range.select()
 
+
 $ ->
   $("#user_password_textfield").hide()
 
@@ -29,13 +30,23 @@ $ ->
       profileuser = $(this).data('profileuser')
       currentuser = $(this).data('currentuser')
       unless $('#edit_picture_form-'+id).is(":visible")
-        $('#icons-'+id).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+        $('#icons-'+id).stop(true, true).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
     ), ->
       id = $(this).data('id')
       unless $('#edit_picture_form-'+id).is(":visible")
         $('#icons-'+id).fadeOut "fast", ->
           $(this).show().css visibility: "hidden"
     return this
+
+  $('#avatar').hover (->
+    profileuser = $(this).data('profileuser')
+    currentuser = $(this).data('currentuser')
+    $('#avatar-crop').stop(true, true).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+  ), ->
+    $('#avatar-crop').delay(1000).fadeOut "fast", ->
+      $(this).show().css visibility: "hidden"
+  return this
+
 
 
 
@@ -143,13 +154,3 @@ $(document).delegate "#user_password_textfield", "focus", ->
   $(this).addClass "textfieldtextcolorclick"
   $(this).css "color", "#222222"
 
-
-
-#user_passwordconfirm_textfield
-$(document).delegate "#user_passwordconfirm_textfield", "blur", ->
-  $(this).css "color", "#B2B2B2"
-  $(this).removeClass "textfieldtextcolorclick"
-
-$(document).delegate "#user_passwordconfirm_textfield", "focus", ->
-  $(this).addClass "textfieldtextcolorclick"
-  $(this).css "color", "#222222"

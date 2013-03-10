@@ -2,65 +2,71 @@
 <div class="row">
   <section class="span12">
     <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
-      <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
-        style: "float:left; margin-right: 10px; margin-bottom: 30px", class: "drop-shadow" %></a>
+
+      <div id="avatar" data-profileuser="<%= @user.name %>" data-currentuser="<%= current_user.name %>">
+        <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
+          style: "float:left; margin-right: 10px; margin-bottom: 30px", class: "drop-shadow" %></a>
+      </div>
+
+      <div id="avatar-crop" style="visibility: hidden;">
+        <a data-toggle="modal" href="#myCropModal"><i class="icon-eye-open icon-black"></i></a>
+      </div>
+
     <% end %>
 
-    <div class="modal hide" id="myModal" style="width: auto">
+    <div class="modal hide" id="myCropModal" style="width: auto">
       <div class="modal-header pagebackgroundcolor">
         <!--<a class="close" data-dismiss="modal">x</a>-->
         <button type="button" class="close" data-dismiss="modal">x</button>
         <h3><%= @user.name %></h3>
       </div>
       <div class="modal-body pagebackgroundcolor" style="padding-left: 28px; max-height: none;">
-        <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0) %>
-          <%= javascript_include_tag "jquery.min" %>
-          <%= javascript_include_tag "jquery.Jcrop.min" %>
-          <%= stylesheet_link_tag "jquery.Jcrop" %>
-          <script type="text/javascript" charset="utf-8">
-            $(function() {
-              $('#cropbox').Jcrop({
-                onChange: update_crop,
-                onSelect: update_crop,
-                setSelect: [0, 0, 300, 300],
-                aspectRatio: 1,
-                addClass: "shadow"
-              });
+        <%= javascript_include_tag "jquery.min" %>
+        <%= javascript_include_tag "jquery.Jcrop.min" %>
+        <%= stylesheet_link_tag "jquery.Jcrop" %>
+        <script type="text/javascript" charset="utf-8">
+          $(function() {
+            $('#cropbox').Jcrop({
+              onChange: update_crop,
+              onSelect: update_crop,
+              setSelect: [0, 0, 300, 300],
+              aspectRatio: 1,
+              addClass: "shadow"
             });
+          });
 
-            function update_crop(coords) {
-              var rx = 150/coords.w;
-              var ry = 150/coords.h;
-              $('#preview').css({
-                width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
-                height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
-                marginLeft: '-' + Math.round(rx * coords.x) + 'px',
-                marginTop: '-' + Math.round(ry * coords.y) + 'px'
-              });
-              var ratio = <%= @user.avatar_geometry(:original).width %>
-                  / <%= @user.avatar_geometry(:medium).width %>;
-              $("#crop_x").val(Math.round(coords.x * ratio));
-              $("#crop_y").val(Math.round(coords.y * ratio));
-              $("#crop_w").val(Math.round(coords.w * ratio));
-              $("#crop_h").val(Math.round(coords.h * ratio));
-            }
-          </script>
-          <table>
-            <tr>
-              <td>
-                <div style="padding-right: 40px">
-                  <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
-                </div>
-              </td>
-              <td class="vertical_divider">
-                <div style="width:150px; height:150px; overflow:hidden; margin-right: -2px;"
-                  class="shadow">
-                  <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none"%>
-                </div>
-              </td>
-            </tr>
-          </table>
-        <% end %>
+          function update_crop(coords) {
+            var rx = 150/coords.w;
+            var ry = 150/coords.h;
+            $('#preview').css({
+              width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
+              height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
+              marginLeft: '-' + Math.round(rx * coords.x) + 'px',
+              marginTop: '-' + Math.round(ry * coords.y) + 'px'
+            });
+            var ratio = <%= @user.avatar_geometry(:original).width %>
+                / <%= @user.avatar_geometry(:medium).width %>;
+            $("#crop_x").val(Math.round(coords.x * ratio));
+            $("#crop_y").val(Math.round(coords.y * ratio));
+            $("#crop_w").val(Math.round(coords.w * ratio));
+            $("#crop_h").val(Math.round(coords.h * ratio));
+          }
+        </script>
+        <table>
+          <tr>
+            <td>
+              <div style="padding-right: 40px">
+                <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
+              </div>
+            </td>
+            <td class="vertical_divider">
+              <div style="width:150px; height:150px; overflow:hidden; margin-right: -2px;"
+                class="shadow">
+                <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none"%>
+              </div>
+            </td>
+          </tr>
+        </table>
       </div>
       <div class="modal-footer pagebackgroundcolor">
         <!--<a href="#" class="btn" data-dismiss="modal">Close</a>-->
@@ -74,8 +80,25 @@
       </div>
     </div>
 
+    <div class="modal hide" id="myModal">
+      <div class="modal-header pagebackgroundcolor">
+        <!--<a class="close" data-dismiss="modal">x</a>-->
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3><%= @user.name %></h3>
+      </div>
+      <div class="modal-body pagebackgroundcolor">
+        <%= image_tag @user.avatar.url(:original), class: "shadow" %>
+      </div>
+    </div>
+
     <h2><%= link_to "Edit Me", edit_user_path(@user) %></h2>
   </section>
+
+  <%= form_for ([@user, @photo]) do |f| %>
+    <%= f.file_field :photo %>
+    <%= f.hidden_field :user_id, value: @user.id %>
+    <%= f.submit %>
+  <% end %>
 
   <section>
     <%= render 'show_photos' %>

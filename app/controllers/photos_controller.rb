@@ -4,6 +4,12 @@ class PhotosController < ApplicationController
     @photo = Photo.new
   end
 
+  def create
+    @photo = Photo.create(params[:photo])
+    @user = User.find_by_name params[:user_id]
+    redirect_to @user
+  end
+
   def edit
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]

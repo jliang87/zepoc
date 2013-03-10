@@ -18,8 +18,8 @@
         style: "color: #B2B2B2" %>
       <%= f.password_field :password, id: "user_password_textfield" %>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
-      <%= f.password_field :password_confirmation, id: "user_passwordconfirm_textfield" %>
+      <%= f.label :password_confirmation, "Password Confirmation" %>
+      <%= f.password_field :password_confirmation %>
 
       <%= f.label "Choose a photo:" %>
       <%= f.file_field :avatar %>
