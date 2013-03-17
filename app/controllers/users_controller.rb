@@ -55,7 +55,7 @@ class UsersController < ApplicationController
             redirect_to @user
     else
       unless @user.authenticate(params[:user][:password])
-        @user.errors.full_messages.push("Oops, wrong password. Please try again").each do |msg|
+        @user.errors.full_messages.push("Oops, wrong password. Please try again.").each do |msg|
           flash.now[:error] = msg
         end
       else

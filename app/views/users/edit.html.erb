@@ -24,12 +24,12 @@
         <%= link_to "Remove Profile Picture", "#", class: "remove_avatar" %>
       <%end%>
 
-
       <%= f.fields_for :photos do |builder| %>
         <%= render 'photo_field', f: builder %>
       <% end %>
 
-      <br /> <%= link_to_add_fields "Add Photos", f, :photos %>
+      <h3><%= link_to_add_fields "Add Photos", f, :photos %>
+        <i class="icon-picture icon-black" style="margin-left: 3px;"></i></h3>
 
       <%= f.label :password, "To save settings, please enter password", style: "margin-top: 30px"%>
       <%= f.password_field :password %>
