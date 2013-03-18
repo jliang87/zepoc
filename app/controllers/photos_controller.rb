@@ -22,7 +22,7 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
     @user = User.find_by_name params[:user_id]
     if @photo.update_attributes(params[:photo])
-      #flash.now[:notice] = "Successfully updated."
+      #flash[:notice] = "Successfully updated."
       respond_to do |format|
         format.html { redirect_to @user }
         format.js
@@ -31,7 +31,10 @@ class PhotosController < ApplicationController
       @photo.errors.full_messages.each do |msg|
         flash[:notice] = msg
       end
-      redirect_to @user
+      #respond_to do |format|
+      #  format.html { redirect_to @user }
+      #  format.js
+      #end
     end
   end
 

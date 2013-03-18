@@ -6,9 +6,9 @@
     <%= builder.label :description, style:"text-align: center"%>
     <%= builder.text_area :description, :rows => 10 %>
 
-    <%= builder.file_field :photo %> <br />
+    <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id} %> <br />
 
-    <%= builder.submit "Save", class: "btn btn-inverse"%>
+    <%= builder.submit "Save", class: "btn btn-inverse", id: 'picture-update-button-'+@photo.id.to_s %>
   <% end %>
 </div>
 

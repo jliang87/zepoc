@@ -19,4 +19,13 @@ module ApplicationHelper
     link_to(name, '#', class: "add_fields", data: {id: id, fields: fields.gsub("\n", "")})
   end
 
+  def flash_ajax()
+    response = ""
+    flash.each do |key, value|
+      response = response + content_tag(:div, value, class: "alert alert-#{key}")
+    end
+    flash.discard
+    response
+  end
+
 end

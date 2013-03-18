@@ -14,6 +14,7 @@ $.fn.selectRange = (start, end) ->
       range.moveStart "character", start
       range.select()
 
+
 $ ->
   $("#user_password_textfield").hide()
 
@@ -158,22 +159,49 @@ $(document).delegate "#user_password_textfield", "focus", ->
 
 
 (($) ->
-  $ ->
-    $('#new_photo').fileupload
+  $(document).on 'click', '.edit_picture_form_file_field', (event) ->
+    id = $(this).data 'id'
+    $('#edit_photo_'+id).fileupload
       dataType: "script"
+      dropZone: null
+      pasteZone: null
+      replaceFileInput: false
       add: (e, data) ->
-        types = /(\.|\/)(gif|jpe?g|png)$/i
-        file = data.files[0]
-        if types.test(file.type) || types.test(file.name)
-#          data.context = $(tmpl("template-upload", file))
-#          $('#new_painting').append(data.context)
-          data.submit()
-        else
-          alert("#{file.name} is not a gif, jpeg, or png image file")
+        $('#picture-update-button-'+id).on 'click', (event) ->
+          event.preventDefault()
+          types = /(\.|\/)(jpe?g|png)$/i
+          file = data.files[0]
+          if types.test(file.type) || types.test(file.name)
+            #          data.context = $(tmpl("template-upload", file))
+            #          $('#new_painting').append(data.context)
+            data.submit()
+            $('#picture-update-button-'+id).attr 'disabled', 'disabled'
+          else
+            alert("#{file.name} is not a jpeg or png image file!")
       progress: (e, data) ->
         if data.context
           progress = parseInt(data.loaded / data.total * 100, 10)
           data.context.find('.spin').fadeIn()
+
+  $ ->
+    $('#photo_photo').click ->
+      $('#new_photo').fileupload
+        dataType: "script"
+        dropZone: null
+        pasteZone: null
+        add: (e, data) ->
+          types = /(\.|\/)(jpe?g|png)$/i
+          file = data.files[0]
+          if types.test(file.type) || types.test(file.name)
+  #          data.context = $(tmpl("template-upload", file))
+  #          $('#new_painting').append(data.context)
+            data.submit()
+          else
+            alert("#{file.name} is not a jpeg or png image file!")
+        progress: (e, data) ->
+          if data.context
+            progress = parseInt(data.loaded / data.total * 100, 10)
+            data.context.find('.spin').fadeIn()
 ) jQuery
 
 
