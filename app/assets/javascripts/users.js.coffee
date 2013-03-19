@@ -172,15 +172,15 @@ $(document).delegate "#user_password_textfield", "focus", ->
           types = /(\.|\/)(jpe?g|png)$/i
           file = data.files[0]
           if types.test(file.type) || types.test(file.name)
-            #          data.context = $(tmpl("template-upload", file))
-            #          $('#new_painting').append(data.context)
+            data.context = $(tmpl("template-upload", file))
+            $('#edit_photo_'+id).append(data.context)
             data.submit()
             $('#picture-update-button-'+id).attr 'disabled', 'disabled'
           else
             alert("#{file.name} is not a jpeg or png image file!")
       progress: (e, data) ->
         if data.context
-          progress = parseInt(data.loaded / data.total * 100, 10)
+#          progress = parseInt(data.loaded / data.total * 100, 10)
           data.context.find('.spin').fadeIn()
 
   $ ->
@@ -193,14 +193,14 @@ $(document).delegate "#user_password_textfield", "focus", ->
           types = /(\.|\/)(jpe?g|png)$/i
           file = data.files[0]
           if types.test(file.type) || types.test(file.name)
-  #          data.context = $(tmpl("template-upload", file))
-  #          $('#new_painting').append(data.context)
+            data.context = $(tmpl("template-upload", file))
+            $('#new_photo').append(data.context)
             data.submit()
           else
             alert("#{file.name} is not a jpeg or png image file!")
         progress: (e, data) ->
           if data.context
-            progress = parseInt(data.loaded / data.total * 100, 10)
+#            progress = parseInt(data.loaded / data.total * 100, 10)
             data.context.find('.spin').fadeIn()
 ) jQuery
 

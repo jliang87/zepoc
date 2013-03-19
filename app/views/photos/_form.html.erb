@@ -4,15 +4,22 @@
     <%= builder.text_field :name %>
 
     <%= builder.label :description, style:"text-align: center"%>
-    <%= builder.text_area :description, :rows => 10 %>
+    <%= builder.text_area :description, :rows => 5 %>
 
-    <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id} %> <br />
+    <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id} %>
 
-    <i class="icon-spinner icon-spin"> </i>
+    <br />
 
     <%= builder.submit "Save", class: "btn btn-inverse", id: 'picture-update-button-'+@photo.id.to_s %>
   <% end %>
 </div>
+
+<script id="template-upload" type="text/x-tmpl">
+  <div class="upload">
+    <!--{%=o.name%}-->
+   <div class="spin" style="display: none"><br /><i class="icon-spinner icon-spin icon-large"></i></div>
+  </div>
+</script>
 
 <!-- to get rid of "display: none", use ".hide().slideDown()"-->
 
