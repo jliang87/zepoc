@@ -8,6 +8,8 @@
 
     <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id} %> <br />
 
+    <i class="icon-spinner icon-spin"> </i>
+
     <%= builder.submit "Save", class: "btn btn-inverse", id: 'picture-update-button-'+@photo.id.to_s %>
   <% end %>
 </div>

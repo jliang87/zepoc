@@ -3,7 +3,8 @@
   <section class="span12">
     <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
 
-      <div id="avatar" data-profileuser="<%= @user.name %>" data-currentuser="<%= current_user.name %>">
+      <div id="avatar" data-profileuser="<%= @user.name %>" data-currentuser="<%= signed_in? ? current_user.name
+        : nil %>">
         <a data-toggle="modal" href="#myModal"><%= image_tag @user.avatar.url(:thumb),
           style: "float:left; margin-right: 10px; margin-bottom: 30px", class: "drop-shadow" %></a>
       </div>
@@ -96,12 +97,14 @@
 
   <section>
     <div style="max-height: 1px; margin-left: 20px;">
-      <% if @user.name == current_user.name %>
-        <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |f| %>
-          <%= f.file_field :photo, class: "realfile", style:"width: 13px; height:17px; overflow: hidden",
-            multiple: true, name: "photo[photo]" %>
-          <i class="icon-picture fakefile"></i>
-          <%= f.hidden_field :user_id, value: @user.id %>
+      <% if signed_in? %>
+        <% if @user.name == current_user.name %>
+          <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |f| %>
+            <%= f.file_field :photo, class: "realfile", style:"width: 13px; height:17px; overflow: hidden",
+              multiple: true, name: "photo[photo]" %>
+            <i class="icon-picture fakefile"></i>
+            <%= f.hidden_field :user_id, value: @user.id %>
+          <% end %>
         <% end %>
       <% end %>
     </div>

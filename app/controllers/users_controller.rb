@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
   def show
     @user = User.find_by_name params[:id]
-    if @user.name == current_user.name
-      @photo = Photo.new
+    if signed_in?
+      if @user.name == current_user.name
+        @photo = Photo.new
+      end
     end
   end
   
