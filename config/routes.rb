@@ -1,7 +1,9 @@
 SampleApp::Application.routes.draw do
 
   resources :im, controller: "users", as: "users" do
-    resources :photos
+    resources :photos do
+      get 'download', on: :member
+    end
   end
   resources :sessions, only: [:new, :create, :destroy]
   resources :password_resets

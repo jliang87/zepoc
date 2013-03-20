@@ -43,7 +43,18 @@ class PhotosController < ApplicationController
     @user = User.find_by_name params[:user_id]
     @photo.destroy
     #flash[:notice] = "Successfully deleted."
-    redirect_to @user
+    respond_to do |format|
+      format.html { redirect_to @user }
+      format.js
+    end
   end
+
+  def download
+    @photo = Photo.find(params[:id])
+
+    send_file  @photo.photo.path,
+               :filename => @photo.photo.original_filename,
+               :disposition => 'attachment'
+    end
 
 end

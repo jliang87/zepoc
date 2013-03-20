@@ -16,6 +16,7 @@ module ApplicationHelper
     fields = f.fields_for(association, new_object, child_index: id) do |builder|
       render(association.to_s.singularize + "_field", f: builder)
     end
+    concat(("<i class='icon-camera-retro icon-black' style='margin-right: 4px'></i>").html_safe)
     link_to(name, '#', class: "add_fields", data: {id: id, fields: fields.gsub("\n", "")})
   end
 

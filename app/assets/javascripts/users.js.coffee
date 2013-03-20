@@ -20,8 +20,8 @@ $ ->
 
   $('.remove_avatar').on 'click', (event) ->
     $(this).prev('input[type=hidden]').val('1')
-    $('#avatar').hide()
-    $(this).hide()
+    $('#avatar').fadeOut('slow')
+    $(this).fadeOut('slow')
     event.preventDefault
 
   $.fn.doIcons = ->
@@ -31,21 +31,28 @@ $ ->
       currentuser = $(this).data('currentuser')
       unless $('#edit_picture_form-'+id).is(":visible")
         $('#icons-'+id).stop(true, true).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+        return this
     ), ->
       id = $(this).data('id')
       unless $('#edit_picture_form-'+id).is(":visible")
         $('#icons-'+id).fadeOut "fast", ->
           $(this).show().css visibility: "hidden"
-    return this
 
   $('#avatar').hover (->
     profileuser = $(this).data('profileuser')
     currentuser = $(this).data('currentuser')
     $('#avatar-crop').stop(true, true).hide().css(visibility: "visible").fadeIn "slow" if profileuser is currentuser
+    return this
   ), ->
     $('#avatar-crop').delay(1000).fadeOut "fast", ->
       $(this).show().css visibility: "hidden"
-  return this
+
+  $('form').on 'click', '.show_photo_fields', (event) ->
+    $(this).next('div').slideToggle('slow')
+    $(this).next('div').css 'overflow', 'visible'
+    event.preventDefault
+
+
 
 
 
@@ -193,15 +200,25 @@ $(document).delegate "#user_password_textfield", "focus", ->
           types = /(\.|\/)(jpe?g|png)$/i
           file = data.files[0]
           if types.test(file.type) || types.test(file.name)
-            data.context = $(tmpl("template-upload", file))
-            $('#new_photo').append(data.context)
+#            data.context = $(tmpl("template-upload", file))
+#            $('#new_photo').append(data.context)
             data.submit()
           else
             alert("#{file.name} is not a jpeg or png image file!")
         progress: (e, data) ->
-          if data.context
-#            progress = parseInt(data.loaded / data.total * 100, 10)
-            data.context.find('.spin').fadeIn()
+#          if data.context
+##            progress = parseInt(data.loaded / data.total * 100, 10)
+#            data.context.find('.spin').fadeIn()
+            $('.fakefile').addClass('icon-spin')
+#
+        done: (e, data) ->
+
+          $('.fakefile').fadeTo()
+          $('.fakefile').removeClass('icon-spin')
+
+
+
+
 ) jQuery
 
 

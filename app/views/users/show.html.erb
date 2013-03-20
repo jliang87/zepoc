@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <h2><%= link_to "Edit Me", edit_user_path(@user) %></h2>
+    <!--<h2><%= link_to "Edit Me", edit_user_path(@user) %></h2>-->
   </section>
 
   <section>
@@ -102,7 +102,7 @@
           <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |f| %>
             <%= f.file_field :photo, class: "realfile", style:"width: 13px; height:17px; overflow: hidden",
               multiple: true, name: "photo[photo]" %>
-            <i class="icon-picture fakefile"></i>
+            <i class="icon-camera-retro icon-large fakefile"></i>
             <%= f.hidden_field :user_id, value: @user.id %>
           <% end %>
         <% end %>
