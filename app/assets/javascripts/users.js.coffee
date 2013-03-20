@@ -200,21 +200,19 @@ $(document).delegate "#user_password_textfield", "focus", ->
           types = /(\.|\/)(jpe?g|png)$/i
           file = data.files[0]
           if types.test(file.type) || types.test(file.name)
-#            data.context = $(tmpl("template-upload", file))
-#            $('#new_photo').append(data.context)
             data.submit()
           else
             alert("#{file.name} is not a jpeg or png image file!")
         progress: (e, data) ->
-#          if data.context
-##            progress = parseInt(data.loaded / data.total * 100, 10)
-#            data.context.find('.spin').fadeIn()
-            $('.fakefile').addClass('icon-spin')
+          $('.fakefile').addClass('icon-spin')
 #
         done: (e, data) ->
+          $('.fakefile').fadeOut(->
+            $('.fakefile').removeClass('icon-spin')
+            $('.fakefile').fadeIn()
+          )
 
-          $('.fakefile').fadeTo()
-          $('.fakefile').removeClass('icon-spin')
+
 
 
 
