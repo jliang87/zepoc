@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1846f3-878b-47b6-8954-72235f86e902" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/linecache19-0.5.13.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Jcrop-00b1ecf45d1cdf3c9a3df1b8b446d43a.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Jcrop-439599ec2f8447453c1a0ba7c9f1b229.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-0144453491bc75e2a8a81ccd0a1c0df0.css" afterPath="" />
@@ -60,6 +64,36 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-e19cc14e7b458337c25b4a0b230d6cac.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/submit-ae444d8636686444611d79c63e3f61d1.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/submit-d8ab49557ad417da3e990387ff053dbd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/103/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/103/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/103/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/104/medium/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/104/original/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/104/thumb/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/105/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/105/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/105/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/109/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/109/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/109/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/11/medium/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/11/original/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/11/thumb/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/110/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/110/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/110/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/111/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/111/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/111/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/112/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/112/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/112/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/115/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/115/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/115/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/12/medium/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/12/original/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/12/thumb/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/15/medium/2012-12-13_20.38.07.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/15/medium/SAM_0782.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/15/original/2012-12-13_20.38.07.jpg" afterPath="" />
@@ -78,12 +112,36 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/21/medium/SAM_0767-1.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/21/original/SAM_0767-1.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/21/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/23/medium/Screen_Shot_2013-03-09_at_11.16.35_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/23/original/Screen_Shot_2013-03-09_at_11.16.35_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/23/thumb/Screen_Shot_2013-03-09_at_11.16.35_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/24/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/24/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/24/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/25/medium/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/25/original/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/25/thumb/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/26/medium/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/26/original/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/26/thumb/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/27/medium/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/27/original/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/27/thumb/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/28/medium/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/28/original/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/28/thumb/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/medium/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/medium/test4.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/original/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/original/test4.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/thumb/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/29/thumb/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/medium/546703_10151325252185862_1406642850_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/original/546703_10151325252185862_1406642850_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/thumb/546703_10151325252185862_1406642850_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/3/thumb/SAM_0719.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/30/medium/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/30/original/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/30/thumb/Screen_Shot_2013-03-09_at_10.07.01_AM.png" afterPath="" />
@@ -120,6 +178,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/39/original/SAM_0719.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/39/thumb/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/39/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/4/medium/photo.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/4/original/photo.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/4/thumb/photo.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/41/medium/179527_10150974783235862_182583510_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/41/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/41/original/179527_10150974783235862_182583510_n.jpg" afterPath="" />
@@ -144,8 +205,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/44/original/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/44/thumb/2012-12-13_20.38.07.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/44/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/medium/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/original/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/original/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/thumb/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/45/thumb/test.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/46/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/46/original/orange-tree-1024-768-7892.jpg" afterPath="" />
@@ -153,12 +217,45 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/47/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/47/original/orange-tree-1024-768-7892.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/47/thumb/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/medium/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/original/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/original/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/thumb/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/48/thumb/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/49/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/49/original/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/49/thumb/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/5/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/5/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/5/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/50/medium/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/50/original/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/50/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/51/medium/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/51/original/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/51/thumb/orange-tree-1024-768-7892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/52/medium/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/52/original/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/52/thumb/test4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/53/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/53/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/53/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/54/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/54/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/54/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/56/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/56/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/56/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/57/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/57/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/57/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/59/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/59/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/59/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/6/medium/photo.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/6/original/photo.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/6/thumb/photo.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/63/medium/test4.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/63/original/test4.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/63/thumb/test4.jpg" afterPath="" />
@@ -180,6 +277,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/69/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/69/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/69/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/7/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/7/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/7/thumb/SAM_0719.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/70/medium/test-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/70/original/test-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/70/thumb/test-1.jpg" afterPath="" />
@@ -231,15 +331,204 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/87/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/87/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/87/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/89/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/89/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/89/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/9/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/9/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/9/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/90/medium/test-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/90/original/test-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/90/thumb/test-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/91/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/91/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/91/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/92/medium/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/92/original/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/92/thumb/orange-tree-1024-768-7892-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/93/medium/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/93/original/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/:photo/93/thumb/orange-tree-1024-768-7892-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/medium/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/medium/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/medium/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/original/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/original/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/original/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/thumb/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/thumb/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/1/thumb/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/13/medium/SAM_0767.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/13/original/SAM_0767.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/13/thumb/SAM_0767.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/14/medium/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/14/original/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/14/thumb/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/15/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/15/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/15/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/16/medium/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/16/original/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/16/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/17/medium/IMG_6855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/17/original/IMG_6855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/17/thumb/IMG_6855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/18/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/18/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/18/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/19/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/19/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/19/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/medium/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/medium/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/original/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/original/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/thumb/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/2/thumb/2012-07-19_21.15.31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/20/medium/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/20/original/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/20/thumb/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/21/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/21/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/21/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/22/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/22/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/22/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/23/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/23/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/23/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/24/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/24/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/24/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/25/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/25/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/25/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/26/medium/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/26/original/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/26/thumb/SAM_0783.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/27/medium/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/27/original/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/27/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/28/medium/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/28/original/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/28/thumb/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/29/medium/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/29/original/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/29/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/medium/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/medium/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/medium/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/original/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/original/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/original/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/thumb/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/thumb/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/3/thumb/Photo_on_2012-09-28_at_10.08_PM.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/32/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/32/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/32/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/33/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/33/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/33/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/34/medium/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/34/original/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/34/thumb/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/35/medium/174cbbf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/35/original/174cbbf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/35/thumb/174cbbf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/36/medium/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/36/original/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/36/thumb/563687_452283828164436_1899910226_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/37/medium/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/37/original/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/37/thumb/303ac3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/38/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/38/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/38/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/39/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/39/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/39/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/4/medium/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/4/original/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/4/thumb/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/40/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/40/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/40/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/41/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/41/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/41/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/42/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/42/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/42/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/43/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/43/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/43/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/44/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/44/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/44/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/45/medium/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/45/original/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/45/thumb/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/46/medium/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/46/original/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/46/thumb/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/47/medium/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/47/original/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/47/thumb/IMG_20121220_223001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/48/medium/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/48/original/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/48/thumb/SAM_0718.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/49/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/49/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/49/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/5/medium/2012-08-23_12.53.26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/5/original/2012-08-23_12.53.26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/5/thumb/2012-08-23_12.53.26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/50/medium/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/50/original/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/50/thumb/SAM_0782.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/51/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/51/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/51/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/medium/2012-12-15_15.12.14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/medium/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/original/2012-12-15_15.12.14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/original/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/thumb/2012-12-15_15.12.14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/thumb/250985_10151815368095018_1299208859_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/52/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/53/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/53/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/53/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/medium/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/medium/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/original/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/original/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/thumb/IMG_20121220_223001.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/55/thumb/SAM_0767-1.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/medium/563687_452283828164436_1899910226_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/medium/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/medium/SAM_0767-1.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/original/563687_452283828164436_1899910226_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/original/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/original/SAM_0767-1.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/thumb/563687_452283828164436_1899910226_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/thumb/SAM_0719.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/56/thumb/SAM_0767-1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/medium/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/medium/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/original/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/original/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/thumb/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/6/thumb/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/7/medium/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/7/original/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/7/thumb/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/8/medium/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/8/original/2012-06-08_17.08.36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/avatars/8/thumb/2012-06-08_17.08.36.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.0.0/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.0.0/CHANGELOG.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.0.0/Gemfile" afterPath="" />
@@ -299,7 +588,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/rails/ruby/1.9.1/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery_ujs.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruby-debug-base19-0.11.26.gem" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -358,28 +649,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persistence.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/persistence.rb">
+      <file leaf-file-name="application.css.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="photo.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_env_vars.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/initializers/app_env_vars.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="69" selection-end="69" vertical-scroll-proportion="0.03505535">
+            <state line="13" column="51" selection-start="516" selection-end="516" vertical-scroll-proportion="0.45571956">
               <folding />
             </state>
           </provider>
@@ -426,7 +708,6 @@
         <option value="$PROJECT_DIR$/app/views/users/_photo_field.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/users.js.coffee" />
-        <option value="$PROJECT_DIR$/app/models/photo.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
@@ -437,6 +718,7 @@
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/initializers/app_env_vars.rb" />
+        <option value="$PROJECT_DIR$/app/models/photo.rb" />
       </list>
     </option>
   </component>
@@ -625,46 +907,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=":photo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1426,58 +1668,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="54" selection-start="6286" selection-end="6286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/persistence.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="8" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/annotate-2.5.0/lib/annotate/active_record_patch.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.15261044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="38" selection-start="492" selection-end="492" vertical-scroll-proportion="-6.785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1533,7 +1726,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/app_env_vars.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="69" selection-end="69" vertical-scroll-proportion="0.03505535">
+        <state line="1" column="61" selection-start="75" selection-end="75" vertical-scroll-proportion="0.03505535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="44" selection-start="461" selection-end="461" vertical-scroll-proportion="0.5608856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rails/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/persistence.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="363" column="73" selection-start="14491" selection-end="14491" vertical-scroll-proportion="0.47416973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/users.css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="516" selection-end="516" vertical-scroll-proportion="0.45571956">
           <folding />
         </state>
       </provider>

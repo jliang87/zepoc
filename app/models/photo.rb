@@ -48,7 +48,7 @@ class Photo < ActiveRecord::Base
   end
 
   def default_description
-    self.description ||= ("Write something here.") if photo
+    self.description ||= "Write something here.".html_safe if photo
   end
 
 
