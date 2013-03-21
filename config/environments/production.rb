@@ -75,8 +75,8 @@ SampleApp::Application.configure do
     port: 587,
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV['EMAIL'],
-    password: ENV['PASSWORD']
+    user_name: ENV['zepocEmail'],
+    password: ENV['zepocPassword']
   }
   
 end
