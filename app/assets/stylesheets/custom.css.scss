@@ -6,11 +6,17 @@ $textColor: #707070;
 @font-face {
   font-family: champagne;
   src: url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: impregnable;
   src: url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* mixins, variables, etc. */
@@ -333,18 +339,18 @@ textarea {
 //}
 
 .fakefile {
-  //position: absolute;
+  position: absolute;
   //top: 0px;
   //left: 0px;
   z-index: 1;
-  margin-left: -18px;
+  margin-left: -20px;
 }
 
 .realfile {
   position: relative;
   text-align: right;
   z-index: 2;
-  margin-bottom: 9px;
+  margin-top: -7px;
   -moz-opacity:0 ;
   filter:alpha(opacity= 0);
   opacity: 0;

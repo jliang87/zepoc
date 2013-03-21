@@ -30,11 +30,11 @@
       <%= f.label :password, "To save settings, please enter password"%>
       <%= f.password_field :password %>
 
-      <%= f.submit "Save changes", class: "btn btn-large btn-inverse", style: "margin-bottom: 30px" %>
+      <%= f.submit "Save all changes", class: "btn btn-large btn-inverse", style: "margin-bottom: 30px" %>
 
       <br />
       <i class="icon-picture icon-black"></i>
-      <%= link_to "Edit Photos", "#", class: "show_photo_fields" %>
+      <%= link_to "Edit Photos ↓", "#", class: "show_photo_fields" %>
       <div style="display: none;">
         <%= f.fields_for :photos do |builder| %>
           <%= render 'photo_field', f: builder %>

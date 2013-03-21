@@ -1,14 +1,19 @@
-<div>
+<div style="margin-top: 20px;">
   <%= f.label :name %>
   <%= f.text_field :name %>
 
   <%= f.label :description %>
   <%= f.text_area :description, :rows => 5 %>
 
+  <% unless f.object.photo.original_filename.blank? %>
+    <%= image_tag f.object.photo.url(:thumb), class:"drop-shadow", style:"margin-bottom: 6px" %>
+  <% end %>
+
   <%= f.file_field :photo %>
 
   <%= f.hidden_field :_destroy %>
-  <%= link_to "Remove", "#", style: "float: right; margin-top: 5px; margin-right: -13px", class: "remove_fields" %>
+  <%= link_to "Remove Photo Above", "#", style: "float: right; margin-top: 5px; margin-right: -13px",
+    class: "remove_fields" %>
 </div>
 
 <!--<br />-->

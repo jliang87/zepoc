@@ -13,94 +13,95 @@
         <a data-toggle="modal" href="#myCropModal"><i class="icon-eye-open icon-black"></i></a>
       </div>
 
+
+      <div class="modal hide" id="myCropModal" style="width: auto">
+        <div class="modal-header pagebackgroundcolor">
+          <!--<a class="close" data-dismiss="modal">x</a>-->
+          <button type="button" class="close" data-dismiss="modal">x</button>
+          <h3><%= @user.name %></h3>
+        </div>
+        <div class="modal-body pagebackgroundcolor" style="padding-left: 28px; max-height: none;">
+          <%= javascript_include_tag "jquery.min" %>
+          <%= javascript_include_tag "jquery.Jcrop.min" %>
+          <%= stylesheet_link_tag "jquery.Jcrop" %>
+          <script type="text/javascript" charset="utf-8">
+            $(function() {
+              $('#cropbox').Jcrop({
+                onChange: update_crop,
+                onSelect: update_crop,
+                setSelect: [0, 0, 300, 300],
+                aspectRatio: 1,
+                addClass: "shadow"
+              });
+            });
+
+            function update_crop(coords) {
+              var rx = 150/coords.w;
+              var ry = 150/coords.h;
+              $('#preview').css({
+                width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
+                height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
+                marginLeft: '-' + Math.round(rx * coords.x) + 'px',
+                marginTop: '-' + Math.round(ry * coords.y) + 'px'
+              });
+              var ratio = <%= @user.avatar_geometry(:original).width %>
+                  / <%= @user.avatar_geometry(:medium).width %>;
+              $("#crop_x").val(Math.round(coords.x * ratio));
+              $("#crop_y").val(Math.round(coords.y * ratio));
+              $("#crop_w").val(Math.round(coords.w * ratio));
+              $("#crop_h").val(Math.round(coords.h * ratio));
+            }
+          </script>
+          <table>
+            <tr>
+              <td>
+                <div style="padding-right: 40px">
+                  <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
+                </div>
+              </td>
+              <td class="vertical_divider">
+                <div style="width:150px; height:150px; overflow:hidden; margin-right: -2px;"
+                  class="shadow">
+                  <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none"%>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="modal-footer pagebackgroundcolor">
+          <!--<a href="#" class="btn" data-dismiss="modal">Close</a>-->
+          <!--<a href="#" class="btn btn-primary">Save changes</a>-->
+          <%= form_for @user do |f| %>
+            <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
+              <%= f.hidden_field attribute, id: attribute %>
+            <% end %>
+            <%= f.submit "Crop", class: "btn btn-inverse", style: "margin-bottom: -15px"%>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="modal hide" id="myModal">
+        <div class="modal-header pagebackgroundcolor">
+          <!--<a class="close" data-dismiss="modal">x</a>-->
+          <button type="button" class="close" data-dismiss="modal">x</button>
+          <h3><%= @user.name %></h3>
+        </div>
+        <div class="modal-body pagebackgroundcolor">
+          <%= image_tag @user.avatar.url(:original), class: "shadow" %>
+        </div>
+      </div>
     <% end %>
 
-    <div class="modal hide" id="myCropModal" style="width: auto">
-      <div class="modal-header pagebackgroundcolor">
-        <!--<a class="close" data-dismiss="modal">x</a>-->
-        <button type="button" class="close" data-dismiss="modal">x</button>
-        <h3><%= @user.name %></h3>
-      </div>
-      <div class="modal-body pagebackgroundcolor" style="padding-left: 28px; max-height: none;">
-        <%= javascript_include_tag "jquery.min" %>
-        <%= javascript_include_tag "jquery.Jcrop.min" %>
-        <%= stylesheet_link_tag "jquery.Jcrop" %>
-        <script type="text/javascript" charset="utf-8">
-          $(function() {
-            $('#cropbox').Jcrop({
-              onChange: update_crop,
-              onSelect: update_crop,
-              setSelect: [0, 0, 300, 300],
-              aspectRatio: 1,
-              addClass: "shadow"
-            });
-          });
-
-          function update_crop(coords) {
-            var rx = 150/coords.w;
-            var ry = 150/coords.h;
-            $('#preview').css({
-              width: Math.round(rx * <%= @user.avatar_geometry(:medium).width %>) + 'px',
-              height: Math.round(ry * <%= @user.avatar_geometry(:medium).height %>) + 'px',
-              marginLeft: '-' + Math.round(rx * coords.x) + 'px',
-              marginTop: '-' + Math.round(ry * coords.y) + 'px'
-            });
-            var ratio = <%= @user.avatar_geometry(:original).width %>
-                / <%= @user.avatar_geometry(:medium).width %>;
-            $("#crop_x").val(Math.round(coords.x * ratio));
-            $("#crop_y").val(Math.round(coords.y * ratio));
-            $("#crop_w").val(Math.round(coords.w * ratio));
-            $("#crop_h").val(Math.round(coords.h * ratio));
-          }
-        </script>
-        <table>
-          <tr>
-            <td>
-              <div style="padding-right: 40px">
-                <%= image_tag @user.avatar.url(:medium), id: "cropbox" %>
-              </div>
-            </td>
-            <td class="vertical_divider">
-              <div style="width:150px; height:150px; overflow:hidden; margin-right: -2px;"
-                class="shadow">
-                <%= image_tag @user.avatar.url(:medium), id: "preview", style: "max-width: none"%>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="modal-footer pagebackgroundcolor">
-        <!--<a href="#" class="btn" data-dismiss="modal">Close</a>-->
-        <!--<a href="#" class="btn btn-primary">Save changes</a>-->
-        <%= form_for @user do |f| %>
-          <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
-            <%= f.hidden_field attribute, id: attribute %>
-          <% end %>
-          <%= f.submit "Crop", class: "btn btn-inverse", style: "margin-bottom: -15px"%>
-        <% end %>
-      </div>
-    </div>
-
-    <div class="modal hide" id="myModal">
-      <div class="modal-header pagebackgroundcolor">
-        <!--<a class="close" data-dismiss="modal">x</a>-->
-        <button type="button" class="close" data-dismiss="modal">x</button>
-        <h3><%= @user.name %></h3>
-      </div>
-      <div class="modal-body pagebackgroundcolor">
-        <%= image_tag @user.avatar.url(:original), class: "shadow" %>
-      </div>
-    </div>
-
-    <!--<h2><%= link_to "Edit Me", edit_user_path(@user) %></h2>-->
+      <!--<h2><%= link_to "Edit Me", edit_user_path(@user) %></h2>-->
   </section>
+
 
   <section>
     <div style="max-height: 1px; margin-left: 20px;">
       <% if signed_in? %>
         <% if @user.name == current_user.name %>
           <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |f| %>
-            <%= f.file_field :photo, class: "realfile", style:"width: 13px; height:17px; overflow: hidden",
+            <%= f.file_field :photo, class: "realfile", style:"width: 23px; height:26px; overflow: hidden",
               multiple: true, name: "photo[photo]" %>
             <i class="icon-camera-retro icon-large fakefile"></i>
             <%= f.hidden_field :user_id, value: @user.id %>

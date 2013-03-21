@@ -10,6 +10,7 @@ en:
             user:
                 password_digest: "Password"
                 name: "Username"
+                avatar: "Profile picture"
                  
                 
 

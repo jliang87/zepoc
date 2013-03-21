@@ -48,8 +48,12 @@ $ ->
       $(this).show().css visibility: "hidden"
 
   $('form').on 'click', '.show_photo_fields', (event) ->
-    $(this).next('div').slideToggle('slow')
+    $(this).next('div').fadeToggle('slow')
     $(this).next('div').css 'overflow', 'visible'
+    if $(this).text() is "Edit Photos ↓"
+      $(this).html 'Edit Photos ↑'
+    else
+      $(this).html 'Edit Photos ↓'
     event.preventDefault
 
 
@@ -203,20 +207,13 @@ $(document).delegate "#user_password_textfield", "focus", ->
             data.submit()
           else
             alert("#{file.name} is not a jpeg or png image file!")
-        progress: (e, data) ->
+        start: (e, data) ->
           $('.fakefile').addClass('icon-spin')
-#
-        done: (e, data) ->
+        stop: (e, data) ->
           $('.fakefile').fadeOut(->
             $('.fakefile').removeClass('icon-spin')
             $('.fakefile').fadeIn()
           )
-
-
-
-
-
-
 ) jQuery
 
 

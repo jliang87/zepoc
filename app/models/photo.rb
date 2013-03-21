@@ -6,6 +6,8 @@ class Photo < ActiveRecord::Base
 
   after_update :reprocess_photo, if: :cropping?
 
+  before_create :default_name, :default_description
+
 
   if Rails.env.development? || Rails.env.test?
     has_attached_file :photo, :styles => {medium: "450x450#", thumb: "150x150#"}, processors: [:cropper, :thumbnail],
@@ -40,6 +42,15 @@ class Photo < ActiveRecord::Base
       @geometry[style] ||= Paperclip::Geometry.from_file(photo.url(style))
     end
   end
+
+  def default_name
+    self.name ||= File.basename(photo.original_filename, '.*').titleize if photo
+  end
+
+  def default_description
+    self.description ||= ("Write something here.") if photo
+  end
+
 
   private
     def reprocess_photo
