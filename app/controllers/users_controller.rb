@@ -15,7 +15,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      #User.send_signup_confirmation @user.email
+      User.send_signup_confirmation @user.email
       sign_in @user
       redirect_to @user
       flash[:success] = "Welcome to zepoc!"
