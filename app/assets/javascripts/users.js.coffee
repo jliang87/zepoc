@@ -19,10 +19,10 @@ $ ->
   $("#user_password_textfield").hide()
 
   $('.remove_avatar').on 'click', (event) ->
+    event.preventDefault
     $(this).prev('input[type=hidden]').val('1')
     $('#avatar').fadeOut('slow')
     $(this).fadeOut('slow')
-    event.preventDefault
 
   $.fn.doIcons = ->
     $(this).hover (->
@@ -48,13 +48,14 @@ $ ->
       $(this).show().css visibility: "hidden"
 
   $('form').on 'click', '.show_photo_fields', (event) ->
+    event.preventDefault
     $(this).next('div').fadeToggle('slow')
     $(this).next('div').css 'overflow', 'visible'
     if $(this).text() is "Edit Photos ↓"
       $(this).html 'Edit Photos ↑'
     else
       $(this).html 'Edit Photos ↓'
-    event.preventDefault
+
 
 
 
