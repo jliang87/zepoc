@@ -1,4 +1,9 @@
 <div id="edit_picture_form-<%= @photo.id %>" style="display: none;">
+  <%= link_to '#', class: 'picture_form_cancel', data: {id: @photo.id.to_s }, id: "picture_form_cancel-"+
+    @photo.id.to_s do %>
+    <i class="icon-remove-circle icon-black" style="margin-right: -12px; float: right;"></i>
+  <% end %>
+
   <%= form_for ([@user, @photo]), remote: true, :html => { :multipart => true } do |builder| %>
     <%= builder.label :name, style:"text-align: center" %>
     <%= builder.text_field :name %>
@@ -6,7 +11,8 @@
     <%= builder.label :description, style:"text-align: center"%>
     <%= builder.text_area :description, :rows => 5 %>
 
-    <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id} %>
+    <%= builder.file_field :photo, class: 'edit_picture_form_file_field', data: {id: @photo.id},
+      id: 'edit_picture_form_file_field-'+@photo.id.to_s %>
 
     <br />
 
@@ -17,7 +23,7 @@
 <script id="template-upload" type="text/x-tmpl">
   <div class="upload">
     <!--{%=o.name%}-->
-   <div class="spin" style="display: none"><br /><i class="icon-spinner icon-spin icon-large"></i></div>
+   <div class="spin" style="display: none"><br /><i class="icon-spinner icon-spin icon-2x"></i></div>
   </div>
 </script>
 

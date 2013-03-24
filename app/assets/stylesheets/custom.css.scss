@@ -88,7 +88,7 @@ h2 {
 }
 
 h6 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: normal;
 }
 
@@ -111,10 +111,10 @@ h3 {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 2.3em;
+  font-size: 2.4em;
   color: #dce5e8;
   //letter-spacing: -1px;
-  padding-top: 3px;
+  padding-top: 1px;
   //padding-bottom: 10px;
   font-weight: normal;
   //font-weight: bold;
@@ -344,13 +344,14 @@ textarea {
   //left: 20px;
   z-index: 1;
   margin-left: -25px;
+  margin-bottom: 3px
 }
 
 .realfile {
   position: relative;
   text-align: right;
   z-index: 2;
-  //margin-top: -2px;
+  margin-bottom: 3px;
   -moz-opacity:0 ;
   filter:alpha(opacity= 0);
   opacity: 0;

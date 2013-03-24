@@ -19,7 +19,7 @@ $ ->
   $("#user_password_textfield").hide()
 
   $('.remove_avatar').on 'click', (event) ->
-    event.preventDefault
+    event.preventDefault()
     $(this).prev('input[type=hidden]').val('1')
     $('#avatar').fadeOut('slow')
     $(this).fadeOut('slow')
@@ -48,7 +48,7 @@ $ ->
       $(this).show().css visibility: "hidden"
 
   $('form').on 'click', '.show_photo_fields', (event) ->
-    event.preventDefault
+    event.preventDefault()
     $(this).next('div').fadeToggle('slow')
     $(this).next('div').css 'overflow', 'visible'
     if $(this).text() is "Edit Photos ↓"
@@ -59,16 +59,18 @@ $ ->
 
 
 
-
-
-
-
 ##change modal size
 #$(document).on 'show', '#myModal', (event)->
 #  $(this).show()
 #  h = $('.modal-body').outerHeight() + $('.modal-header').outerHeight() + $('.modal-footer').outerHeight()
 #  $(this).hide()
 #  $(this).css "margin-top": -Math.round(h / 2)
+
+$(document).on 'click', '.picture_form_cancel', (event)->
+  event.preventDefault()
+  id = $(this).data 'id'
+  $('#edit_picture_form-'+id).fadeOut()
+  $("#icons-"+id).fadeIn('slow')
 
 
 $(document).on "focus", 'input[type=text]', (event)->
@@ -169,7 +171,6 @@ $(document).delegate "#user_password_textfield", "focus", ->
 
 
 
-
 (($) ->
   $(document).on 'click', '.edit_picture_form_file_field', (event) ->
     id = $(this).data 'id'
@@ -179,6 +180,8 @@ $(document).delegate "#user_password_textfield", "focus", ->
       pasteZone: null
       replaceFileInput: false
       add: (e, data) ->
+        $('#edit_picture_form_file_field-'+id).fadeOut(600,
+          -> $('<div style="margin-top: 6px;">'+data.files[0].name+'<div>').hide().insertAfter($(this)).fadeIn(350))
         $('#picture-update-button-'+id).on 'click', (event) ->
           event.preventDefault()
           types = /(\.|\/)(jpe?g|png)$/i

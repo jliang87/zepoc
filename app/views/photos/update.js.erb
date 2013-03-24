@@ -2,7 +2,7 @@ if ($('.spin').length != 0)
 {
   $('.spin').fadeOut('fast', function () { $('#edit_picture_form-<%= @photo.id %>').fadeOut(function ()
     {$('#picture_refreshable-<%= @photo.id %>').replaceWith('<%= j render @photo %>');
-      $('#picture_refreshable-<%= @photo.id %>').fadeIn(800); }) });
+     $('#picture_refreshable-<%= @photo.id %>').fadeIn(800); }) });
 }
 else
 {

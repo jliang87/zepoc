@@ -2,7 +2,7 @@
   data-id="<%= @photo.id.to_s %>" data-profileuser="<%= @user.name %>" data-currentuser="<%= current_user.name %>">
   <h2><%= @photo.name %></h2>
   <div id="icons-<%= @photo.id.to_s %>" style="visibility: hidden; margin-top: -20px;">
-    <%= link_to user_photo_path(@user, @photo), remote: true, method: :delete do%>
+    <%= link_to user_photo_path(@user, @photo), id: "picture_delete-"+@photo.id.to_s, remote: true, method: :delete do%>
       <i class="icon-remove-circle icon-black" style="margin-right: 5px;"></i>
     <% end %>
     <%= link_to edit_user_photo_path(@user, @photo), id: "picture_edit-"+@photo.id.to_s, remote: true do %>

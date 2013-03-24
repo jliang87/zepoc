@@ -7,6 +7,7 @@ class Photo < ActiveRecord::Base
   after_update :reprocess_photo, if: :cropping?
 
   before_create :default_name, :default_description
+  before_update :default_name
 
 
   if Rails.env.development? || Rails.env.test?
@@ -44,7 +45,9 @@ class Photo < ActiveRecord::Base
   end
 
   def default_name
-    self.name ||= File.basename(photo.original_filename, '.*').titleize if photo
+    if new_record? || photo.dirty?
+      self.name = File.basename(photo.original_filename, '.*').titleize if photo
+    end
   end
 
   def default_description
