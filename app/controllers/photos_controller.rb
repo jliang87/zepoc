@@ -52,7 +52,8 @@ class PhotosController < ApplicationController
   def download
     @photo = Photo.find(params[:id])
 
-    send_file  @photo.photo.url,
+    data = open(@photo.photo.url)
+    send_data  data.read,
                :filename => @photo.photo.original_filename,
                :disposition => 'attachment'
     end

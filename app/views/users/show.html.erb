@@ -86,7 +86,7 @@
           <button type="button" class="close" data-dismiss="modal">x</button>
           <h3><%= @user.name %></h3>
         </div>
-        <div class="modal-body pagebackgroundcolor">
+        <div class="modal-body pagebackgroundcolor" style="max-height: none;">
           <%= image_tag @user.avatar.url(:original), class: "shadow" %>
         </div>
       </div>
