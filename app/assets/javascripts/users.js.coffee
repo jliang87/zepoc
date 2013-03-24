@@ -51,10 +51,10 @@ $ ->
     event.preventDefault()
     $(this).next('div').fadeToggle('slow')
     $(this).next('div').css 'overflow', 'visible'
-    if $(this).text() is "Edit Photos ↓"
-      $(this).html 'Edit Photos ↑'
+    if $(this).text() is "Edit All Photos ↓"
+      $(this).html 'Edit All Photos ↑'
     else
-      $(this).html 'Edit Photos ↓'
+      $(this).html 'Edit All Photos ↓'
 
 
 
@@ -209,6 +209,7 @@ $(document).delegate "#user_password_textfield", "focus", ->
           file = data.files[0]
           if types.test(file.type) || types.test(file.name)
             data.submit()
+            $('.realfile').attr 'disabled', 'disabled'
           else
             alert("#{file.name} is not a jpeg or png image file!")
         start: (e, data) ->
@@ -218,6 +219,9 @@ $(document).delegate "#user_password_textfield", "focus", ->
             $('.fakefile').removeClass('icon-spin')
             $('.fakefile').fadeIn()
           )
+          $('.realfile').removeAttr 'disabled'
+
+    $('#thePortal').tooltip()
 ) jQuery
 
 

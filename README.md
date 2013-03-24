@@ -2,7 +2,7 @@
 
 An easy way for storing and viewing photos!
 
-Upcoming features:
+Major upcoming features:
 
 1) Friends, albums, and sharing
 2) Client-side validations

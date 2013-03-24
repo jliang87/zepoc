@@ -4,15 +4,17 @@
 
 jQuery ->
   $('form').on 'click', '.remove_fields', (event) ->
+    event.preventDefault()
     $(this).prev('input[type=hidden]').val('1')
     $(this).closest('div').hide()
-    event.preventDefault
+
 
   $('form').on 'click', '.add_fields', (event) ->
+    event.preventDefault()
     $(this).prev('.icon-camera-retro').hide()
     time = new Date().getTime()
     regexp = new RegExp($(this).data('id'), 'g')
     $(this).before($(this).data('fields').replace(regexp, time))
     if $('.icon-picture').length <= 1
       $(this).before "<i class='icon-camera-retro icon-black' style='margin-right: 4px'></i>"
-    event.preventDefault()
+
