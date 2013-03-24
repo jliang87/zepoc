@@ -18,9 +18,9 @@ class PasswordResetsController < ApplicationController
   end
 
   def update
+  	@user = User.find_by_password_reset_token!(params[:id])
     @user.updatePassword = true
 
-  	@user = User.find_by_password_reset_token!(params[:id])
   	if !@user.need_password_reset?
   		redirect_to root_path
   	  	flash[:error] = "This password reset request was completed!"

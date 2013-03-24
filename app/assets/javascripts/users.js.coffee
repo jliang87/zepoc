@@ -70,7 +70,7 @@ $(document).on 'click', '.picture_form_cancel', (event)->
   event.preventDefault()
   id = $(this).data 'id'
   $('#edit_picture_form-'+id).fadeOut()
-  $("#icons-"+id).fadeIn('slow')
+  $("#icons-"+id).fadeIn()
 
 
 $(document).on "focus", 'input[type=text]', (event)->
