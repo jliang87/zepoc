@@ -220,6 +220,7 @@ $(document).delegate "#user_password_textfield", "focus", ->
             $('.fakefile').fadeIn()
           )
           $('.realfile').removeAttr 'disabled'
+          $('#thePortal').tooltip('hide')
 
     $('#thePortal').tooltip()
 ) jQuery
