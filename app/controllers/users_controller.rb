@@ -1,7 +1,11 @@
 class UsersController < ApplicationController
 
-  before_filter :user_signed_in, only: [:show, :edit, :update]
+  before_filter :user_signed_in, only: [:index, :show, :edit, :update]
   before_filter :correct_user, only: [:edit, :update]
+
+  def index
+    @users = User.all
+  end
 
   def show
     @user = User.find_by_name params[:id]
