@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  before_filter :user_signed_in, only: [:edit, :update]
+  before_filter :user_signed_in, only: [:show, :edit, :update]
   before_filter :correct_user, only: [:edit, :update]
 
   def show
@@ -76,6 +76,7 @@ class UsersController < ApplicationController
   private
     def user_signed_in
       unless signed_in?
+        store_location
         redirect_to signin_path
         flash[:error] = "Please sign in first!"
       end
