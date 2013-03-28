@@ -31,8 +31,9 @@ $iconMuted:         #eee;
   font-family: 'FontAwesome';
   src: url(font-path('fontAwesome/fontawesome-webfont.eot?v=3.0.1'));
   src: url(font-path('fontAwesome/fontawesome-webfont.eot?#iefix&v=3.0.1')) format("embedded-opentype"),
-    url(font-path('fontAwesome/fontawesome-webfont.woff?v=3.0.1')) format("woff"),
-    url(font-path('fontAwesome/fontawesome-webfont.ttf?v=3.0.1')) format("truetype");
+       url(font-path('fontAwesome/fontawesome-webfont.woff?v=3.0.1')) format("woff"),
+       url(font-path('fontAwesome/fontawesome-webfont.ttf?v=3.0.1')) format("truetype"),
+       url(font-path('fontAwesome/fontawesome-webfont.svg')) format("svg");
   font-weight: normal;
   font-style: normal;
 }

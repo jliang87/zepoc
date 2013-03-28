@@ -5,16 +5,18 @@ $textColor: #707070;
 
 @font-face {
   font-family: champagne;
-  src: url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype');
-
+  src: url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype'),
+       url(font-path('champagne_limousines/Champagne___Limousines_Bold.eot'))  format('embedded-opentype'),
+       url(font-path('champagne_limousines/champagne__limousines_Bold.svg'))  format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: impregnable;
-  src: url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype');
-
+  src: url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype'),
+       url(font-path('Impregnable_Personal_Use_Only.eot'))  format('embedded-opentype'),
+       url(font-path('Impregnable_Personal_Use_Only.svg'))  format('svg');
   font-weight: normal;
   font-style: normal;
 }
