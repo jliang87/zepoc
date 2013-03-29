@@ -1,4 +1,4 @@
 <% if signed_in? && flash.empty? && current_user.need_signup_confirmation == true %>
 	<% flash[:warning] = 'Oops, your email has not been confirmed yet!' %>
-<% end %> 
+<% end %>
 

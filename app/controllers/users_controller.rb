@@ -9,10 +9,15 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_name params[:id]
-    if signed_in?
-      if @user.name == current_user.name
-        @photo = Photo.new
+    if @user
+      if signed_in?
+        if @user.name == current_user.name
+          @photo = Photo.new
+        end
       end
+    else
+      redirect_to current_user
+      flash[:warning] = "Oops, unable to find user."
     end
   end
   
@@ -82,7 +87,7 @@ class UsersController < ApplicationController
       unless signed_in?
         store_location
         redirect_to signin_path
-        flash[:error] = "Please sign in first!"
+        flash[:warning] = "Please sign in first"
       end
     end
 
