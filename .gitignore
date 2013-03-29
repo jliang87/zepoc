@@ -20,5 +20,6 @@ doc/
 *~
 .project
 .DS_Store
+.idea
 
 /config/initializers/app_env_vars.rb
