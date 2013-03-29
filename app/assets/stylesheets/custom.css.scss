@@ -5,17 +5,28 @@ $textColor: #707070;
 
 @font-face {
   font-family: champagne;
-  src: url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype'),
-       url(font-path('champagne_limousines/Champagne___Limousines_Bold.eot'))  format('embedded-opentype'),
+  src: url(font-path('champagne_limousines/Champagne___Limousines_Bold.eot'));
+  src: url(font-path('champagne_limousines/Champagne___Limousines_Bold.eot?#iefix'))  format('embedded-opentype'),
+       url(font-path('champagne_limousines/Champagne & Limousines Bold.ttf'))  format('truetype'),
        url(font-path('champagne_limousines/champagne__limousines_Bold.svg'))  format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
+//@font-face {
+//  font-family: 'MyWebFont';
+//  src: url('webfont.eot'); /* IE9 Compat Modes */
+//  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//  url('webfont.woff') format('woff'), /* Modern Browsers */
+//  url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+//}
+
 @font-face {
   font-family: impregnable;
-  src: url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype'),
-       url(font-path('Impregnable_Personal_Use_Only.eot'))  format('embedded-opentype'),
+  src: url(font-path('Impregnable_Personal_Use_Only.eot'));
+  src: url(font-path('Impregnable_Personal_Use_Only.eot?#iefix'))  format('embedded-opentype'),
+       url(font-path('Impregnable_Personal_Use_Only.ttf'))  format('truetype'),
        url(font-path('Impregnable_Personal_Use_Only.svg'))  format('svg');
   font-weight: normal;
   font-style: normal;
