@@ -17,7 +17,7 @@ class UsersController < ApplicationController
       end
     else
       redirect_to current_user
-      flash[:warning] = "Oops, unable to find user."
+      flash[:warning] = "Oops, unable to find user"
     end
   end
   
