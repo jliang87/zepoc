@@ -54,6 +54,7 @@ textarea {
   resize: vertical;
 }
 
+
 .center {
   text-align: center;
   h1 {
@@ -385,6 +386,11 @@ textarea {
       border-bottom: 1px solid $grayLighter;
     }
   }
+}
+
+i
+{
+  @include engravedtext;
 }
 
 
