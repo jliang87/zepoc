@@ -23,6 +23,8 @@ SampleApp::Application.routes.draw do
 
   match '', to: 'passthroughs#index'
 
+  match '/everyone', to: 'users#index'
+
   root to: 'passthroughs#index'
 
 
