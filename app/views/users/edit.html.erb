@@ -34,7 +34,8 @@
 
       <br />
       <i class="icon-picture icon-black"></i>
-      <%= link_to "Edit All Photos ↓", "#", class: "show_photo_fields" %>
+      <%= link_to "Edit All Photos", "#", class: "show_photo_fields" %>
+      <i class="icon-chevron-down icon-black"></i>
       <div style="display: none;">
         <%= f.fields_for :photos do |builder| %>
           <%= render 'photo_field', f: builder %>

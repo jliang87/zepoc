@@ -49,12 +49,12 @@ $ ->
 
   $('form').on 'click', '.show_photo_fields', (event) ->
     event.preventDefault()
-    $(this).next('div').fadeToggle('slow')
-    $(this).next('div').css 'overflow', 'visible'
-    if $(this).text() is "Edit All Photos ↓"
-      $(this).html 'Edit All Photos ↑'
+    $(this).next().next('div').fadeToggle('slow')
+    $(this).next().next('div').css 'overflow', 'visible'
+    if $(this).next('i').hasClass('icon-chevron-down')
+      $(this).next('i').removeClass('icon-chevron-down').addClass('icon-chevron-up')
     else
-      $(this).html 'Edit All Photos ↓'
+      $(this).next('i').removeClass('icon-chevron-up').addClass('icon-chevron-down')
 
 
 
