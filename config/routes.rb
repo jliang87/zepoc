@@ -11,6 +11,7 @@ SampleApp::Application.routes.draw do
   resources :passthroughs, only: [:index]
   
   match '/signup', to: 'users#new'
+  match '/everyone', to: 'users#index'
 
   match '/signin', to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete
@@ -22,8 +23,6 @@ SampleApp::Application.routes.draw do
   match '/resetpassword', to: 'password_resets#new'
 
   match '', to: 'passthroughs#index'
-
-  match '/everyone', to: 'users#index'
 
   root to: 'passthroughs#index'
 
