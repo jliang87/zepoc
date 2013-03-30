@@ -1,6 +1,6 @@
 <% provide :title, @user.name %>
 <div class="row">
-  <section class="span12">
+  <section class="span12 offset4" style="margin-left: 393px;">
     <% if !(@user.avatar_file_name.blank?) && !(@user.avatar_file_size == 0)  %>
 
       <div id="avatar" data-profileuser="<%= @user.name %>" data-currentuser="<%= signed_in? ? current_user.name
@@ -96,7 +96,7 @@
   </section>
 
 
-  <section>
+  <section style="margin-left: 20px;">
     <div style="max-height: 1px; margin-left: 20px;">
       <% if signed_in? %>
         <% if @user.name == current_user.name %>
@@ -113,7 +113,7 @@
     </div>
   </section>
 
-  <section>
+  <section style="margin-left: 20px;">
     <%= render 'show_photos' %>
   </section>
 </div>
