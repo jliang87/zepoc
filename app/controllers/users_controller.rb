@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
 
-  before_filter :user_signed_in, only: [:index, :show, :edit, :update]
+  before_filter :user_signed_in, only: [:index, :show, :edit, :update, :destroy]
   before_filter :correct_user, only: [:edit, :update]
+  before_filter :admin_user, only: [:destroy]
 
   def index
     @users = User.all
@@ -16,7 +17,7 @@ class UsersController < ApplicationController
         end
       end
     else
-      redirect_to current_user
+      redirect_to current_user   #do not use root_path for the redirection will kill the flash
       flash[:warning] = "Oops, unable to find user"
     end
   end
@@ -82,6 +83,13 @@ class UsersController < ApplicationController
     end
   end
 
+  def destroy
+    @user = User.find_by_name params[:id]
+    @user.destroy
+    flash[:success] = "User deleted"
+    redirect_to users_url
+  end
+
   private
     def user_signed_in
       unless signed_in?
@@ -97,6 +105,10 @@ class UsersController < ApplicationController
         redirect_to current_user
         flash[:error] = "Oops, wrong way"
       end
+    end
+
+    def admin_user
+      redirect_to root_path unless current_user.admin?
     end
  
 end

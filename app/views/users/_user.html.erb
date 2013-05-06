@@ -1,0 +1,8 @@
+<li>
+  <h3 style="display: inline;"><%= link_to user.name, user, class:"userinfo" %></h3>
+  <% if current_user.admin? && !current_user?(user) %>
+    <span class="engravedtextclass">
+      | <%= link_to "Delete", user, method: :delete, data: { confirm: "Are you sure?" } %>
+    </span>
+  <% end %>
+</li>
