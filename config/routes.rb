@@ -1,6 +1,7 @@
 SampleApp::Application.routes.draw do
 
   resources :im, controller: "users", as: "users" do
+    resources :posts, only: [:create, :destroy]
     resources :photos do
       get 'download', on: :member
     end

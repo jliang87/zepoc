@@ -113,6 +113,15 @@
     </div>
   </section>
 
+  <section>
+    <% if @user.posts.any? %>
+      <h3> Posts (<%= @user.posts.count %>) </h3>
+      <ol class="posts">
+        <%= render @posts %> <!-- automatically assumes _post.html.erb in /views/posts -->
+      </ol>
+    <% end %>
+  </section>
+
   <section style="margin-left: 20px;">
     <%= render 'show_photos' %>
   </section>

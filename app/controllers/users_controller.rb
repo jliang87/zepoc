@@ -10,6 +10,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_name params[:id]
+    @posts = @user.posts
     if @user
       if signed_in?
         if @user.name == current_user.name
@@ -95,14 +96,6 @@ class UsersController < ApplicationController
   end
 
   private
-    def user_signed_in
-      unless signed_in?
-        store_location
-        redirect_to signin_path
-        flash[:warning] = "Please sign in first"
-      end
-    end
-
     def correct_user
       @user = User.find_by_name params[:id]
       unless current_user? @user

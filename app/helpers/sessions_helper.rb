@@ -43,6 +43,14 @@ module SessionsHelper
     session[:return_to] = request.url
   end
 
+  def user_signed_in
+    unless signed_in?
+      store_location
+      redirect_to signin_path
+      flash[:warning] = "Please sign in first"
+    end
+  end
+
   private
     def user_from_remember_token
       if !cookies[:remember_token].nil?
