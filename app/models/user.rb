@@ -12,9 +12,10 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :avatar, :photos_attributes,
     :crop_x, :crop_y, :crop_w, :crop_h, :destroy_avatar  #attr_accessible is for mass assignment
-  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h, :updatePassword, :destroy_avatar
+  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h, :updatePassword, :destroy_avatar #so one get/set the variable
 
   has_many :photos, dependent: :destroy, :order => :id       #order is very important!
+  has_many :posts, dependent: :destroy
   accepts_nested_attributes_for :photos, allow_destroy: true
 
   has_secure_password

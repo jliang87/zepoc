@@ -153,6 +153,38 @@ ALTER SEQUENCE photos_id_seq OWNED BY photos.id;
 
 
 --
+-- Name: posts; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE TABLE posts (
+    id integer NOT NULL,
+    content character varying(255),
+    user_id integer,
+    created_at timestamp without time zone NOT NULL,
+    updated_at timestamp without time zone NOT NULL
+);
+
+
+--
+-- Name: posts_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE posts_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: posts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE posts_id_seq OWNED BY posts.id;
+
+
+--
 -- Name: queue_classic_jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: -
 --
 
@@ -235,6 +267,13 @@ ALTER TABLE ONLY photos ALTER COLUMN id SET DEFAULT nextval('photos_id_seq'::reg
 -- Name: id; Type: DEFAULT; Schema: public; Owner: -
 --
 
+ALTER TABLE ONLY posts ALTER COLUMN id SET DEFAULT nextval('posts_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: -
+--
+
 ALTER TABLE ONLY queue_classic_jobs ALTER COLUMN id SET DEFAULT nextval('queue_classic_jobs_id_seq'::regclass);
 
 
@@ -254,6 +293,14 @@ ALTER TABLE ONLY photos
 
 
 --
+-- Name: posts_pkey; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+--
+
+ALTER TABLE ONLY posts
+    ADD CONSTRAINT posts_pkey PRIMARY KEY (id);
+
+
+--
 -- Name: queue_classic_jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
 --
 
@@ -270,6 +317,13 @@ ALTER TABLE ONLY users
 
 
 --
+-- Name: index_posts_on_user_id_and_created_at; Type: INDEX; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE INDEX index_posts_on_user_id_and_created_at ON posts USING btree (user_id, created_at);
+
+
+--
 -- Name: index_queue_classic_jobs_on_id; Type: INDEX; Schema: public; Owner: -; Tablespace: 
 --
 
@@ -281,6 +335,13 @@ CREATE INDEX index_queue_classic_jobs_on_id ON queue_classic_jobs USING btree (i
 --
 
 CREATE UNIQUE INDEX index_users_on_email ON users USING btree (email);
+
+
+--
+-- Name: index_users_on_name; Type: INDEX; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE UNIQUE INDEX index_users_on_name ON users USING btree (name);
 
 
 --
@@ -328,3 +389,7 @@ INSERT INTO schema_migrations (version) VALUES ('20130301054009');
 INSERT INTO schema_migrations (version) VALUES ('20130301092113');
 
 INSERT INTO schema_migrations (version) VALUES ('20130504174951');
+
+INSERT INTO schema_migrations (version) VALUES ('20130506040446');
+
+INSERT INTO schema_migrations (version) VALUES ('20130518195607');
