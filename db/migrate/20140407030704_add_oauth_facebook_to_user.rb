@@ -1,6 +1,6 @@
 class AddOauthFacebookToUser < ActiveRecord::Migration
   def change
-    [:provider, :uid, :name, :oauth_token].each do |column|
+    [:provider, :uid, :oauth_token].each do |column|
       add_column :users, column, :string
     end
 
