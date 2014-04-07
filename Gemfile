@@ -12,6 +12,7 @@ gem 'queue_classic'
 gem 'heroku'
 gem 'rmagick'
 gem 'jquery-rails', '2.1.4'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'rspec-rails'

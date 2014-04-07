@@ -1,5 +1,13 @@
 SampleApp::Application.routes.draw do
 
+  match 'auth/:provider/callback', to: 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
+
+  namespace :api, defaults: {format: 'json'} do
+    resources :products
+  end
+
   resources :im, controller: "users", as: "users" do
     resources :posts, only: [:create, :destroy]
     resources :photos do

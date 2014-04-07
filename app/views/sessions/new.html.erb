@@ -17,17 +17,17 @@
 			<%= label_tag :remember_me, "Don't forget about me", style: "vertical-align: -5px; 	display: inline-block;" %>
       <br />
 
-			<%= submit_tag 'Sign in', class: 'btn btn-large btn-inverse '%>
+			<%= submit_tag 'Sign in', "type" => "button", class: 'btn btn-large btn-inverse '%>
 		<% end %>
+    <span class="left">
+       <%= link_to image_tag('http://mobile.plazaclassic.com/assets/login_w_face-4528617cc6fe627c2b57fdc60f2896ad.png', style: "height: 70px; width:auto"),
+        'auth/facebook' %>
+       <br/>
+       New user? <%= link_to 'Sign up now!', signup_path %>
+    </span>
 
-
-      <span class="left">
-         New user? <%= link_to 'Sign up now!', signup_path %>
-      </span>
-
-      <span class="right">
-        Forgot password? <%= link_to 'Click here!', resetpassword_path %>
-      </span>
+    <span class="right">
+      Forgot password? <%= link_to 'Click here!', resetpassword_path %>
+    </span>
 	</div>
 </div>
-	

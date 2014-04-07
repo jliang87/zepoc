@@ -1,7 +1,7 @@
 class Photo < ActiveRecord::Base
   belongs_to :user
 
-  attr_accessible :user_id, :name, :description, :photo, :crop_x, :crop_y, :crop_w, :crop_h
+  attr_accessible :name, :description, :photo, :crop_x, :crop_y, :crop_w, :crop_h
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
 
   after_update :reprocess_photo, if: :cropping?
