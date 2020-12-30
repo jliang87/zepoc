@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '3.2.12'
 gem 'pg' 
 gem 'bcrypt-ruby'
 gem 'paperclip'
@@ -9,7 +9,6 @@ gem 'barista'
 gem 'bootstrap-sass'
 gem 'sprockets'
 gem 'queue_classic'
-gem 'heroku'
 gem 'rmagick'
 gem 'jquery-rails', '2.1.4'
 
@@ -35,6 +34,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
   gem 'aws-sdk'
 end
